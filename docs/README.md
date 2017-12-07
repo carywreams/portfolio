@@ -2,5 +2,5 @@
 
 Section | Description
 ---: | :---
-[Ratholes](./ratholes) | Quick, brief explorations of "things."
+[Ratholes](ratholes) | Quick, brief explorations of "things."
 
