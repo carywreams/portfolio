@@ -1,0 +1,1456 @@
+ISD | School | Class | Div | Type | Enrollment|year
+Valentine ISD | Valentine | 1A | x | None |9|2018
+Olfen ISD | Olfen | 1A | x | None |15|2018
+Marathon ISD | Marathon | 1A | x | None |16|2018
+Welch Dawson ISD | Welch Dawson | 1A |2| 6 Man |19|2018
+Dell City ISD | Dell City | 1A |2| 6 Man |21|2018
+Bowie GoldBurg ISD | Bowie GoldBurg | 1A |2| 6 Man |22|2018
+Damon ISD | Damon | 1A | x | None |25|2018
+Harrold ISD | Harrold | 1A |2| 6 Man |25|2018
+Wheeler Kelton ISD | Wheeler Kelton | 1A | x | None |25|2018
+Darrouzett ISD | Darrouzett | 1A | x | None |26|2018
+Afton Patton Springs ISD | Afton Patton Springs | 1A |2| 6 Man |28|2018
+Lohn ISD | Lohn | 1A |2| 6 Man |28|2018
+Guthrie CISD | Guthrie | 1A |2| 6 Man |29|2018
+Mullin ISD | Mullin | 1A |2| 6 Man |29|2018
+Hedley CISD | Hedley | 1A |2| 6 Man |30|2018
+Avinger ISD | Avinger | 1A | x | None |31|2018
+Loop ISD | Loop | 1A |2| 6 Man |31|2018
+Priddy ISD | Priddy | 1A | x | None |32|2018
+Benjamin ISD | Benjamin | 1A |2| 6 Man |33|2018
+Higgins ISD | Higgins | 1A |2| 6 Man |33|2018
+Haskell Paint Creek ISD | Haskell Paint Creek | 1A |2| 6 Man |34|2018
+Groveton Centerville ISD | Groveton Centerville | 1A | x | None |35|2018
+Gustine ISD | Gustine | 1A |2| 6 Man |35|2018
+Sierra Blanca ISD | Sierra Blanca | 1A |2| 6 Man |35|2018
+Cotton Center ISD | Cotton Center | 1A |2| 6 Man |36|2018
+LuedersAvoca ISD | LuedersAvoca | 1A |2| 6 Man |36|2018
+Amherst ISD | Amherst | 1A |2| 6 Man |38|2018
+Brookesmith ISD | Brookesmith | 1A |2| 6 Man |38|2018
+Nordheim ISD | Nordheim | 1A | x | None |38|2018
+Roxton ISD | Roxton | 1A | x | None |38|2018
+Sidney ISD | Sidney | 1A |2| 6 Man |38|2018
+Briscoe Fort Elliott CISD | Briscoe Fort Elliott | 1A | x | None |39|2018
+Cranfills Gap ISD | Cranfills Gap | 1A |2| 6 Man |39|2018
+JaytonGirard ISD | Jayton | 1A |2| 6 Man |39|2018
+Rule ISD | Rule | 1A |2| 6 Man |39|2018
+Austwelltivoli ISD | AustwellTivoli | 1A | x | None |40|2018
+Follett ISD | Follett | 1A |2| 6 Man |40|2018
+Iredell ISD | Iredell | 1A |2| 6 Man |40|2018
+Loraine ISD | Loraine | 1A |2| 6 Man |40|2018
+Morgan ISD | Morgan | 1A |2| 6 Man |40|2018
+Rochelle ISD | Rochelle | 1A |2| 6 Man |40|2018
+Sanderson Terrell County ISD | Sanderson | 1A |2| 6 Man |40|2018
+Throckmorton ISD | Throckmorton | 1A |2| 6 Man |40|2018
+Walnut Springs ISD | Walnut Springs | 1A |2| 6 Man |40|2018
+Lazbuddie ISD | Lazbuddie | 1A |2| 6 Man |41|2018
+Channing ISD | Channing | 1A | x | None |42|2018
+Cherokee ISD | Cherokee | 1A |2| 6 Man |42|2018
+Comstock ISD | Comstock | 1A | x | None |42|2018
+Moran ISD | Moran | 1A |2| 6 Man |42|2018
+Mount Calm ISD | Mount Calm | 1A |2| 6 Man |42|2018
+Trent ISD | Trent | 1A |2| 6 Man |42|2018
+Bellevue ISD | Bellevue | 1A | x | None |43|2018
+GrandfallsRoyalty ISD | GrandfallsRoyalty | 1A |2| 6 Man |43|2018
+Wilson ISD | Wilson | 1A |2| 6 Man |43|2018
+Buckholts ISD | Buckholts | 1A |2| 6 Man |44|2018
+Strawn ISD | Strawn | 1A |2| 6 Man |44|2018
+Rising Star ISD | Rising Star | 1A |2| 6 Man |45|2018
+Gordon ISD | Gordon | 1A |2| 6 Man |46|2018
+Groom ISD | Groom | 1A |2| 6 Man |46|2018
+Henrietta Midway ISD | Henrietta Midway | 1A | x | None |46|2018
+Laneville ISD | Laneville | 1A | x | None |46|2018
+Matador Motley County ISD | Matador Motley County | 1A |2| 6 Man |46|2018
+Richland Springs ISD | Richland Springs | 1A |2| 6 Man |46|2018
+Southland ISD | Southland | 1A |2| 6 Man |46|2018
+Calvert ISD | Calvert | 1A |2| 6 Man |47|2018
+Whitharral ISD | Whitharral | 1A |2| 6 Man |47|2018
+Imperial Buena Vista ISD | Imperial Buena Vista | 1A |2| 6 Man |48|2018
+McDade ISD | McDade | 1A |2| 6 Man |48|2018
+Trinidad ISD | Trinidad | 1A |2| 6 Man |48|2018
+Wildorado ISD | Wildorado | 1A | x | None |48|2018
+Dime Box ISD | Dime Box | 1A | x | None |49|2018
+Kopperl ISD | Kopperl | 1A |2| 6 Man |49|2018
+Ladonia Fannindel ISD | Ladonia Fannindel | 1A |2| 6 Man |49|2018
+Nocona Prairie Valley ISD | Nocona Prairie Valley | 1A | x | None |49|2018
+Texline ISD | Texline | 1A | x | None |49|2018
+Adrian ISD | Adrian | 1A | x | None |50|2018
+Anton ISD | Anton | 1A |2| 6 Man |50|2018
+Kress ISD | Kress | 1A |2| 6 Man |50|2018
+Three Way ISD | Three Way El | 1A |2| 6 Man |50|2018
+Bluff Dale ISD | Bluff Dale High School | 1A |2| 6 Man |50.54|2018
+Lefors ISD | Lefors | 1A |2| 6 Man |51|2018
+Oglesby ISD | Oglesby | 1A |2| 6 Man |52|2018
+Silverton ISD | Silverton | 1A |2| 6 Man |52|2018
+Apple Springs ISD | Apple Springs | 1A |2| 6 Man |53|2018
+Blackwell CISD | Blackwell | 1A |2| 6 Man |53|2018
+Blanket ISD | Blanket | 1A |2| 6 Man |54|2018
+Bynum ISD | Bynum | 1A |2| 6 Man |54|2018
+Forestburg ISD | Forestburg | 1A |2| 6 Man |54|2018
+Oakwood ISD | Oakwood | 1A |2| 6 Man |54|2018
+Valera Panther Creek CISD | Valera Panther Creek | 1A |2| 6 Man |54|2018
+Woodson ISD | Woodson | 1A |2| 6 Man |54|2018
+Chester ISD | Chester | 1A |2| 6 Man |55|2018
+Keller ISD | Keller New Direction | 6A | x | None |56|2018
+Ackerly Sands CISD | Ackerly Sands | 1A |1| 6 Man |56|2018
+Austin Texas School For The Blind ISD | Austin Texas School For The Blind HS | 1A | x | None |56|2018
+Eden CISD | Eden | 1A |1| 6 Man |56|2018
+Hermleigh ISD | Hermleigh | 1A |1| 6 Man |56|2018
+Lamesa Klondike ISD | Lamesa Klondike | 1A |1| 6 Man |56|2018
+Miami ISD | Miami | 1A |1| 6 Man |56|2018
+Balmorhea ISD | Balmorhea | 1A |1| 6 Man |57|2018
+Laird Hill Leveretts Chapel ISD | Laird Hill Leveretts Chapel | 1A |1| 6 Man |58|2018
+Prairie Lea ISD | Prairie Lea | 1A |1| 6 Man |58|2018
+WellmanUnion ISD | WellmanUnion | 1A |1| 6 Man |58|2018
+Canyon ISD | Canyon Midway | 5A | x | None |59|2018
+Hart ISD | Hart | 1A |1| 6 Man |59|2018
+Richards ISD | Richards | 1A | x | None |59|2018
+Slidell ISD | Slidell | 1A | x | None |60|2018
+Goodrich ISD | Goodrich | 1A | x | None |61|2018
+Huckabay ISD | Huckabay | 1A | x | None |61|2018
+Roscoe Highland ISD | Roscoe Highland | 1A |1| 6 Man |61|2018
+Vernon Northside ISD | Vernon Northside | 1A |1| 6 Man |61|2018
+Fort Davis ISD | Fort Davis | 1A |1| 6 Man |62|2018
+Altair Rice CISD | Altair Rice Challenge Academy | 3A | x | None |63|2018
+Crowell ISD | Crowell | 1A |1| 6 Man |64|2018
+Santa Anna ISD | Santa Anna | 1A |1| 6 Man |64|2018
+Turkey Quitaque ISD | Turkey Valley | 1A |1| 6 Man |64|2018
+Lorenzo ISD | Lorenzo | 1A |1| 6 Man |65|2018
+Rotan ISD | Rotan | 1A |1| 6 Man |65|2018
+Bloomburg ISD | Bloomburg | 1A | x | None |66|2018
+High Island ISD | High Island | 1A |1| 6 Man |66|2018
+McLean ISD | McLean | 1A |1| 6 Man |66|2018
+Hartley ISD | Hartley | 1A | x | None |67|2018
+Meadow ISD | Meadow | 1A |1| 6 Man |67|2018
+Nazareth ISD | Nazareth | 1A |1| 6 Man |67|2018
+Newcastle ISD | Newcastle | 1A |1| 6 Man |67|2018
+Petersburg ISD | Petersburg | 1A |1| 6 Man |67|2018
+Sulphur Bluff ISD | Sulphur Bluff | 1A | x | None |67|2018
+Waelder ISD | Waelder | 1A | x | None |67|2018
+Zephyr ISD | Zephyr | 1A |1| 6 Man |67|2018
+Aspermont ISD | Aspermont | 1A |1| 6 Man |68|2018
+Lenorah Grady ISD | Lenorah Grady | 1A |1| 6 Man |68|2018
+Barksdale Nueces Canyon ISD | Barksdale Nueces Canyon | 1A |1| 6 Man |69|2018
+Chillicothe ISD | Chillicothe | 1A |1| 6 Man |69|2018
+Lingleville ISD | Lingleville | 1A |1| 6 Man |69|2018
+Lometa ISD | Lometa | 1A |1| 6 Man |69|2018
+Saltillo ISD | Saltillo | 1A | x | None |69|2018
+Tilden Mcmullen County ISD | Tilden McMullen County | 1A | x | None |70|2018
+Paducah ISD | Paducah | 1A |1| 6 Man |71|2018
+Happy ISD | Happy | 1A |1| 6 Man |72|2018
+Leakey ISD | Leakey | 1A |1| 6 Man |72|2018
+Westbrook ISD | Westbrook | 1A |1| 6 Man |72|2018
+Bronte ISD | Bronte | 1A |1| 6 Man |73|2018
+Burkeville ISD | Burkeville | 1A |2| 11 Man |74|2018
+Leggett ISD | Leggett | 1A | x | None |74|2018
+Milford ISD | Milford | 1A |1| 6 Man |74|2018
+Fort Worth ISD | FW World Languages Institute | 6A | x | None |75|2018
+San Isidro ISD | San Isidro | 2A | x | None |75|2018
+Knox CityO'Brien CISD | Knox City | 1A |1| 6 Man |75|2018
+Savoy ISD | Savoy | 1A |1| 6 Man |75|2018
+Wells ISD | Wells | 1A | x | None |75|2018
+Bryson ISD | Bryson | 1A |1| 6 Man |76|2018
+Gholson ISD | Gholson | 1A |1| 6 Man |76|2018
+Penelope ISD | Penelope | 1A |1| 6 Man |76|2018
+Round TopCarmine ISD | Round TopCarmine | 1A | x | None |76|2018
+Ector ISD | Ector | 1A | x | None |77|2018
+Kennard ISD | Kennard | 1A | x | None |77|2018
+Robert Lee ISD | Robert Lee | 1A |1| 6 Man |77|2018
+Utopia ISD | Utopia | 1A | x | None |77|2018
+Bruni Webb CISD | Bruni | 1A |2| 11 Man |78|2018
+Jonesboro ISD | Jonesboro | 1A |1| 6 Man |80|2018
+Rocksprings ISD | Rocksprings | 1A |2| 11 Man |81|2018
+Ira ISD | Ira | 1A |1| 6 Man |82|2018
+Roby CISD | Roby | 1A |2| 11 Man |82|2018
+Veribest ISD | Veribest | 1A |1| 6 Man |82|2018
+Gorman ISD | Gorman | 1A |1| 6 Man |83|2018
+Mertzon Irion County ISD | Mertzon Irion County | 1A |2| 11 Man |83|2018
+Runge ISD | Runge | 1A |2| 11 Man |83|2018
+Whiteface CISD | Whiteface | 1A |1| 6 Man |83|2018
+San Perlita ISD | San Perlita | 2A | x | None |84|2018
+Gail Borden Co ISD | Gail Borden | 1A |1| 6 Man |84|2018
+Grand Prairie ISD | Grand Prairie Collegiate Institute | 6A | x | None |85|2018
+Evant ISD | Evant | 1A |1| 6 Man |85|2018
+SpringlakeEarth ISD | Earth Springlake | 1A |2| 11 Man |85|2018
+Lubbock ISD | Lubbock Matthews LC | 5A | x | None |85.5|2018
+Aquilla ISD | Aquilla | 1A |1| 6 Man |86|2018
+Cumby Miller Grove ISD | Cumby Miller Grove | 1A | x | None |86|2018
+Graford ISD | Graford | 1A | x | None |86|2018
+Rankin ISD | Rankin | 1A |1| 6 Man |86|2018
+Saint Jo ISD | Saint Jo | 1A |1| 6 Man |86|2018
+College Station ISD | College Station College View | 5A | x | None |86.45|2018
+Fayetteville ISD | Fayetteville | 1A | x | None |87|2018
+Menard ISD | Menard | 1A |2| 11 Man |87|2018
+Moulton ISD | Moulton | 1A | x | None |87|2018
+O'Donnell ISD | O'Donnell | 1A |1| 6 Man |87|2018
+Baird ISD | Baird | 1A |2| 11 Man |88|2018
+Coolidge ISD | Coolidge | 1A |1| 6 Man |88|2018
+Booker ISD | Booker | 1A |2| 11 Man |89|2018
+White Deer ISD | White Deer | 1A |1| 6 Man |89|2018
+May ISD | May | 1A |1| 6 Man |90|2018
+Paint Rock ISD | Paint Rock | 1A |1| 6 Man |90|2018
+Dodd City ISD | Dodd City | 1A | x | None |91|2018
+Ranger ISD | Ranger | 1A |2| 11 Man |91|2018
+Glasscock County ISD | Garden City | 1A |1| 6 Man |92|2018
+Munday CISD | Munday | 1A |2| 11 Man |92|2018
+Abbott ISD | Abbott | 1A |1| 6 Man |93|2018
+Covington ISD | Covington | 1A |1| 6 Man |93|2018
+New Home ISD | New Home | 1A |2| 11 Man |93|2018
+Sterling City ISD | Sterling City | 1A |1| 6 Man |93|2018
+Bartlett ISD | Bartlett | 1A |2| 11 Man |94|2018
+Spur ISD | Spur | 1A |1| 6 Man |94|2018
+Marfa ISD | Marfa | 1A |1| 6 Man |95|2018
+Medina ISD | Medina | 1A |1| 6 Man |95|2018
+Hamlin ISD | Hamlin | 1A |2| 11 Man |96|2018
+Lipan ISD | Lipan | 1A | x | None |96|2018
+Avalon ISD | Avalon | 1A |1| 6 Man |97|2018
+Morton ISD | Morton | 1A |1| 6 Man |97|2018
+Yantis ISD | Yantis | 1A | x | None |98|2018
+Water Valley ISD | Water Valley | 1A |1| 6 Man |99|2018
+PerrinWhitt CISD | PerrinWhitt | 1A |1| 6 Man |100|2018
+Shamrock ISD | Shamrock ISD | 1A |2| 11 Man |100|2018
+Neches ISD | Neches | 1A | x | None |101|2018
+Blum ISD | Blum | 1A |1| 6 Man |102|2018
+Claude ISD | Claude | 1A |2| 11 Man |102|2018
+Knippa ISD | Knippa | 1A | x | None |102|2018
+La Rue La Poynor ISD | La Rue La Poynor | 1A | x | None |102|2018
+Avery ISD | Avery | 1A | x | None |103|2018
+Chireno ISD | Chireno | 1A | x | None |103|2018
+Clyde Eula ISD | Clyde Eula | 1A | x | None |103|2018
+Crosbyton ISD | Crosbyton | 1A |2| 11 Man |103|2018
+Gilmer Union Hill ISD | Gilmer Union Hill | 1A |1| 6 Man |103|2018
+Spurger ISD | Spurger | 1A | x | None |103|2018
+D'Hanis ISD | D'Hanis | 1A |2| 11 Man |104|2018
+Fruitvale ISD | Fruitvale | 1A |1| 6 Man |104|2018
+Ropesville Ropes ISD | Ropesville Ropes | 1A |1| 6 Man |104|2018
+Frost ISD | Frost | 2A |2| 11 Man |106|2018
+Brookeland ISD | Brookeland | 2A | x | None |108|2018
+Falls City ISD | Falls City | 2A |2| 11 Man |109|2018
+Plains ISD | Plains | 2A |2| 11 Man |109|2018
+Cross Plains ISD | Cross Plains | 2A |2| 11 Man |110|2018
+Cumby ISD | Cumby | 2A |2| 11 Man |110|2018
+Fort Hancock ISD | Fort Hancock | 2A | x | None |110|2018
+Agua Dulce ISD | Agua Dulce | 2A |2| 11 Man |111|2018
+Campbell ISD | Campbell | 2A |2| 11 Man |112|2018
+Electra ISD | Electra | 2A |2| 11 Man |112|2018
+Lasara ISD | Lasara | 2A | x | None |112|2018
+WinkLoving ISD | Wink | 2A |2| 11 Man |112|2018
+Slocum ISD | Slocum | 2A | x | None |114|2018
+Somerville ISD | Somerville | 2A |2| 11 Man |114|2018
+Martinsville ISD | Martinsville | 2A | x | None |115|2018
+Somerset ISD | Somerset ECLA | 4A | x | None |116|2018
+Benavides ISD | Benavides | 2A |2| 11 Man |116|2018
+Wheeler ISD | Wheeler | 2A |2| 11 Man |116|2018
+IraanSheffield ISD | Iraan | 2A |2| 11 Man |117|2018
+Broaddus ISD | Broaddus | 2A | x | None |118|2018
+Zavalla ISD | Zavalla | 2A | x | None |118|2018
+Gary ISD | Gary | 2A | x | None |119|2018
+Mount Enterprise ISD | Mount Enterprise | 2A |2| 11 Man |121|2018
+Hubbard ISD | Hubbard | 2A |2| 11 Man |122|2018
+North Zulch ISD | North Zulch | 2A | x | None |122|2018
+Sudan ISD | Sudan | 2A |2| 11 Man |122|2018
+Van Horn Culberson CountyAllamoore ISD | Van Horn | 2A |2| 11 Man |122|2018
+Granger ISD | Granger | 2A |2| 11 Man |125|2018
+McLeod ISD | McLeod | 2A | x | None |125|2018
+Clarendon CISD | Clarendon | 2A |2| 11 Man |126|2018
+Ivanhoe Rayburn ISD | Ivanhoe Rayburn | 2A | x | None |129|2018
+Ralls ISD | Ralls | 2A |2| 11 Man |129|2018
+Vega ISD | Vega | 2A |2| 11 Man |129|2018
+Gruver ISD | Gruver | 2A |2| 11 Man |131|2018
+Dawson ISD | Dawson | 2A |2| 11 Man |132|2018
+Maud ISD | Maud | 2A |2| 11 Man |132|2018
+Miles ISD | Miles | 2A |2| 11 Man |133|2018
+Archer City ISD | Archer City | 2A |2| 11 Man |134|2018
+Bovina ISD | Bovina | 2A |2| 11 Man |134|2018
+Overton ISD | Overton | 2A |2| 11 Man |134|2018
+Woodsboro ISD | Woodsboro | 2A |2| 11 Man |134|2018
+Colmesneil ISD | Colmesneil | 2A |2| 11 Man |136|2018
+Roscoe ISD | Roscoe Collegiate | 2A |2| 11 Man |136|2018
+Baytown Goose Creek CISD | Baytown Hyland Center | 6A | x | None |137|2018
+Burton ISD | Burton | 2A |2| 11 Man |137|2018
+Memphis ISD | Memphis | 2A |2| 11 Man |137|2018
+Windthorst ISD | Windthorst | 2A |2| 11 Man |137|2018
+Bremond ISD | Bremond | 2A |2| 11 Man |138|2018
+Lockney ISD | Lockney | 2A |2| 11 Man |138|2018
+Sabine Pass ISD | Sabine Pass | 2A |2| 11 Man |138|2018
+Martin's Mill ISD | Martins Mill | 2A | x | None |139|2018
+Iola ISD | Iola | 2A |2| 11 Man |140|2018
+Latexo ISD | Latexo | 2A | x | None |140|2018
+Grapeland ISD | Grapeland | 2A |2| 11 Man |141|2018
+Smyer ISD | Smyer | 2A |2| 11 Man |141|2018
+Tioga ISD | Tioga | 2A |2| 11 Man |141|2018
+La Pryor ISD | La Pryor | 2A |2| 11 Man |142|2018
+Clarksville ISD | Clarksville | 2A |2| 11 Man |143|2018
+Douglass ISD | Douglass | 2A | x | None |143|2018
+McCamey ISD | McCamey | 2A |2| 11 Man |143|2018
+Flatonia ISD | Flatonia | 2A |2| 11 Man |144|2018
+Chilton ISD | Chilton | 2A |2| 11 Man |145|2018
+New Summerfield ISD | New Summerfield | 2A | x | None |145|2018
+Pettus ISD | Pettus | 2A |2| 11 Man |146|2018
+Santo ISD | Santo | 2A |2| 11 Man |146|2018
+Farwell ISD | Farwell | 2A |2| 11 Man |147|2018
+Burleson ISD | Burleson Collegiate | 5A | x | None |148|2018
+Meridian ISD | Meridian | 2A |2| 11 Man |148|2018
+Detroit ISD | Detroit | 2A |2| 11 Man |149|2018
+Sulphur Springs North Hopkins ISD | Sulphur Springs North Hopkins | 2A | x | None |149|2018
+Baytown Goose Creek CISD | Baytown Stuart Career Tech | 6A | x | None |150|2018
+Charlotte ISD | Charlotte | 2A |2| 11 Man |150|2018
+Dallardsville Big Sandy ISD | Dallardsville Big Sandy | 2A | x | None |150|2018
+Premont ISD | Premont | 2A |2| 11 Man |150|2018
+Albany ISD | Albany | 2A |2| 11 Man |151|2018
+Eldorado Schleicher ISD | Eldorado | 2A |2| 11 Man |151|2018
+Petrolia CISD | Petrolia | 2A |2| 11 Man |151|2018
+Simms ISD | Simms Bowie | 2A |2| 11 Man |151|2018
+Tahoka ISD | Tahoka | 2A |2| 11 Man |151|2018
+Wortham ISD | Wortham | 2A |2| 11 Man |151|2018
+Seagraves ISD | Seagraves | 2A |2| 11 Man |152|2018
+Stratford ISD | Stratford | 2A |2| 11 Man |152|2018
+Wellington ISD | Wellington | 2A |2| 11 Man |152|2018
+Louise ISD | Louise | 2A |2| 11 Man |153|2018
+Snook ISD | Snook | 2A |2| 11 Man |153|2018
+Lovelady ISD | Lovelady | 2A |2| 11 Man |154|2018
+Evadale ISD | Evadale | 2A |2| 11 Man |155|2018
+Mumford ISD | Mumford | 2A | x | None |155|2018
+Era ISD | Era | 2A |2| 11 Man |156|2018
+Haskell CISD | Haskell | 2A |2| 11 Man |156|2018
+Muenster ISD | Muenster | 2A |2| 11 Man |156|2018
+Quanah ISD | Quanah | 2A |2| 11 Man |156|2018
+Mart ISD | Mart | 2A |2| 11 Man |157|2018
+Saratoga West Hardin County CISD | Saratoga West Hardin | 2A |2| 11 Man |157|2018
+Christoval ISD | Christoval | 2A |2| 11 Man |161|2018
+La Villa ISD | La Villa | 2A |2| 11 Man |161|2018
+Malakoff Cross Roads ISD | Malakoff Cross Roads | 2A |1| 11 Man |162|2018
+Port Aransas ISD | Port Aransas | 2A | x | None |162|2018
+Quinlan Boles ISD | Quinlan Boles | 2A |1| 11 Man |162|2018
+Seymour ISD | Seymour | 2A |1| 11 Man |162|2018
+Chico ISD | Chico | 2A |1| 11 Man |163|2018
+Hico ISD | Hico | 2A |1| 11 Man |163|2018
+Poolville ISD | Poolville | 2A | x | None |163|2018
+Winters ISD | Winters | 2A |1| 11 Man |164|2018
+Riviera ISD | Riviera Kaufer | 2A |1| 11 Man |165|2018
+Trenton ISD | Trenton | 2A |1| 11 Man |165|2018
+Yorktown ISD | Yorktown | 2A |1| 11 Man |165|2018
+Center Point ISD | Center Point | 2A |1| 11 Man |166|2018
+Dallas ISD | Dallas Obama Male Leadership Acad | 6A | x | None |167|2018
+Brackettville Brackett ISD | Brackettville Brackett | 2A |1| 11 Man |167|2018
+Goldthwaite ISD | Goldthwaite | 2A |1| 11 Man |167|2018
+Lindsay ISD | Lindsay | 2A |1| 11 Man |167|2018
+Cayuga ISD | Cayuga | 2A |1| 11 Man |168|2018
+Celeste ISD | Celeste | 2A |1| 11 Man |169|2018
+HullDaisetta ISD | HullDaisetta | 2A |1| 11 Man |169|2018
+San Antonio Lackland ISD | SA Stacey | 2A | x | None |169|2018
+Cushing ISD | Cushing | 2A |1| 11 Man |170|2018
+Mansfield ISD | Mansfield Frontier | 6A | x | None |171|2018
+Italy ISD | Italy | 2A |1| 11 Man |171|2018
+Sunray ISD | Sunray | 2A |1| 11 Man |171|2018
+Tenaha ISD | Tenaha | 2A |1| 11 Man |171.5|2018
+Crawford ISD | Crawford | 2A |1| 11 Man |172|2018
+Houston ISD | Houston Energized For Stem  West | 6A | x | None |173|2018
+Houston ISD | Houston Energized For Stem Central | 6A | x | None |173|2018
+Junction ISD | Junction | 2A |1| 11 Man |173|2018
+Hale Center ISD | Hale Center | 2A |1| 11 Man |174|2018
+Milano ISD | Milano | 2A |1| 11 Man |174|2018
+Collinsville ISD | Collinsville | 2A |1| 11 Man |175|2018
+Sabinal ISD | Sabinal | 2A |1| 11 Man |176|2018
+Olney ISD | Olney | 2A |1| 11 Man |177|2018
+Timpson ISD | Timpson | 2A |1| 11 Man |180|2018
+Kerens ISD | Kerens | 2A |1| 11 Man |181|2018
+Boys Ranch ISD | Boys Ranch | 2A |1| 11 Man |183|2018
+De Leon ISD | De Leon | 2A |1| 11 Man |183|2018
+Deweyville ISD | Deweyville | 2A |1| 11 Man |183|2018
+Floydada ISD | Floydada | 2A |1| 11 Man |183|2018
+San Saba ISD | San Saba | 2A |1| 11 Man |183|2018
+Stamford ISD | Stamford | 2A |1| 11 Man |184|2018
+Lubbock ISD | Lub. Talkington School For Young Women | 5A | x | None |191|2018
+Sundown ISD | Sundown | 2A |1| 11 Man |191|2018
+Forsan ISD | Forsan | 2A |1| 11 Man |193|2018
+Harper ISD | Harper | 2A |1| 11 Man |193|2018
+Honey Grove CISD | Honey Grove | 2A |1| 11 Man |194|2018
+San Antonio Brooks Academy |SA Brooks Collegiate Academy | 1A | x | None |194|2018
+Olton ISD | Olton | 2A |1| 11 Man |195|2018
+Price Carlisle ISD | Price Carlisle | 2A |1| 11 Man |196|2018
+Waco Bosqueville ISD | Bosqueville | 2A |1| 11 Man |196|2018
+West Sabine ISD | West Sabine | 2A |1| 11 Man |196|2018
+Moody ISD | Moody | 2A |1| 11 Man |197|2018
+Ben BoltPalito Blanco ISD | Ben BoltPalito Blanco | 2A |1| 11 Man |198|2018
+Joaquin ISD | Joaquin | 2A |1| 11 Man |199|2018
+Alto ISD | Alto | 2A |1| 11 Man |200|2018
+Itasca ISD | Itasca | 2A |1| 11 Man |200|2018
+Refugio ISD | Refugio | 2A |1| 11 Man |200|2018
+Garrison ISD | Garrison | 2A |1| 11 Man |201|2018
+Normangee ISD | Normangee | 2A |1| 11 Man |203|2018
+Wolfe City ISD | Wolfe City | 2A |1| 11 Man |204|2018
+Jewett Leon ISD | Jewett Leon | 2A |1| 11 Man |206|2018
+Merit Bland ISD | Merit Bland | 2A | x | None |206|2018
+Valley Mills ISD | Valley Mills | 2A |1| 11 Man |206|2018
+New Deal ISD | New Deal | 2A |1| 11 Man |207|2018
+Tom Bean ISD | Tom Bean | 2A |1| 11 Man |207|2018
+Bryan ISD | Bryan MC Harris | 6A | x | None |208|2018
+Beckville ISD | Beckville | 2A |1| 11 Man |208|2018
+Bogata Rivercrest ISD | Bogata Rivercrest | 2A |1| 11 Man |208|2018
+Centerville ISD | Centerville | 2A |1| 11 Man |208|2018
+Shiner ISD | Shiner | 2A |1| 11 Man |208|2018
+Weimar ISD | Weimar | 2A |1| 11 Man |208|2018
+Hawley ISD | Hawley | 2A |1| 11 Man |209|2018
+Woden ISD | Woden | 2A | x | None |209|2018
+San Antonio Harmony Science Academy |Brownsville Harmony School Of Innov. | 1A | x | None |209|2018
+SanfordFritch ISD | SanfordFritch | 2A |1| 11 Man |210|2018
+Axtell ISD | Axtell | 2A |1| 11 Man |211|2018
+San Augustine ISD | San Augustine | 2A |1| 11 Man |211|2018
+Alvord ISD | Alvord | 2A |1| 11 Man |212|2018
+Thorndale ISD | Thorndale | 2A |1| 11 Man |212|2018
+Dallas ISD | Dallas Patton | 6A | x | None |213|2018
+Rosebudlott ISD | RosebudLott | 2A |1| 11 Man |213|2018
+Freer ISD | Freer | 2A |1| 11 Man |214|2018
+Holland ISD | Holland | 2A |1| 11 Man |214|2018
+Kenedy ISD | Kenedy | 2A |1| 11 Man |214|2018
+Mason ISD | Mason | 2A |1| 11 Man |214|2018
+Valley View ISD | Valley View | 2A |1| 11 Man |214|2018
+PlemonsStinnettPhillips CISD | Stinnett West Texas | 2A |1| 11 Man |215|2018
+Riesel ISD | Riesel | 2A |1| 11 Man |215|2018
+Gladewater Union Grove ISD | Gladewater Union Grove | 2A |1| 11 Man |216|2018
+Thrall ISD | Thrall | 2A |1| 11 Man |216|2018
+BASTROP ISD | Bastrop Colorado River Collegiate Acad | 5A | x | None |217|2018
+Lindenkildare CISD | LindenKildare | 2A |1| 11 Man |217|2018
+Panhandle ISD | Panhandle | 2A |1| 11 Man |217|2018
+BrucevilleEddy ISD | BrucevilleEddy | 2A |1| 11 Man |218|2018
+Marlin ISD | Marlin | 2A |1| 11 Man |218|2018
+Big Sandy ISD | Big Sandy | 2A |1| 11 Man |219|2018
+Hawkins ISD | Hawkins | 2A |1| 11 Man |219|2018
+Santa Maria ISD | Santa Maria | 2A |1| 11 Man |219|2018
+Shelbyville ISD | Shelbyville | 2A |1| 11 Man |219|2018
+Hearne ISD | Hearne | 2A |1| 11 Man |220|2018
+Groveton ISD | Groveton | 2A |1| 11 Man |222|2018
+Post ISD | Post | 2A |1| 11 Man |222|2018
+Wallis Brazos ISD | Wallis Brazos | 2A |1| 11 Man |222|2018
+Amarillo Highland Park ISD | Amarillo Highland Park | 2A |1| 11 Man |223|2018
+ComoPickton ISD | ComoPickton | 2A |1| 11 Man |223|2018
+Harleton ISD | Harleton | 2A |1| 11 Man |223|2018
+Three Rivers ISD | Three Rivers | 2A |1| 11 Man |223|2018
+Dallas ISD | Dallas Lassiter ECHS | 6A | x | None |226|2018
+Anson ISD | Anson | 3A |2| 11 Man |227|2018
+Big Lake Reagan County ISD | Big Lake Reagan Co. | 3A |2| 11 Man |227|2018
+Ganado ISD | Ganado | 3A |2| 11 Man |227|2018
+Abernathy ISD | Abernathy | 3A |2| 11 Man |230|2018
+Danbury ISD | Danbury | 3A |2| 11 Man |230|2018
+De Kalb ISD | De Kalb | 3A |2| 11 Man |230|2018
+Blue Ridge ISD | Blue Ridge | 3A |2| 11 Man |231|2018
+AlbaGolden ISD | AlbaGolden | 3A |2| 11 Man |235|2018
+Tolar ISD | Tolar | 3A |2| 11 Man |238|2018
+Anthony ISD | Anthony | 3A |2| 11 Man |239|2018
+Rio Vista ISD | Rio Vista | 3A |2| 11 Man |239|2018
+Hamilton ISD | Hamilton | 3A |2| 11 Man |240|2018
+Johnson City ISD | Johnson City LBJ | 3A |2| 11 Man |240|2018
+Omaha Pewitt CISD | Omaha Pewitt | 3A |2| 11 Man |240|2018
+Coleman ISD | Coleman | 3A |2| 11 Man |241|2018
+Cooper ISD | Cooper | 3A |2| 11 Man |241|2018
+Corpus Christi ISD | CC Branch Academy | 5A | x | None |242|2018
+Dallas ISD | Dallas City Lab | 6A | x | None |243|2018
+Poth ISD | Poth | 3A |2| 11 Man |243|2018
+Dallas ISD | Dallas Rangel | 6A | x | None |244|2018
+Nocona ISD | Nocona | 3A |2| 11 Man |244|2018
+Bloomington ISD | Bloomington | 3A |2| 11 Man |245|2018
+Mildred ISD | Mildred | 3A |2| 11 Man |246|2018
+Schulenburg ISD | Schulenburg | 3A |2| 11 Man |247|2018
+Cisco ISD | Cisco | 3A |2| 11 Man |248|2018
+Frankston ISD | Frankston | 3A |2| 11 Man |249|2018
+Sonora ISD | Sonora | 3A |2| 11 Man |249|2018
+Stockdale ISD | Stockdale | 3A |2| 11 Man |249|2018
+Coahoma ISD | Coahoma | 3A |2| 11 Man |251|2018
+Colorado City Colorado ISD | Colorado City Colorado | 3A |2| 11 Man |254|2018
+Fort Worth ISD | FW TCC South Collegiate | 6A | x | None |255|2018
+Ballinger ISD | Ballinger | 3A |2| 11 Man |259|2018
+Hemphill ISD | Hemphill | 3A |2| 11 Man |259|2018
+Rice ISD | Rice | 3A |2| 11 Man |259|2018
+Bells ISD | Bells | 3A |2| 11 Man |262|2018
+Onalaska ISD | Onalaska | 3A | x | None |264|2018
+AndersonShiro CISD | AndersonShiro | 3A |2| 11 Man |265|2018
+Arp ISD | Arp | 3A |2| 11 Man |265|2018
+Buffalo ISD | Buffalo | 3A |2| 11 Man |266|2018
+Corpus Christi London ISD | Corpus Christi London | 3A |2| 11 Man |266|2018
+Henrietta ISD | Henrietta | 3A |2| 11 Man |267|2018
+Banquete ISD | Banquete | 3A |2| 11 Man |268|2018
+Spearman ISD | Spearman | 3A |2| 11 Man |268|2018
+Monte Alto ISD | Monte Alto | 3A |2| 11 Man |271|2018
+Stanton ISD | Stanton High School | 3A |2| 11 Man |272|2018
+Whitewright ISD | Whitewright | 3A |2| 11 Man |272|2018
+CorriganCamden ISD | CorriganCamden | 3A |2| 11 Man |273|2018
+Elysian Fields ISD | Elysian Fields | 3A |2| 11 Man |273|2018
+Ore City ISD | Ore City | 3A |2| 11 Man |274|2018
+Sadler S & S CISD | Sadler S & S Cons. | 3A |2| 11 Man |274|2018
+Dallas ISD | Dallas Talented & Gifted | 6A | x | None |276|2018
+Edgewood ISD | Edgewood | 3A |2| 11 Man |276|2018
+DaingerfieldLone Star ISD | Daingerfield | 3A |2| 11 Man |278|2018
+SkidmoreTynan ISD | Skidmore Tynan | 3A |2| 11 Man |279|2018
+Canadian ISD | Canadian | 3A |2| 11 Man |280|2018
+Grand Prairie ISD | YWLA Bill Arnold | 6A | x | None |284|2018
+Blooming Grove ISD | Blooming Grove | 3A |2| 11 Man |284|2018
+Jacksboro ISD | Jacksboro | 3A |2| 11 Man |284|2018
+Wichita Falls City View ISD | Wichita Falls City View | 3A |2| 11 Man |287|2018
+Lexington ISD | Lexington | 3A |2| 11 Man |288|2018
+OdemEdroy ISD | Odem | 3A |2| 11 Man |288|2018
+Leonard ISD | Leonard | 3A |2| 11 Man |291|2018
+Idalou ISD | Idalou | 3A |2| 11 Man |292|2018
+Clifton ISD | Clifton | 3A |2| 11 Man |293|2018
+Paris Chisum CISD | Paris Chisum | 3A |2| 11 Man |293|2018
+Quitman ISD | Quitman | 3A |2| 11 Man |293|2018
+Rogers ISD | Rogers | 3A |2| 11 Man |293|2018
+El Maton Tidehaven ISD | El Maton Tidehaven | 3A |2| 11 Man |295|2018
+Gunter ISD | Gunter | 3A |2| 11 Man |296|2018
+Newton ISD | Newton | 3A |2| 11 Man |296|2018
+Natalia ISD | Natalia | 3A |2| 11 Man |298|2018
+Dilley ISD | Dilley | 3A |2| 11 Man |299|2018
+Friona ISD | Friona | 3A |2| 11 Man |299|2018
+Millsap ISD | Millsap | 3A |2| 11 Man |300|2018
+Fort Worth ISD | FW Young Women's Leadership | 6A | x | None |302|2018
+Lubbock Roosevelt ISD | Lubbock Roosevelt | 3A |2| 11 Man |302|2018
+NixonSmiley CISD | Nixon Smiley | 3A |2| 11 Man |305|2018
+Holliday ISD | Holliday | 3A |2| 11 Man |307|2018
+Waskom ISD | Waskom | 3A |2| 11 Man |307|2018
+Ingram ISD | Ingram Moore | 3A |2| 11 Man |308|2018
+Grand Saline ISD | Grand Saline | 3A |2| 11 Man |309|2018
+Pattonville Prairiland CISD | Pattonville Prairiland | 3A |2| 11 Man |310|2018
+San Angelo Grape Creek ISD | San Angelo Grape Creek | 3A |2| 11 Man |310|2018
+Winona ISD | Winona High School | 3A |2| 11 Man |310|2018
+Hebbronville Jim Hogg Co ISD | Hebbronville | 3A |2| 11 Man |311|2018
+Childress ISD | Childress | 3A |2| 11 Man |312|2018
+Queen City ISD | Queen City | 3A |2| 11 Man |312|2018
+Alpine ISD | Alpine | 3A |2| 11 Man |313|2018
+Merkel ISD | Merkel | 3A |2| 11 Man |314|2018
+New Waverly ISD | New Waverly | 3A |2| 11 Man |314|2018
+Palmer ISD | Palmer | 3A |2| 11 Man |314|2018
+Diana New Diana ISD | Diana New Diana | 3A |2| 11 Man |316|2018
+Dimmitt ISD | Dimmitt | 3A |2| 11 Man |317|2018
+Florence ISD | Florence | 3A |2| 11 Man |317|2018
+Tulia ISD | Tulia | 3A |2| 11 Man |317|2018
+Cedar Hill ISD | Cedar Hill Collegiate | 6A | x | None |318|2018
+Blanco ISD | Blanco | 3A |2| 11 Man |318|2018
+ScurryRosser ISD | ScurryRosser | 3A |2| 11 Man |318|2018
+Taft ISD | Taft | 3A |2| 11 Man |318|2018
+GrapevineColleyville ISD | GC Collegiate Acad TCC NE | 5A | x | None |321|2018
+Comanche ISD | Comanche | 3A |2| 11 Man |321|2018
+Big Sandy Harmony ISD | Big Sandy Harmony | 3A |2| 11 Man |322|2018
+Dublin ISD | Dublin | 3A |2| 11 Man |323|2018
+Keene ISD | Keene | 3A | x | None |323|2018
+Comal ISD | Comal Memorial EC | 6A | x | None |324|2018
+Crane ISD | Crane | 3A |2| 11 Man |324|2018
+East Bernard ISD | East Bernard | 3A |2| 11 Man |324|2018
+Troup ISD | Troup | 3A |2| 11 Man |324|2018
+Bangs ISD | Bangs | 3A |2| 11 Man |326|2018
+Brady ISD | Brady | 3A |2| 11 Man |327|2018
+Santa Rosa ISD | Santa Rosa | 3A |2| 11 Man |327|2018
+Van Vleck ISD | Van Vleck | 3A |2| 11 Man |328|2018
+Clint ISD | Clint Early College Academy | 5A | x | None |330|2018
+Dallas ISD | Dallas Education & Soc Svc | 6A | x | None |331|2018
+Kountze ISD | Kountze | 3A |2| 11 Man |331|2018
+Callisburg ISD | Callisburg | 3A |2| 11 Man |332|2018
+Comfort ISD | Comfort | 3A |2| 11 Man |332|2018
+Peaster ISD | Peaster | 3A | x | None |335|2018
+New London West Rusk ISD | New London West Rusk | 3A |1| 11 Man |336|2018
+Hardin ISD | Hardin | 3A |1| 11 Man |337|2018
+Houston Aldine ISD | Houston Carver | 6A | x | None |341|2018
+Howe ISD | Howe | 3A |1| 11 Man |341|2018
+Redwater ISD | Redwater | 3A |1| 11 Man |341|2018
+George West ISD | George West | 3A |1| 11 Man |343|2018
+San Diego ISD | San Diego | 3A |1| 11 Man |343|2018
+Woodville ISD | Woodville | 3A |1| 11 Man |344|2018
+Tuscola Jim Ned ISD | Tuscola Jim Ned | 3A |1| 11 Man |346|2018
+Dallas ISD | Dallas Gilliam Collegiate Academy | 6A | x | None |347|2018
+Boling ISD | Boling | 3A |1| 11 Man |349|2018
+Paradise ISD | Paradise | 3A |1| 11 Man |349|2018
+Franklin ISD | Franklin | 3A |1| 11 Man |350|2018
+Jefferson ISD | Jefferson | 3A |1| 11 Man |350|2018
+Karnes City ISD | Karnes City | 3A |1| 11 Man |350|2018
+Nacogdoches Central Heights ISD | Nacogdoches Central Heights | 3A | x | None |350|2018
+Tornillo ISD | Tornillo | 3A |1| 11 Man |350|2018
+Dallas ISD | Dallas Innovation Design Entrepreneurship | 6A | x | None |351|2018
+Hughes Springs ISD | Hughes Springs | 3A |1| 11 Man |351|2018
+Vanderbilt Industrial ISD | Vanderbilt Industrial | 3A |1| 11 Man |351|2018
+Hooks ISD | Hooks | 3A |1| 11 Man |352|2018
+Hitchcock ISD | Hitchcock | 3A |1| 11 Man |353|2018
+Fort Worth ISD | FW Marine Creek Collegiate | 6A | x | None |354|2018
+Fort Worth ISD | FW Young Men's Leadership Acad | 6A | x | 11 Man |354|2018
+La Joya ISD | La Joya Carter Early College | 6A | x | None |355|2018
+Lone Oak ISD | Lone Oak | 3A |1| 11 Man |355|2018
+Canutillo ISD | Canutillo Northwest Early College | 5A | x | None |356|2018
+Abilene ISD | Abilene A.T.E.M.S. | 6A | x | None |358|2018
+Mount Pleasant Chapel HillTitus ISD | Mount Pleasant Chapel Hill | 3A | x | None |358|2018
+Slaton ISD | Slaton | 3A |1| 11 Man |359|2018
+Trinity ISD | Trinity | 3A |1| 11 Man |359|2018
+Fort Worth ISD | FW Texas Academy Of Biomedical Science | 6A | x | None |360|2018
+Cotulla ISD | Cotulla | 3A |1| 11 Man |360|2018
+Kingsville Santa Gertrudis ISD | Santa Gertrudis Academy | 3A |1| 11 Man |360|2018
+Wall ISD | Wall | 3A |1| 11 Man |360|2018
+Eastland ISD | Eastland | 3A |1| 11 Man |361|2018
+Warren ISD | Warren | 3A |1| 11 Man |362|2018
+Dallas ISD | Dallas Maceo Smith | 6A | x | None |363|2018
+Crockett ISD | Crockett | 3A |1| 11 Man |363|2018
+Altair Rice CISD | Altair Rice | 3A |1| 11 Man |366|2018
+Kermit ISD | Kermit | 3A |1| 11 Man |366|2018
+Hallettsville ISD | Hallettsville | 3A |1| 11 Man |368|2018
+Grandview ISD | Grandview | 3A |1| 11 Man |369|2018
+Early ISD | Early | 3A |1| 11 Man |370|2018
+Tyler ISD | Tyler Early College | 6A | x | None |371|2018
+Waxahachie ISD | Waxahachie Global | 3A | x | None |371|2018
+Houston ISD | Houston Liberty | 6A | x | None |371.5|2018
+Littlefield ISD | Littlefield | 3A |1| 11 Man |374|2018
+Maypearl ISD | Maypearl | 3A |1| 11 Man |374|2018
+Muleshoe ISD | Muleshoe | 3A |1| 11 Man |378|2018
+Houston ISD | Houston South ECHS | 6A | x | None |383|2018
+Elkhart ISD | Elkhart | 3A |1| 11 Man |383|2018
+San Antonio Fort Sam Houston ISD | SA Cole | 3A |1| 11 Man |383|2018
+Baytown Goose Creek CISD | Baytown Impact EC | 6A | x | None |385|2018
+Luling ISD | Luling | 3A |1| 11 Man |386|2018
+Anahuac ISD | Anahuac | 3A |1| 11 Man |387|2018
+Amarillo River Road ISD | Amarillo River Road | 3A |1| 11 Man |388|2018
+Malakoff ISD | Malakoff | 3A |1| 11 Man |388|2018
+El Paso Ysleta ISD | El Paso Valle Verde | 5A | x | None |389|2018
+Grand Prairie ISD | Grand Prairie Fine Arts Academy | 6A | x | None |393|2018
+Corpus Christi ISD | CC Collegiate | 5A | x | None |399|2018
+Kirbyville CISD | Kirbyville | 3A |1| 11 Man |399|2018
+Mercedes ISD | Mercedes ECA | 5A | x | None |400|2018
+Boyd ISD | Boyd | 3A |1| 11 Man |401|2018
+Dallas ISD | Dallas Sanders Law Magnet | 6A | x | None |403|2018
+Brock ISD | Brock | 3A |1| 11 Man |403|2018
+Alief ISD | Alief Early College | 6A | x | None |404|2018
+Clyde CISD | Clyde | 3A |1| 11 Man |404|2018
+New Boston ISD | New Boston | 3A |1| 11 Man |404|2018
+Falfurrias Brooks Co ISD | Falfurrias | 3A |1| 11 Man |405|2018
+Mathis ISD | Mathis | 3A |1| 11 Man |411|2018
+White Oak ISD | White Oak | 3A |1| 11 Man |411|2018
+Palacios ISD | Palacios | 3A |1| 11 Man |413|2018
+Breckenridge ISD | Breckenridge | 3A |1| 11 Man |415|2018
+San Antonio ISD | SA Young Womens Leadership Academy | 5A | x | None |416|2018
+Ponder ISD | Ponder | 3A |1| 11 Man |416|2018
+Goliad ISD | Goliad | 3A |1| 11 Man |417|2018
+Hempstead ISD | Hempstead | 3A |1| 11 Man |419|2018
+McGregor ISD | McGregor | 3A |1| 11 Man |420|2018
+La Joya ISD | La Joya Salinas STEM ECHS | 6A | x | None |422|2018
+Gladewater Sabine ISD | Gladewater Sabine | 3A |1| 11 Man |423|2018
+Pilot Point ISD | Pilot Point | 3A |1| 11 Man |424|2018
+Pottsboro ISD | Pottsboro | 3A |1| 11 Man |424|2018
+Palestine Westwood ISD | Palestine Westwood | 3A |1| 11 Man |425|2018
+Dallas ISD | Dallas Sci. & Eng. | 6A | x | None |428|2018
+Teague ISD | Teague | 3A |1| 11 Man |428|2018
+Troy ISD | Troy | 3A |1| 11 Man |429|2018
+Humble ISD | Humble Quest ECHS | 6A | x | None |430|2018
+Dallas ISD | Dallas Garza Early College | 6A | x | None |431|2018
+Houston ISD | Houston Jones Futures Academy | 6A | x | None |431|2018
+Mission CISD | Mission Collegiate | 6A | x | None |433|2018
+Winnie East Chambers ISD | Winnie East Chambers | 3A |1| 11 Man |434|2018
+Manor ISD | Manor New Tech | 3A |1| 11 Man |435|2018
+Marion ISD | Marion | 3A |1| 11 Man |436|2018
+Laredo ISD | Laredo Early College | 6A | x | None |438|2018
+Pollok Central ISD | Pollok Central | 3A | x | None |441|2018
+Jourdanton ISD | Jourdanton | 3A |1| 11 Man |443|2018
+Shallowater ISD | Shallowater | 3A |1| 11 Man |444|2018
+Lago Vista ISD | Lago Vista | 3A |1| 11 Man |446|2018
+Aransas Pass ISD | Aransas Pass | 3A |1| 11 Man |447|2018
+Lytle ISD | Lytle | 3A |1| 11 Man |451|2018
+Edna ISD | Edna | 3A |1| 11 Man |452|2018
+West ISD | West | 3A |1| 11 Man |452|2018
+Commerce ISD | Commerce | 3A |1| 11 Man |453|2018
+Rockdale ISD | Rockdale | 3A |1| 11 Man |453|2018
+El Paso ISD | El Paso Transmountain Early College | 6A | x | None |454|2018
+Little River Academy ISD | Little River Academy | 3A |1| 11 Man |454|2018
+Presidio ISD | Presidio | 3A | x | None |454|2018
+Buna ISD | Buna | 3A |1| 11 Man |455|2018
+ColdspringOakhurst ISD | ColdspringOakhurst | 3A |1| 11 Man |457|2018
+Whitesboro ISD | Whitesboro | 3A |1| 11 Man |457|2018
+Whitney ISD | Whitney | 3A |1| 11 Man |457|2018
+Eustace ISD | Eustace | 3A |1| 11 Man |458|2018
+Jarrell ISD | Jarrell | 3A |1| 11 Man |462|2018
+Universal City Randolph Field ISD | Universal City Randolph | 3A |1| 11 Man |462|2018
+Bushland ISD | Bushland | 3A |1| 11 Man |463|2018
+Winnsboro ISD | Winnsboro | 3A |1| 11 Man |463|2018
+Mineola ISD | Mineola | 3A |1| 11 Man |464|2018
+Brownfield ISD | Brownfield | 3A |1| 11 Man |465|2018
+Bryan ISD | Bryan Collegiate | 6A | x | None |466|2018
+Houston ISD | Houston Chal Early College | 6A | x | None |467.5|2018
+El Paso Socorro ISD | EP Mission Early College | 6A | x | None |468|2018
+Groesbeck ISD | Groesbeck | 3A |1| 11 Man |468|2018
+Lyford CISD | Lyford | 3A |1| 11 Man |469|2018
+Mount Vernon ISD | Mount Vernon | 3A |1| 11 Man |469|2018
+Van Alstyne ISD | Van Alstyne | 3A |1| 11 Man |469|2018
+Houston ISD | N Houston Early College | 6A | x | None |471|2018
+Dallas ISD | Dallas Madison | 3A |1| 11 Man |471|2018
+Yoakum ISD | Yoakum | 3A |1| 11 Man |472|2018
+San Antonio Judson ISD | Judson Early College | 6A | x | None |474|2018
+Gladewater ISD | Gladewater | 3A |1| 11 Man |474|2018
+Columbus ISD | Columbus | 3A |1| 11 Man |476|2018
+Tatum ISD | Tatum | 3A |1| 11 Man |476|2018
+Atlanta ISD | Atlanta | 3A |1| 11 Man |478|2018
+Rains ISD | Rains | 3A |1| 11 Man |478|2018
+Houston ISD | Houston Acd Intl Studies | 6A | x | None |486|2018
+Kemp ISD | Kemp | 3A |1| 11 Man |486|2018
+Denver City ISD | Denver City | 3A |1| 11 Man |487|2018
+Bishop CISD | Bishop | 3A |1| 11 Man |488|2018
+Bonham ISD | Bonham | 3A |1| 11 Man |488|2018
+Cameron ISD | Cameron Yoe | 3A |1| 11 Man |488|2018
+Dallas ISD | Dallas Business & Mngmnt | 6A | x | None |491|2018
+McAllen ISD | McAllen Achieve ECHS | 6A | x | None |491|2018
+Bowie ISD | Bowie | 3A |1| 11 Man |495|2018
+Diboll ISD | Diboll | 3A |1| 11 Man |498|2018
+Orangefield ISD | Orangefield | 3A |1| 11 Man |499|2018
+Caddo Mills ISD | Caddo Mills | 4A |2| 11 Man |508|2018
+Farmersville ISD | Farmersville | 4A |2| 11 Man |508|2018
+Mexia ISD | Mexia | 4A |2| 11 Man |508|2018
+Dalhart ISD | Dalhart | 4A |2| 11 Man |511|2018
+Poteet ISD | Poteet | 4A |2| 11 Man |516|2018
+Cleveland Tarkington ISD | Cleveland Tarkington | 4A |2| 11 Man |520|2018
+El Paso Ysleta ISD | EP Young Women's Leadership | 5A | x | None |522|2018
+San Antonio Brooks Academy |SA Brooks Acd Sci & Eng | 4A | x | None |523|2018
+Caldwell ISD | Caldwell | 4A |2| 11 Man |524|2018
+Crystal City ISD | Crystal City | 4A |2| 11 Man |524|2018
+Longview Spring Hill ISD | Longview Spring Hill | 4A |2| 11 Man |525|2018
+Glen Rose ISD | Glen Rose | 4A |2| 11 Man |527|2018
+Sunnyvale ISD | Sunnyvale | 4A |2| 11 Man |528|2018
+Orange Grove ISD | Orange Grove | 4A |2| 11 Man |531|2018
+HUNTINGTON ISD | Huntington | 4A |2| 11 Man |533|2018
+Iowa Park CISD | Iowa Park | 4A |2| 11 Man |534|2018
+Lamesa ISD | Lamesa | 4A |2| 11 Man |536|2018
+Fairfield ISD | Fairfield | 4A |2| 11 Man |537|2018
+Godley ISD | Godley | 4A |2| 11 Man |537|2018
+Hillsboro ISD | Hillsboro | 4A |2| 11 Man |537|2018
+Llano ISD | Llano | 4A |2| 11 Man |539|2018
+Smithville ISD | Smithville | 4A |2| 11 Man |541|2018
+San Antonio ISD | SA Fox Tech | 5A | x | None |544|2018
+Dallas ISD | Dallas Health Prof | 6A | x | None |547|2018
+HamshireFannett ISD | HamshireFannett | 4A |2| 11 Man |553|2018
+Sweetwater ISD | Sweetwater | 4A |2| 11 Man |554|2018
+Progreso ISD | Progreso | 4A |2| 11 Man |560|2018
+Salado ISD | Salado | 4A |2| 11 Man |563|2018
+Wharton ISD | Wharton | 4A |2| 11 Man |571|2018
+Lorena ISD | Lorena | 4A |2| 11 Man |577|2018
+West OrangeCove CISD | West OrangeStark | 4A |2| 11 Man |581|2018
+Shepherd ISD | Shepherd | 4A |2| 11 Man |589|2018
+Venus ISD | Venus | 4A |2| 11 Man |590|2018
+Sweeny ISD | Sweeny | 4A |2| 11 Man |594|2018
+Liberty ISD | Liberty | 4A |2| 11 Man |595|2018
+Raymondville ISD | Raymondville | 4A |2| 11 Man |595|2018
+Fort Worth ISD | FW IM Terrell Acad. | 6A | x | None |600|2018
+Rusk ISD | Rusk | 4A |2| 11 Man |601|2018
+Vernon ISD | Vernon | 4A |2| 11 Man |602|2018
+Devine ISD | Devine | 4A |2| 11 Man |608|2018
+Geronimo Navarro ISD | Geronimo Navarro | 4A |2| 11 Man |608|2018
+Giddings ISD | Giddings | 4A |2| 11 Man |608|2018
+Corpus Christi West Oso ISD | CC West Oso | 4A |2| 11 Man |613|2018
+Perryton ISD | Perryton | 4A |2| 11 Man |618|2018
+South Texas ISD | S Tx Bus Ed & Tech Academy | 6A | x | None |624|2018
+Nevada Community ISD | Nevada Community | 4A |2| 11 Man |624|2018
+MonahansWickettPyote ISD | Monahans | 4A |2| 11 Man |625|2018
+Houston ISD | Houston Carnegie Vanguard | 6A | x | None |626|2018
+Canton ISD | Canton | 4A |2| 11 Man |628|2018
+Sinton ISD | Sinton | 4A |2| 11 Man |628.5|2018
+La Grange ISD | La Grange | 4A |2| 11 Man |629|2018
+Rio Hondo ISD | Rio Hondo | 4A |2| 11 Man |629|2018
+Carrizo Springs CISD | Carrizo Springs | 4A |2| 11 Man |632|2018
+Hondo ISD | Hondo | 4A |2| 11 Man |634|2018
+Dallas ISD | Dallas Lincoln | 4A |2| 11 Man |637|2018
+Waco Connally ISD | Waco Connally | 4A |2| 11 Man |638|2018
+Royal ISD | Royal | 4A |2| 11 Man |643|2018
+Pittsburg ISD | Pittsburg | 4A |2| 11 Man |646|2018
+Ingleside ISD | Ingleside | 4A |2| 11 Man |648|2018
+Bridgeport ISD | Bridgeport | 4A |2| 11 Man |651|2018
+Krum ISD | Krum | 4A |2| 11 Man |653|2018
+Bandera ISD | Bandera | 4A |2| 11 Man |656|2018
+Hardinjefferson ISD | HardinJefferson | 4A |2| 11 Man |656|2018
+Clint ISD | Clint | 4A |1| 11 Man |667|2018
+Madisonville CISD | Madisonville | 4A |2| 11 Man |668|2018
+Pearsall ISD | Pearsall | 4A |2| 11 Man |668|2018
+Fort Stockton ISD | Fort Stockton | 4A |2| 11 Man |671|2018
+Texarkana Pleasant Grove ISD | Texarkana Pleasant Grove | 4A |2| 11 Man |671|2018
+PecosBarstowToyah ISD | Pecos | 4A |2| 11 Man |673|2018
+Cuero ISD | Cuero | 4A |2| 11 Man |682|2018
+Wills Point ISD | Wills Point | 4A |2| 11 Man |683|2018
+Aubrey ISD | Aubrey | 4A |2| 11 Man |684|2018
+Austin ISD | Austin Eastside Memorial | 4A |2| 11 Man |685|2018
+Gilmer ISD | Gilmer | 4A |2| 11 Man |688|2018
+Texas City ISD | La Marque | 4A |2| 11 Man |688|2018
+Graham ISD | Graham | 4A |2| 11 Man |690|2018
+Point Isabel ISD | Port Isabel | 4A |2| 11 Man |692|2018
+Texarkana LibertyEylau ISD | Texarkana LibertyEylau | 4A |2| 11 Man |693|2018
+Robinson ISD | Robinson | 4A |2| 11 Man |704|2018
+Houston ISD | Houston Energy Institute | 6A | x | None |707|2018
+Bellville ISD | Bellville | 4A |2| 11 Man |710|2018
+Dallas ISD | Dallas Roosevelt | 4A |2| 11 Man |713|2018
+Jasper ISD | Jasper | 4A |2| 11 Man |719|2018
+Midland Greenwood ISD | Midland Greenwood | 4A |2| 11 Man |720|2018
+Houston ISD | Houston Kashmere | 4A |2| 11 Man |722.5|2018
+Snyder ISD | Snyder | 4A |2| 11 Man |726|2018
+Center ISD | Center | 4A |2| 11 Man |739|2018
+Wimberley ISD | Wimberley | 4A |2| 11 Man |740|2018
+Lubbock ISD | Lubbock Estacado | 4A |2| 11 Man |746|2018
+Cumberland Academy| Cumberland Academy | 4A | x | None |747.46|2018
+Robstown ISD | Robstown | 4A |2| 11 Man |747.5|2018
+Borger ISD | Borger | 4A |2| 11 Man |749|2018
+Houston ISD | Houston Performing And Visual Arts | 6A | x | None |753|2018
+Fabens ISD | Fabens | 4A |1| 11 Man |757.5|2018
+Ferris ISD | Ferris | 4A |2| 11 Man |759|2018
+Brownsboro ISD | Brownsboro | 4A |2| 11 Man |766|2018
+Houston ISD | Houston Washington | 4A |2| 11 Man |766.5|2018
+Bullard ISD | Bullard | 4A |2| 11 Man |773|2018
+Levelland ISD | Levelland | 4A |2| 11 Man |773|2018
+PharrSan JuanAlamo ISD | PSJA Jefferson EC | 6A | x | None |775|2018
+Rockport Aransas County ISD | RockportFulton | 4A |2| 11 Man |781|2018
+Houston ISD | Houston Scarborough | 4A |2| 11 Man |781.5|2018
+Silsbee ISD | Silsbee | 4A |2| 11 Man |784|2018
+Bridge City ISD | Bridge City | 4A |1| 11 Man |791|2018
+Celina ISD | Celina | 4A |1| 11 Man |792|2018
+Gonzales ISD | Gonzales | 4A |1| 11 Man |793|2018
+Seminole ISD | Seminole | 4A |1| 11 Man |793|2018
+Carthage ISD | Carthage | 4A |1| 11 Man |794|2018
+Clint ISD | Clint Mountain View | 4A |1| 11 Man |799|2018
+Navasota ISD | Navasota | 4A |1| 11 Man |801|2018
+Van ISD | Van | 4A |1| 11 Man |807|2018
+Alief ISD | Alief Kerr | 6A | x | None |808|2018
+Paris North Lamar ISD | Paris North Lamar | 4A |1| 11 Man |810|2018
+South Texas ISD | S Tex Science Academy | 6A | x | None |817|2018
+China Spring ISD | China Spring | 4A |1| 11 Man |817|2018
+Quinlan ISD | Quinlan Ford | 4A |1| 11 Man |821|2018
+Melissa ISD | Melissa | 4A |1| 11 Man |825|2018
+Fort Worth ISD | FW Benbrook | 4A |1| 11 Man |832|2018
+Houston ISD | Houston Yates | 4A |1| 11 Man |832.5|2018
+Hudson ISD | Hudson | 4A | x | None |836|2018
+Sanger ISD | Sanger | 4A |1| 11 Man |844|2018
+Northside ISD | Northside Health Careers | 6A | x | None |845|2018
+Gainesville ISD | Gainesville | 4A |1| 11 Man |846|2018
+Sealy ISD | Sealy | 4A |1| 11 Man |851|2018
+Argyle ISD | Argyle | 4A |1| 11 Man |854|2018
+Gatesville ISD | Gatesville | 4A |1| 11 Man |859|2018
+Waco La Vega ISD | Waco La Vega | 4A |1| 11 Man |865|2018
+South Texas ISD | S Tex AcademyMed Prof | 6A | x | None |867|2018
+South Texas ISD | S Tex School For Health Professions | 6A | x | None |867|2018
+Fort Worth Lake Worth ISD | Lake Worth | 4A |1| 11 Man |869|2018
+Houston ISD | Houston Worthing | 4A |1| 11 Man |869|2018
+Dallas ISD | Dallas Hutchins | 4A |1| 11 Man |872|2018
+CarrolltonFarmers Branch ISD | Carrollton Ranchview | 4A |1| 11 Man |885|2018
+Houston ISD | Houston DeBakey Health Prof. | 6A | x | None |888|2018
+West Columbia ColumbiaBrazoria ISD | West Columbia Columbia | 4A |1| 11 Man |897|2018
+Mineral Wells ISD | Mineral Wells | 4A |1| 11 Man |900|2018
+Midland ISD | Midland Early College | 6A | x | None |901.5|2018
+Zapata County ISD | Zapata | 4A |1| 11 Man |907|2018
+Dallas ISD | Dallas Pinkston | 4A |1| 11 Man |908|2018
+Burkburnett ISD | Burkburnett | 4A |1| 11 Man |914|2018
+Midlothian ISD | Midlothian Heritage | 4A |1| 11 Man |914|2018
+Paris ISD | Paris | 4A |1| 11 Man |917|2018
+Burnet CISD | Burnet | 4A |1| 11 Man |921|2018
+Wichita Falls ISD | Wichita Falls Hirschi | 4A |1| 11 Man |922|2018
+Anna ISD | Anna | 4A |1| 11 Man |923|2018
+Athens ISD | Athens | 4A |1| 11 Man |925|2018
+Dallas Life School| Waxahachie Life School | 4A |1| 11 Man |932|2018
+Fort Worth ISD | FW Western Hills | 4A |1| 11 Man |935|2018
+Fort Worth ISD | FW Dunbar | 4A |1| 11 Man |943|2018
+Henderson ISD | Henderson | 4A |1| 11 Man |951|2018
+Brownwood ISD | Brownwood | 4A |1| 11 Man |958|2018
+Palestine ISD | Palestine | 4A |1| 11 Man |965|2018
+Kingsville ISD | Kingsville King | 4A |1| 11 Man |966|2018
+Pampa ISD | Pampa | 4A |1| 11 Man |975|2018
+Bay City ISD | Bay City | 4A |1| 11 Man |978|2018
+Springtown ISD | Springtown | 4A |1| 11 Man |981|2018
+Houston ISD | Houston Mickey Leland College Prep Acad | 6A | x | None |982|2018
+Houston ISD | Houston Wheatley | 4A |1| 11 Man |983.5|2018
+Fort Worth ISD | FW Diamond HillJarvis | 4A |1| 11 Man |1001.5|2018
+Dallas ISD | Dallas Washington Arts Mag. | 6A | x | None |1003|2018
+La Feria ISD | La Feria | 4A |1| 11 Man |1004|2018
+Lampasas ISD | Lampasas | 4A |1| 11 Man |1008|2018
+Orange Little CypressMauriceville CISD | Orange Little CypressMauriceville | 4A |1| 11 Man |1009|2018
+Pleasanton ISD | Pleasanton | 4A |1| 11 Man |1010|2018
+Fredericksburg ISD | Fredericksburg | 4A |1| 11 Man |1017|2018
+Kennedale ISD | Kennedale | 4A |1| 11 Man |1022|2018
+Taylor ISD | Taylor | 4A |1| 11 Man |1024|2018
+Houston ISD | Houston Young Womens Coll Prep Acad | 6A | x | None |1026|2018
+Rosenberg Lamar CISD | Lamar Fulshear | 4A |1| 11 Man |1027|2018
+Houston ISD | Houston North Forest | 4A |1| 11 Man |1027.5|2018
+Comal ISD | Comal Canyon Lake | 4A |1| 11 Man |1032|2018
+Mabank ISD | Mabank | 4A |1| 11 Man |1034|2018
+San Elizario ISD | San Elizario | 4A |1| 11 Man |1035.25|2018
+Beeville ISD | Beeville Jones | 4A |1| 11 Man |1036|2018
+Rio Grande City CISD | Rio Grande City Grulla | 4A |1| 11 Man |1039|2018
+Needville ISD | Needville | 4A |1| 11 Man |1044|2018
+Hidalgo ISD | Hidalgo Early College | 4A |1| 11 Man |1049.5|2018
+Decatur ISD | Decatur | 4A |1| 11 Man |1054|2018
+Tyler Chapel Hill ISD | Tyler Chapel Hill | 4A |1| 11 Man |1055|2018
+Dallas ISD | North Dallas | 4A |1| 11 Man |1056|2018
+River Oaks Castleberry ISD | River Oaks Castleberry | 4A |1| 11 Man |1062|2018
+San Angelo ISD | San Angelo Lake View | 4A |1| 11 Man |1064|2018
+La Vernia ISD | La Vernia | 4A |1| 11 Man |1069|2018
+Faith Family Academy ISD | Oak Cliff Faith Family Academy | 4A | x | None |1072|2018
+Huffman ISD | Huffman Hargrave | 4A |1| 11 Man |1075|2018
+Livingston ISD | Livingston | 4A |1| 11 Man |1078.5|2018
+Stephenville ISD | Stephenville | 4A |1| 11 Man |1079|2018
+Freeport Brazosport ISD | Freeport Brazosport | 4A |1| 11 Man |1082|2018
+El Campo ISD | El Campo | 4A |1| 11 Man |1088|2018
+Somerset ISD | Somerset | 4A |1| 11 Man |1089|2018
+Big Spring ISD | Big Spring | 4A |1| 11 Man |1093|2018
+Andrews ISD | Andrews | 4A |1| 11 Man |1099|2018
+Boerne ISD | Boerne | 4A |1| 11 Man |1099|2018
+Dumas ISD | Dumas | 4A |1| 11 Man |1102|2018
+Alvarado ISD | Alvarado | 4A |1| 11 Man |1110|2018
+Houston ISD | Sharpstown International | 6A | x | None |1113.5|2018
+Crandall ISD | Crandall | 4A |1| 11 Man |1114|2018
+Kilgore ISD | Kilgore | 4A |1| 11 Man |1119|2018
+Liberty Hill ISD | Liberty Hill | 4A |1| 11 Man |1122|2018
+Lumberton ISD | Lumberton | 4A |1| 11 Man |1125|2018
+Canyon ISD | Canyon | 4A |1| 11 Man |1128|2018
+Dallas ISD | Dallas Hillcrest | 4A |1| 11 Man |1130|2018
+Houston ISD | Houston Furr | 4A |1| 11 Man |1135|2018
+Hereford ISD | Hereford | 4A |1| 11 Man |1138|2018
+Dallas ISD | Dallas Carter | 4A |1| 11 Man |1139|2018
+Splendora ISD | Splendora | 4A |1| 11 Man |1145|2018
+Beaumont ISD | Beaumont Ozen | 5A |2| 11 Man |1151.5|2018
+Lindale ISD | Lindale | 5A |2| 11 Man |1154|2018
+El Paso Ysleta ISD | El Paso Riverside | 5A |2| 11 Man |1158|2018
+Abilene Wylie ISD | Abilene Wylie | 5A |2| 11 Man |1164|2018
+Port Lavaca Calhoun Co ISD | Port Lavaca Calhoun | 5A |2| 11 Man |1167|2018
+Fort Worth ISD | FW Eastern Hills | 5A |2| 11 Man |1172|2018
+Princeton ISD | Princeton | 5A |2| 11 Man |1174|2018
+San Antonio Edgewood ISD | SA Kennedy | 5A |2| 11 Man |1187|2018
+Terrell ISD | Terrell High School | 5A |2| 11 Man |1197|2018
+Corpus Christi ISD | CC Miller | 5A |1| 11 Man |1201|2018
+Corpus Christi TulosoMidway ISD | CC TulosoMidway | 5A |2| 11 Man |1201|2018
+Kaufman ISD | Kaufman | 5A |2| 11 Man |1207|2018
+Dallas ISD | Dallas South Oak Cliff | 5A |2| 11 Man |1212|2018
+Sulphur Springs ISD | Sulphur Springs | 5A |2| 11 Man |1218|2018
+Marble Falls ISD | Marble Falls | 5A |2| 11 Man |1240|2018
+Uvalde CISD | Uvalde | 5A |2| 11 Man |1251|2018
+Wichita Falls ISD | Wichita Falls | 5A |2| 11 Man |1257|2018
+Lake Dallas ISD | Lake Dallas | 5A |2| 11 Man |1260|2018
+Austin ISD | Austin Reagan | 5A |1| 11 Man |1262.5|2018
+Fort Bend ISD | Fort Bend Marshall | 5A |2| 11 Man |1264|2018
+Floresville ISD | Floresville | 5A |2| 11 Man |1268|2018
+Fort Worth ISD | FW Polytechnic | 5A |2| 11 Man |1274|2018
+Mercedes ISD | Mercedes | 5A |2| 11 Man |1276|2018
+Corpus Christi Calallen ISD | CC Calallen | 5A |2| 11 Man |1277|2018
+Elgin ISD | Elgin | 5A |2| 11 Man |1297|2018
+Fort Worth ISD | FW CarterRiverside | 5A |2| 11 Man |1297|2018
+Montgomery ISD | Montgomery Lake Creek | 5A |2| 11 Man |1305|2018
+Longview Pine Tree ISD | Longview Pine Tree | 5A |2| 11 Man |1307|2018
+Beaumont ISD | Beaumont Central | 5A |2| 11 Man |1309|2018
+San Antonio Edgewood ISD | SA Memorial | 5A |2| 11 Man |1309.5|2018
+Dallas ISD | Dallas Conrad | 5A |2| 11 Man |1313|2018
+Jacksonville ISD | Jacksonville | 5A |2| 11 Man |1313|2018
+Alice ISD | Alice | 5A |2| 11 Man |1314|2018
+Fort Bend ISD | Fort Bend Willowridge | 5A |2| 11 Man |1325|2018
+Denison ISD | Denison | 5A |2| 11 Man |1327|2018
+Vidor ISD | Vidor | 5A |2| 11 Man |1331|2018
+San Antonio ISD | SA Houston | 5A |1| 11 Man |1341|2018
+San Antonio ISD | SA Burbank | 5A |1| 11 Man |1349|2018
+Fort Worth ISD | FW Southwest | 5A |2| 11 Man |1377|2018
+Whitehouse ISD | Whitehouse | 5A |2| 11 Man |1379|2018
+El Paso ISD | El Paso Austin | 5A |2| 11 Man |1392|2018
+El Paso ISD | El Paso Bowie | 5A |2| 11 Man |1394|2018
+El Paso Ysleta ISD | El Paso Ysleta | 5A |2| 11 Man |1396|2018
+Houston ISD | Houston Sterling | 5A |2| 11 Man |1401|2018
+Marshall ISD | Marshall | 5A |2| 11 Man |1407|2018
+El Paso ISD | El Paso Irvin | 5A |2| 11 Man |1409|2018
+Austin ISD | Austin Travis | 5A |1| 11 Man |1412.5|2018
+GregoryPortland ISD | GregoryPortland | 5A |2| 11 Man |1419|2018
+San Antonio Judson ISD | Judson Veterans Memorial | 5A |1| 11 Man |1423|2018
+Castroville Medina Valley ISD | Castroville Medina Valley | 5A |2| 11 Man |1425|2018
+Greenville ISD | Greenville | 5A |2| 11 Man |1433|2018
+El Paso ISD | El Paso | 5A |2| 11 Man |1442|2018
+Santa Fe ISD | Santa Fe | 5A |2| 11 Man |1442|2018
+EdcouchElsa ISD | EdcouchElsa | 5A |2| 11 Man |1445|2018
+Forney ISD | Forney | 5A |2| 11 Man |1445|2018
+Cleveland ISD | Cleveland | 5A |2| 11 Man |1447|2018
+Pharr Valley View ISD | Pharr Valley View | 5A |2| 11 Man |1448|2018
+Katy ISD | Katy Paetow | 5A |2| 11 Man |1452|2018
+Dallas ISD | Dallas Kimball | 5A |2| 11 Man |1455|2018
+Dallas ISD | Dallas Seagoville | 5A |2| 11 Man |1459|2018
+Hallsville ISD | Hallsville | 5A |2| 11 Man |1461|2018
+Bastrop ISD | Bastrop | 5A |2| 11 Man |1469|2018
+Brenham ISD | Brenham | 5A |2| 11 Man |1474|2018
+Kerrville ISD | Kerrville Tivy | 5A |2| 11 Man |1475|2018
+Spring ISD | Spring Wunsche | 6A | x | None |1476|2018
+Dallas ISD | Dallas Adamson | 5A |2| 11 Man |1480|2018
+Austin ISD | Austin Crockett | 5A |1| 11 Man |1484.5|2018
+Lovejoy ISD | Lucas Lovejoy | 5A |2| 11 Man |1485|2018
+Port NechesGroves ISD | Port NechesGroves | 5A |2| 11 Man |1493|2018
+Wichita Falls ISD | Wichita Falls Rider | 5A |2| 11 Man |1497|2018
+Plainview ISD | Plainview | 5A |2| 11 Man |1500|2018
+Dayton ISD | Dayton | 5A |2| 11 Man |1513|2018
+Leander ISD | Leander Glenn | 5A |2| 11 Man |1514|2018
+Mount Pleasant ISD | Mount Pleasant | 5A |2| 11 Man |1515|2018
+Lubbock Cooper ISD | Lubbock Cooper | 5A |2| 11 Man |1516|2018
+Frisco ISD | Frisco | 5A |2| 11 Man |1527|2018
+Frisco ISD | Frisco Memorial | 5A |2| 11 Man |1527|2018
+Canutillo ISD | Canutillo | 5A |2| 11 Man |1529|2018
+El Paso ISD | El Paso Burges | 5A |2| 11 Man |1537|2018
+Joshua ISD | Joshua | 5A |2| 11 Man |1537|2018
+Corpus Christi ISD | CC King | 5A |1| 11 Man |1542|2018
+Nederland ISD | Nederland | 5A |2| 11 Man |1546|2018
+Clint ISD | Clint Horizon | 5A |2| 11 Man |1548|2018
+El Paso Ysleta ISD | El Paso Parkland | 5A |2| 11 Man |1548|2018
+Fort Worth ISD | FW Wyatt | 5A |2| 11 Man |1548|2018
+Baytown Goose Creek CISD | Baytown Lee | 5A |2| 11 Man |1553|2018
+Mont Belvieu Barbers Hill ISD | Mont Belvieu Barbers Hill | 5A |2| 11 Man |1559|2018
+San Antonio Southside ISD | SA Southside | 5A |2| 11 Man |1564|2018
+El Paso ISD | El Paso Andress | 5A |2| 11 Man |1572|2018
+Houston ISD | Houston Northside | 5A |2| 11 Man |1574.5|2018
+Forney ISD | North Forney | 5A |2| 11 Man |1579|2018
+San Antonio Alamo Heights ISD | SA Alamo Heights | 5A |2| 11 Man |1582|2018
+Everman ISD | Everman | 5A |2| 11 Man |1583|2018
+Arlington ISD | Arlington Seguin | 5A |2| 11 Man |1601.5|2018
+Conroe ISD | Conroe Grand Oaks | 5A | x | None |1604|2018
+Georgetown ISD | Georgetown East View | 5A |2| 11 Man |1607|2018
+Laredo ISD | Laredo Cigarroa | 5A |2| 11 Man |1610|2018
+Lockhart ISD | Lockhart | 5A |2| 11 Man |1617|2018
+Bastrop ISD | Bastrop Cedar Creek | 5A |2| 11 Man |1623|2018
+Corpus Christi ISD | CC Carroll | 5A |1| 11 Man |1631|2018
+San Antonio Harlandale ISD | SA McCollum | 5A |1| 11 Man |1636|2018
+Corpus Christi ISD | CC Moody | 5A |1| 11 Man |1648|2018
+Austin ISD | Austin Ann Richards School | 6A | x | None |1656|2018
+Royse City ISD | Royse City | 5A |2| 11 Man |1656|2018
+Boerne ISD | Boerne Champion | 5A |2| 11 Man |1659|2018
+Corsicana ISD | Corsicana | 5A |2| 11 Man |1661|2018
+Ennis ISD | Ennis | 5A |2| 11 Man |1665|2018
+Burleson ISD | Burleson | 5A |2| 11 Man |1667|2018
+Fort Worth ISD | FW North Side | 5A |2| 11 Man |1672|2018
+Bryan ISD | Bryan Rudder | 5A |2| 11 Man |1677|2018
+Austin ISD | Austin Lanier | 5A |1| 11 Man |1695|2018
+Canyon ISD | Canyon Randall | 5A |2| 11 Man |1698|2018
+Fort Worth ISD | FW Trimble Tech | 5A |2| 11 Man |1699|2018
+Mission Sharyland ISD | Mission Sharyland | 5A |2| 11 Man |1709|2018
+Dallas ISD | Dallas Jefferson | 5A |2| 11 Man |1710|2018
+College Station ISD | College Station A&M | 5A |2| 11 Man |1718.5|2018
+Houston ISD | Houston Milby | 5A |2| 11 Man |1718.5|2018
+Rosenberg Lamar CISD | Rosenberg Lamar Cons | 5A |2| 11 Man |1719|2018
+Houston ISD | Houston Madison | 5A |2| 11 Man |1721|2018
+Irving ISD | Irving Singley | 6A | x | None |1731|2018
+Denton ISD | Denton Braswell | 5A |2| 11 Man |1734.5|2018
+Grand Prairie ISD | Grand Prairie Dubiski Career | 6A | x | None |1735|2018
+Aledo ISD | Aledo | 5A |2| 11 Man |1738|2018
+Nacogdoches ISD | Nacogdoches | 5A |2| 11 Man |1756|2018
+Frisco ISD | Frisco Lebanon Trail | 5A |2| 11 Man |1757|2018
+El Paso Ysleta ISD | El Paso Hanks | 5A |2| 11 Man |1761|2018
+Austin ISD | Austin McCallum | 5A |1| 11 Man |1764.5|2018
+Mission Sharyland ISD | Mission Sharyland Pioneer | 5A |2| 11 Man |1766|2018
+Montgomery ISD | Montgomery | 5A |2| 11 Man |1768|2018
+Pflugerville ISD | Pflugerville Weiss | 5A |2| 11 Man |1768|2018
+San Antonio ISD | SA Edison | 5A |1| 11 Man |1769|2018
+Crosby ISD | Crosby | 5A |2| 11 Man |1779|2018
+Burleson ISD | Burleson Centennial | 5A |2| 11 Man |1780|2018
+Houston ISD | Houston Sharpstown | 5A |2| 11 Man |1782|2018
+San Antonio ISD | SA Brackenridge | 5A |1| 11 Man |1782|2018
+El Paso ISD | El Paso Jefferson | 5A |2| 11 Man |1783.5|2018
+Midlothian ISD | Midlothian | 5A |2| 11 Man |1783.5|2018
+Houston ISD | Houston Waltrip | 5A |2| 11 Man |1787.5|2018
+Huntsville ISD | Huntsville | 5A |2| 11 Man |1789|2018
+Fort Worth Northwest ISD | Northwest | 5A |2| 11 Man |1791|2018
+Roma ISD | Roma | 5A |2| 11 Man |1803|2018
+Waco ISD | Waco University | 5A |2| 11 Man |1803|2018
+Dallas ISD | Dallas Spruce | 5A |2| 11 Man |1809|2018
+Frisco ISD | Frisco Reedy | 5A |2| 11 Man |1819|2018
+Cleburne ISD | Cleburne | 5A |2| 11 Man |1826|2018
+Red Oak ISD | Red Oak | 5A |2| 11 Man |1835|2018
+Alvin ISD | Manvel | 5A |2| 11 Man |1835.5|2018
+Mesquite ISD | Mesquite Poteet | 5A |1| 11 Man |1850|2018
+Azle ISD | Azle | 5A |1| 11 Man |1853|2018
+Pflugerville ISD | Pflugerville Connally | 5A |1| 11 Man |1857|2018
+Leander ISD | Leander Rouse | 5A |1| 11 Man |1862|2018
+Victoria ISD | Victoria West | 5A |1| 11 Man |1862.5|2018
+El Paso ISD | El Paso Chapin | 5A |1| 11 Man |1864|2018
+Dallas ISD | Dallas Wilson | 5A |1| 11 Man |1866|2018
+San Antonio ISD | SA Jefferson | 5A |1| 11 Man |1871|2018
+Dripping Springs ISD | Dripping Springs | 5A |1| 11 Man |1871.5|2018
+Humble ISD | Humble Kingwood Park | 5A |1| 11 Man |1873|2018
+Texarkana ISD | Texarkana Texas | 5A |1| 11 Man |1874|2018
+GrapevineColleyville ISD | Grapevine | 5A |1| 11 Man |1888|2018
+Corpus Christi Flour Bluff ISD | CC Flour Bluff | 5A |1| 11 Man |1890|2018
+San Antonio Harlandale ISD | SA Harlandale | 5A |1| 11 Man |1890|2018
+Texas City ISD | Texas City | 5A |1| 11 Man |1904|2018
+Wylie ISD | Wylie East | 5A |1| 11 Man |1906|2018
+San Antonio ISD | SA Lanier | 5A |1| 11 Man |1907|2018
+Mansfield ISD | Mansfield Timberview | 5A |1| 11 Man |1908|2018
+Manor ISD | Manor | 5A |1| 11 Man |1912|2018
+Houston ISD | Houston Austin | 5A |1| 11 Man |1912.5|2018
+San Antonio ISD | SA Highlands | 5A |1| 11 Man |1915|2018
+PharrSan JuanAlamo ISD | PSJA Southwest | 5A |1| 11 Man |1925|2018
+Mission CISD | Mission Veterans Memorial | 5A |1| 11 Man |1933|2018
+Tomball ISD | Tomball | 5A |1| 11 Man |1933|2018
+Sherman ISD | Sherman | 5A |1| 11 Man |1937|2018
+Fort Worth Eagle MountainSaginaw ISD | Saginaw | 5A |1| 11 Man |1941|2018
+CarrolltonFarmers Branch ISD | Carrollton Creekview | 5A |1| 11 Man |1942|2018
+White Settlement ISD | White Settlement Brewer | 5A |1| 11 Man |1943|2018
+Fort Worth Eagle MountainSaginaw ISD | FW Boswell | 5A |1| 11 Man |1951|2018
+PharrSan JuanAlamo ISD | PSJA Memorial | 5A |1| 11 Man |1952|2018
+Dallas ISD | Dallas Samuell | 5A |1| 11 Man |1956|2018
+Brownsville ISD | Brownsville Veterans Memorial | 5A |1| 11 Man |1959|2018
+Frisco ISD | Frisco Independence | 5A |1| 11 Man |1959|2018
+Northside ISD | Northside Harlan | 5A |1| 11 Man |1963|2018
+Amarillo ISD | Amarillo Caprock | 5A |1| 11 Man |1964|2018
+Frisco ISD | Frisco Heritage | 5A |1| 11 Man |1970|2018
+Frisco ISD | Frisco Wakeland | 5A |1| 11 Man |1978|2018
+El Paso Ysleta ISD | El Paso Bel Air | 5A |1| 11 Man |1987|2018
+Frisco ISD | Frisco Liberty | 5A |1| 11 Man |1987|2018
+Lubbock ISD | Lubbock | 5A |1| 11 Man |1988|2018
+Austin ISD | Austin Johnson | 5A |1| 11 Man |1989|2018
+Hutto ISD | Hutto | 5A |1| 11 Man |1990|2018
+Magnolia ISD | Magnolia | 5A |1| 11 Man |1990|2018
+Dallas ISD | Dallas Sunset | 5A |1| 11 Man |1991|2018
+CarrolltonFarmers Branch ISD | Carrollton Smith | 5A |1| 11 Man |1996|2018
+Georgetown ISD | Georgetown | 5A |1| 11 Man |1997|2018
+Fort Worth ISD | FW Arlington Hts | 5A |1| 11 Man |1998|2018
+Galena Park ISD | Galena Park | 5A |1| 11 Man |1998.5|2018
+Abilene ISD | Abilene Cooper | 5A |1| 11 Man |2004|2018
+Granbury ISD | Granbury | 5A |1| 11 Man |2004|2018
+College Station ISD | College Station | 5A |1| 11 Man |2009|2018
+Angleton ISD | Angleton | 5A |1| 11 Man |2009.5|2018
+El Paso Socorro ISD | El Paso El Dorado | 5A |1| 11 Man |2013|2018
+Victoria ISD | Victoria East | 5A |1| 11 Man |2015|2018
+Waller ISD | Waller | 5A |1| 11 Man |2019|2018
+Frisco ISD | Frisco Lone Star | 5A |1| 11 Man |2020|2018
+Amarillo ISD | Amarillo Palo Duro | 5A |1| 11 Man |2021|2018
+Willis ISD | Willis | 5A |1| 11 Man |2021|2018
+Denton ISD | Denton | 5A |1| 11 Man |2022.5|2018
+Frisco ISD | Frisco Centennial | 5A |1| 11 Man |2024|2018
+Leander ISD | Cedar Park | 5A |1| 11 Man |2030|2018
+Laredo ISD | Laredo Martin | 5A |1| 11 Man |2037|2018
+Dallas ISD | Dallas Adams | 5A |1| 11 Man |2038|2018
+Port Arthur ISD | Port Arthur Memorial | 5A |1| 11 Man |2044|2018
+Denton ISD | Denton Ryan | 5A |1| 11 Man |2044.5|2018
+GrapevineColleyville ISD | Colleyville Heritage | 5A |1| 11 Man |2046|2018
+Fort Bend ISD | Fort Bend Hightower | 5A |1| 11 Man |2053|2018
+Lewisville ISD | Lewisville The Colony | 5A |1| 11 Man |2054|2018
+Pflugerville ISD | Pflugerville | 5A |1| 11 Man |2055|2018
+El Paso Ysleta ISD | El Paso Del Valle | 5A |1| 11 Man |2060|2018
+Rosenberg Lamar CISD | Richmond Foster | 5A |1| 11 Man |2061|2018
+Seguin ISD | Seguin | 5A |1| 11 Man |2064|2018
+Galveston ISD | Galveston Ball | 5A |1| 11 Man |2077|2018
+Mesquite ISD | West Mesquite | 5A |1| 11 Man |2080|2018
+San Antonio Southwest ISD | SA Southwest Legacy | 5A |1| 11 Man |2083|2018
+New Caney ISD | New Caney | 5A |1| 11 Man |2085.5|2018
+CarrolltonFarmers Branch ISD | Carrollton Turner | 5A |1| 11 Man |2087|2018
+Little Elm ISD | Little Elm | 5A |1| 11 Man |2092|2018
+Eagle Pass ISD | Eagle Pass Winn | 5A |1| 11 Man |2095|2018
+Rosenberg Lamar CISD | Rosenberg Terry | 5A |1| 11 Man |2096|2018
+Brownsville ISD | Brownsville Pace | 5A |1| 11 Man |2099|2018
+Conroe ISD | Conroe Caney Creek | 5A |1| 11 Man |2099|2018
+Mansfield ISD | Mansfield Legacy | 5A |1| 11 Man |2099|2018
+Magnolia ISD | Magnolia West | 5A |1| 11 Man |2107|2018
+San Antonio Southwest ISD | SA Southwest | 5A |1| 11 Man |2108|2018
+Friendswood ISD | Friendswood | 5A |1| 11 Man |2111|2018
+Brownsville ISD | Brownsville Porter | 5A |1| 11 Man |2112|2018
+Fort Worth Eagle MountainSaginaw ISD | FW Chisholm Trail | 5A |1| 11 Man |2118|2018
+McKinney ISD | McKinney North | 5A |1| 11 Man |2118|2018
+Brownsville ISD | Brownsville Lopez | 5A |1| 11 Man |2120|2018
+Corpus Christi ISD | CC Ray | 5A |1| 11 Man |2120|2018
+Amarillo ISD | Amarillo | 5A |1| 11 Man |2122|2018
+Rio Grande City CISD | Rio Grande City | 5A |1| 11 Man |2132|2018
+Haltom City Birdville ISD | N Richland Hills Birdville | 5A |1| 11 Man |2132.5|2018
+Lubbock ISD | Lubbock Monterey | 5A |1| 11 Man |2137|2018
+Lubbock ISD | Lubbock Coronado | 5A |1| 11 Man |2140|2018
+Lancaster ISD | Lancaster | 5A |1| 11 Man |2140.5|2018
+San Antonio Judson ISD | SA Wagner | 5A |1| 11 Man |2147|2018
+Crowley ISD | Crowley | 5A |1| 11 Man |2153|2018
+New Caney ISD | New Caney Porter | 5A |1| 11 Man |2153|2018
+Tyler ISD | Tyler John Tyler | 5A |1| 11 Man |2153|2018
+El Paso Socorro ISD | El Paso Eastlake | 5A |1| 11 Man |2155|2018
+Garland ISD | Garland Naaman Forest | 6A | x | 11 Man |2158|2018
+Lufkin ISD | Lufkin | 5A |1| 11 Man |2158|2018
+El Paso Ysleta ISD | El Paso Eastwood | 5A |1| 11 Man |2160|2018
+McAllen ISD | McAllen Rowe | 6A | x | 11 Man |2161.5|2018
+La Joya ISD | La Joya Palmview | 5A |1| 11 Man |2162|2018
+Corpus Christi ISD | CC Veterans Memorial | 5A |1| 11 Man |2164|2018
+Fort Worth ISD | FW South Hills | 5A |1| 11 Man |2165.5|2018
+Baytown Goose Creek CISD | Baytown Goose Crk Mem | 5A |1| 11 Man |2169|2018
+Garland ISD | South Garland | 6A | x | 11 Man |2171|2018
+Dallas Highland Park ISD | Dallas Highland Park | 5A |1| 11 Man |2180|2018
+Houston ISD | Houston WISD | 5A |1| 11 Man |2185|2018
+Alvin ISD | Alvin Shadow Creek | 5A |1| 11 Man |2188.5|2018
+Donna ISD | Donna | 6A | x | 11 Man |2195|2018
+Waco ISD | Waco | 6A | x | 11 Man |2195|2018
+Leander ISD | Leander | 6A | x | 11 Man |2199|2018
+Haltom City Birdville ISD | N Richland Hills Richland | 6A | x | 11 Man |2207|2018
+Houston Strake Jesuit College Prep | Houston Strake Jesuit | 6A | x | 11 Man |2208|2018
+Laredo ISD | Laredo Nixon | 6A | x | 11 Man |2208.5|2018
+Mansfield ISD | Mansfield Summit | 6A | x | 11 Man |2215.5|2018
+Dallas ISD | Dallas Molina | 6A | x | 11 Man |2220|2018
+Fort Worth Northwest ISD | Northwest Eaton | 6A | x | 11 Man |2222|2018
+Tyler ISD | Tyler Lee | 6A | x | 11 Man |2222|2018
+Austin ISD | Austin Anderson | 6A | x | 11 Man |2222.5|2018
+Dallas Jesuit College Prep |Dallas Jesuit | 6A | x | 11 Man |2234|2018
+Waxahachie ISD | Waxahachie | 6A | x | 11 Man |2235|2018
+Humble ISD | Humble Summer Creek | 6A | x | 11 Man |2237|2018
+Weslaco ISD | Weslaco East | 6A | x | 11 Man |2238.5|2018
+Dallas ISD | Dallas White | 6A | x | 11 Man |2241|2018
+Longview ISD | Longview | 6A | x | 11 Man |2242.5|2018
+PharrSan JuanAlamo ISD | PSJA | 6A | x | 11 Man |2245|2018
+Tomball ISD | Tomball Memorial | 6A | x | 11 Man |2247|2018
+La Porte ISD | La Porte | 6A | x | 11 Man |2248|2018
+Fort Bend ISD | Fort Bend Kempner | 6A | x | 11 Man |2263|2018
+Copperas Cove ISD | Copperas Cove | 6A | x | 11 Man |2269|2018
+Temple ISD | Temple | 6A | x | 11 Man |2269|2018
+Austin ISD | Austin | 6A | x | 11 Man |2271|2018
+Houston Spring Branch ISD | Houston Stratford | 6A | x | 11 Man |2273|2018
+Fort Bend ISD | Fort Bend Austin | 6A | x | 11 Man |2279|2018
+Humble ISD | Humble | 6A | x | 11 Man |2279|2018
+Amarillo ISD | Amarillo Tascosa | 6A | x | 11 Man |2281|2018
+McAllen ISD | McAllen Memorial | 6A | x | 11 Man |2290.5|2018
+Garland ISD | Garland Lakeview Cent | 6A | x | 11 Man |2296|2018
+Eagle Pass ISD | Eagle Pass | 6A | x | 11 Man |2306|2018
+Edinburg CISD | Edinburg Vela | 6A | x | 11 Man |2307|2018
+Donna ISD | Donna North | 6A | x | 11 Man |2310|2018
+Weatherford ISD | Weatherford | 6A | x | 11 Man |2311|2018
+Keller ISD | Keller Fossil Ridge | 6A | x | 11 Man |2319|2018
+McAllen ISD | McAllen | 6A | x | 11 Man |2319|2018
+Mission CISD | Mission | 6A | x | 11 Man |2320|2018
+Fort Bend ISD | Fort Bend Elkins | 6A | x | 11 Man |2322.5|2018
+PharrSan JuanAlamo ISD | PSJA North | 6A | x | 11 Man |2323|2018
+Houston Spring Branch ISD | Houston Spring Woods | 6A | x | 11 Man |2340.5|2018
+Bryan ISD | Bryan | 6A | x | 11 Man |2344|2018
+San Marcos CISD | San Marcos | 6A | x | 11 Man |2344|2018
+Leander ISD | Cedar Park Vista Ridge | 6A | x | 11 Man |2349|2018
+Cedar Hill ISD | Cedar Hill | 6A | x | 11 Man |2354|2018
+Harlingen CISD | Harlingen South | 6A | x | 11 Man |2358|2018
+Houston ISD | Houston Heights | 6A | x | 11 Man |2362|2018
+San Antonio North East ISD | SA MacArthur | 6A | x | 11 Man |2386|2018
+Mesquite ISD | Mesquite Horn | 6A | x | 11 Man |2387|2018
+Abilene ISD | Abilene | 6A | x | 11 Man |2394|2018
+Houston ISD | Houston Westbury | 6A | x | 11 Man |2400|2018
+Richardson ISD | Richardson Pearce | 6A | x | 11 Man |2400|2018
+League City Clear Creek ISD | Frndswd Clear Brook | 6A | x | 11 Man |2410|2018
+Baytown Goose Creek CISD | Baytown Sterling | 6A | x | 11 Man |2415|2018
+SchertzCiboloUniversal City ISD | Cibolo Steele | 6A | x | 11 Man |2418|2018
+Brownsville ISD | Brownsville Rivera | 6A | x | 11 Man |2421|2018
+Edinburg CISD | Edinburg | 6A | x | 11 Man |2427|2018
+Fort Bend ISD | Fort Bend Bush | 6A | x | 11 Man |2435.5|2018
+CypressFairbanks ISD | Cypress Park | 6A | x | 11 Man |2436|2018
+Mansfield ISD | Mansfield Lake Ridge | 6A | x | 11 Man |2438|2018
+El Paso Socorro ISD | El Paso Socorro | 6A | x | 11 Man |2442|2018
+Waco Midway ISD | Waco Midway | 6A | x | 11 Man |2448|2018
+Rockwall ISD | RockwallHeath | 6A | x | 11 Man |2449|2018
+League City Clear Creek ISD | Houston Clear Lake | 6A | x | 11 Man |2462|2018
+El Paso Socorro ISD | El Paso Pebble Hills | 6A | x | 11 Man |2468|2018
+League City Clear Creek ISD | LC Clear Creek | 6A | x | 11 Man |2473|2018
+Crowley ISD | North Crowley | 6A | x | 11 Man |2475|2018
+Houston Aldine ISD | Houston Eisenhower | 6A | x | 11 Man |2480|2018
+Sheldon ISD | Sheldon King | 6A | x | 11 Man |2488|2018
+Mansfield ISD | Mansfield | 6A | x | 11 Man |2488.5|2018
+Fort Bend ISD | Fort Bend Dulles | 6A | x | 11 Man |2491.5|2018
+El Paso Socorro ISD | El Paso Americas | 6A | x | 11 Man |2502|2018
+Garland ISD | Garland | 6A | x | 11 Man |2507|2018
+Wylie ISD | Wylie | 6A | x | 11 Man |2507|2018
+Denton ISD | Denton Guyer | 6A | x | 11 Man |2514.5|2018
+Beaumont ISD | Beaumont West Brook | 6A | x | 11 Man |2520|2018
+New Braunfels ISD | New Braunfels | 6A | x | 11 Man |2549|2018
+Keller ISD | Keller Central | 6A | x | 11 Man |2550|2018
+CypressFairbanks ISD | Bridgeland | 6A | x | 11 Man |2552|2018
+Fort Bend ISD | Fort Bend Clements | 6A | x | 11 Man |2552|2018
+Fort Worth ISD | FW Paschal | 6A | x | 11 Man |2559|2018
+La Joya ISD | La Joya JuarezLincoln | 6A | x | 11 Man |2572|2018
+Freeport Brazosport ISD | Clute Brazoswood | 6A | x | 11 Man |2576|2018
+Killeen ISD | Killeen Shoemaker | 6A | x | 11 Man |2576|2018
+Garland ISD | Rowlett | 6A | x | 11 Man |2577|2018
+Fort Worth Northwest ISD | Northwest Nelson | 6A | x | 11 Man |2579|2018
+Leander ISD | Austin Vandegrift | 6A | x | 11 Man |2582|2018
+South San Antonio ISD | South San Antonio | 6A | x | 11 Man |2606|2018
+Rockwall ISD | Rockwall | 6A | x | 11 Man |2615|2018
+Pflugerville ISD | Pflugerville Hendrickson | 6A | x | 11 Man |2618|2018
+Kyle Hays CISD | Kyle Lehman | 6A | x | 11 Man |2618.5|2018
+Fort Bend ISD | Fort Bend Travis | 6A | x | 11 Man |2621.5|2018
+Comal ISD | Comal Canyon | 6A | x | 11 Man |2644.5|2018
+Killeen ISD | Killeen | 6A | x | 11 Man |2646|2018
+El Paso Socorro ISD | El Paso Montwood | 6A | x | 11 Man |2649|2018
+Northside ISD | Northside Taft | 6A | x | 11 Man |2654|2018
+Rosenberg Lamar CISD | Richmond George Ranch | 6A | x | 11 Man |2654|2018
+Humble ISD | Humble Kingwood | 6A | x | 11 Man |2659|2018
+Richardson ISD | Richardson Berkner | 6A | x | 11 Man |2659|2018
+Weslaco ISD | Weslaco | 6A | x | 11 Man |2669.5|2018
+Edinburg CISD | Edinburg Economedes | 6A | x | 11 Man |2679|2018
+Northside ISD | Northside Brennan | 6A | x | 11 Man |2683|2018
+Channelview ISD | Channelview | 6A | x | 11 Man |2693|2018
+Garland ISD | North Garland | 6A | x | 11 Man |2693|2018
+Northside ISD | Northside Marshall | 6A | x | 11 Man |2696|2018
+Eanes ISD | Austin Westlake | 6A | x | 11 Man |2706|2018
+SchertzCiboloUniversal City ISD | Schertz Clemens | 6A | x | 11 Man |2708|2018
+Fort Bend ISD | Fort Bend Ridge Point | 6A | x | 11 Man |2720.5|2018
+Round Rock ISD | Round Rock Stony Pt. | 6A | x | 11 Man |2723|2018
+Houston Aldine ISD | Houston Nimitz | 6A | x | 11 Man |2725|2018
+Southlake Carroll ISD | Southlake Carroll | 6A | x | 11 Man |2725|2018
+Arlington ISD | Arlington Bowie | 6A | x | 11 Man |2728|2018
+Houston Spring Branch ISD | Houston Memorial | 6A | x | 11 Man |2737.5|2018
+Round Rock ISD | Round Rock McNeil | 6A | x | 11 Man |2738|2018
+Northside ISD | Northside Brandeis | 6A | x | 11 Man |2744|2018
+Brownsville ISD | Brownsville Hanna | 6A | x | 11 Man |2745|2018
+Katy ISD | Katy Mayde Creek | 6A | x | 11 Man |2759|2018
+Austin ISD | Austin Akins | 6A | x | 11 Man |2767.5|2018
+Comal ISD | Comal Smithson Valley | 6A | x | 11 Man |2768.5|2018
+Haltom City Birdville ISD | Haltom City Haltom | 6A | x | 11 Man |2772|2018
+Richardson ISD | Richardson | 6A | x | 11 Man |2775|2018
+Arlington ISD | Arlington | 6A | x | 11 Man |2777|2018
+Garland ISD | Sachse | 6A | x | 11 Man |2780|2018
+Killeen ISD | Killeen Harker Heights | 6A | x | 11 Man |2787|2018
+Edinburg CISD | Edinburg North | 6A | x | 11 Man |2788|2018
+Round Rock ISD | Round Rock Westwood | 6A | x | 11 Man |2788|2018
+Pasadena ISD | Pasadena | 6A | x | 11 Man |2790|2018
+League City Clear Creek ISD | LC Clear Falls | 6A | x | 11 Man |2793|2018
+Wolfforth Frenship ISD | Wolfforth Frenship | 6A | x | 11 Man |2795|2018
+Houston ISD | Houston Math Science & Tech | 6A | x | 11 Man |2803|2018
+Klein ISD | Klein Cain | 6A | x | 11 Man |2806|2018
+Mesquite ISD | North Mesquite | 6A | x | 11 Man |2808|2018
+El Paso ISD | El Paso Franklin | 6A | x | 11 Man |2809|2018
+Laredo United ISD | Laredo Alexander | 6A | x | 11 Man |2809|2018
+Richardson ISD | Richardson Lake Highlands | 6A | x | 11 Man |2811|2018
+Pearland ISD | Pearland Dawson | 6A | x | 11 Man |2814.5|2018
+El Paso ISD | El Paso Coronado | 6A | x | 11 Man |2816|2018
+Northside ISD | Northside Clark | 6A | x | 11 Man |2824|2018
+McKinney ISD | McKinney Boyd | 6A | x | 11 Man |2834|2018
+Spring ISD | Spring DeKaney | 6A | x | 11 Man |2834|2018
+Alvin ISD | Alvin | 6A | x | 11 Man |2834.5|2018
+Grand Prairie ISD | Grand Prairie | 6A | x | 11 Man |2835|2018
+Arlington ISD | Arlington Lamar | 6A | x | 11 Man |2852|2018
+Round Rock ISD | Round Rock Cedar Ridge | 6A | x | 11 Man |2855|2018
+San Antonio North East ISD | SA Roosevelt | 6A | x | 11 Man |2858|2018
+League City Clear Creek ISD | LC Clear Springs | 6A | x | 11 Man |2871|2018
+Austin ISD | Austin Bowie | 6A | x | 11 Man |2873|2018
+La Joya ISD | La Joya | 6A | x | 11 Man |2874|2018
+Houston Spring Branch ISD | Houston Northbrook | 6A | x | 11 Man |2876.5|2018
+Houston ISD | Houston Westside | 6A | x | 11 Man |2885.5|2018
+Mesquite ISD | Mesquite | 6A | x | 11 Man |2895|2018
+Northside ISD | Northside Holmes | 6A | x | 11 Man |2899|2018
+Dickinson ISD | Dickinson | 6A | x | 11 Man |2924|2018
+San Antonio North East ISD | SA Churchill | 6A | x | 11 Man |2930|2018
+McKinney ISD | McKinney | 6A | x | 11 Man |2969|2018
+Northside ISD | Northside Stevens | 6A | x | 11 Man |2969|2018
+Prosper ISD | Prosper | 6A | x | 11 Man |2975|2018
+Killeen ISD | Killeen Ellison | 6A | x | 11 Man |2979|2018
+Kyle Hays CISD | Buda Hays | 6A | x | 11 Man |2988.5|2018
+Katy ISD | Katy Taylor | 6A | x | 11 Man |2994|2018
+Laredo United ISD | Laredo Johnson | 6A | x | 11 Man |2994|2018
+Keller ISD | Keller | 6A | x | 11 Man |2995|2018
+Harlingen CISD | Harlingen | 6A | x | 11 Man |3012|2018
+Pasadena ISD | Pasadena South Houston | 6A | x | 11 Man |3015|2018
+CypressFairbanks ISD | Cypress Springs | 6A | x | 11 Man |3024|2018
+San Angelo ISD | San Angelo Central | 6A | x | 11 Man |3044|2018
+Houston ISD | Houston Chavez | 6A | x | 11 Man |3052.5|2018
+Northside ISD | Northside Jay | 6A | x | 11 Man |3058|2018
+San Antonio Judson ISD | Converse Judson | 6A | x | 11 Man |3068|2018
+San Antonio North East ISD | SA Johnson | 6A | x | 11 Man |3083|2018
+Austin Lake Travis ISD | Austin Lake Travis | 6A | x | 11 Man |3085|2018
+San Benito CISD | San Benito | 6A | x | 11 Man |3088|2018
+Pasadena ISD | Pasadena Rayburn | 6A | x | 11 Man |3113|2018
+San FelipeDel Rio CISD | Del Rio | 6A | x | 11 Man |3114|2018
+CypressFairbanks ISD | Cypress Ranch | 6A | x | 11 Man |3116|2018
+CypressFairbanks ISD | Cypress Ridge | 6A | x | 11 Man |3119|2018
+Conroe ISD | Conroe Woodlands College Park | 6A | x | 11 Man |3121|2018
+Northside ISD | Northside Warren | 6A | x | 11 Man |3124|2018
+CypressFairbanks ISD | Langham Creek | 6A | x | 11 Man |3128|2018
+HurstEulessBedford ISD | Hurst Bell | 6A | x | 11 Man |3131|2018
+Katy ISD | Katy Morton Ranch | 6A | x | 11 Man |3135|2018
+San Antonio East Central ISD | San Antonio East Central | 6A | x | 11 Man |3160.5|2018
+Katy ISD | Katy Cinco Ranch | 6A | x | 11 Man |3161|2018
+San Antonio North East ISD | SA Lee | 6A | x | 11 Man |3208|2018
+Midland ISD | Midland Lee | 6A | x | 11 Man |3211|2018
+Irving ISD | Irving Nimitz | 6A | x | 11 Man |3223|2018
+Conroe ISD | Conroe Oak Ridge | 6A | x | 11 Man |3225|2018
+Keller ISD | Keller Timber Creek | 6A | x | 11 Man |3241|2018
+Irving ISD | Irving | 6A | x | 11 Man |3246|2018
+Alief ISD | Alief Taylor | 6A | x | 11 Man |3260|2018
+Lewisville ISD | Lewisville Marcus | 6A | x | 11 Man |3274|2018
+Laredo United ISD | Laredo United South | 6A | x | 11 Man |3283|2018
+San Antonio North East ISD | SA Madison | 6A | x | 11 Man |3286|2018
+Houston Aldine ISD | Houston Aldine | 6A | x | 11 Man |3325.5|2018
+Del Valle ISD | Del Valle | 6A | x | 11 Man |3334|2018
+Spring ISD | Spring Westfield | 6A | x | 11 Man |3354|2018
+CypressFairbanks ISD | Cypress Creek | 6A | x | 11 Man |3362|2018
+Belton ISD | Belton | 6A | x | 11 Man |3366|2018
+Northside ISD | Northside O'Connor | 6A | x | 11 Man |3367|2018
+Katy ISD | Katy Tompkins | 6A | x | 11 Man |3380|2018
+Los Fresnos CISD | Los Fresnos | 6A | x | 11 Man |3386|2018
+Houston ISD | Houston Lamar | 6A | x | 11 Man |3390|2018
+DeSoto ISD | De Soto | 6A | x | 11 Man |3398|2018
+Grand Prairie ISD | South Grand Prairie | 6A | x | 11 Man |3407|2018
+Midland ISD | Midland | 6A | x | 11 Man |3417|2018
+Round Rock ISD | Round Rock | 6A | x | 11 Man |3426|2018
+Irving ISD | Irving MacArthur | 6A | x | 11 Man |3451|2018
+Arlington ISD | Arlington Martin | 6A | x | 11 Man |3456|2018
+HurstEulessBedford ISD | Euless Trinity | 6A | x | 11 Man |3470|2018
+Katy ISD | Katy | 6A | x | 11 Man |3487|2018
+Pasadena ISD | Pasadena Memorial | 6A | x | 11 Man |3491|2018
+CypressFairbanks ISD | Cypress Falls | 6A | x | 11 Man |3499|2018
+Spring ISD | Spring | 6A | x | 11 Man |3511|2018
+San Antonio North East ISD | SA Reagan | 6A | x | 11 Man |3518|2018
+CypressFairbanks ISD | Cypress Lakes | 6A | x | 11 Man |3523|2018
+CypressFairbanks ISD | Jersey Village | 6A | x | 11 Man |3527|2018
+Houston ISD | Houston Bellaire | 6A | x | 11 Man |3528.5|2018
+CypressFairbanks ISD | Cypress Fairbanks | 6A | x | 11 Man |3529|2018
+Katy ISD | Katy Seven Lakes | 6A | x | 11 Man |3538|2018
+CypressFairbanks ISD | Cypress Woods | 6A | x | 11 Man |3547|2018
+Lewisville ISD | Lewisville Hebron | 6A | x | 11 Man |3584|2018
+Lewisville ISD | Lewisville Flower Mound | 6A | x | 11 Man |3618|2018
+Humble ISD | Humble Atascocita | 6A | x | 11 Man |3641|2018
+Klein ISD | Klein Collins | 6A | x | 11 Man |3643|2018
+Houston Aldine ISD | Houston Benjamin Davis Sr | 6A | x | 11 Man |3643.5|2018
+Arlington ISD | Arlington Houston | 6A | x | 11 Man |3651|2018
+Klein ISD | Klein | 6A | x | 11 Man |3700.5|2018
+Klein ISD | Klein Forest | 6A | x | 11 Man |3750|2018
+Coppell ISD | Coppell | 6A | x | 11 Man |3834|2018
+Odessa Ector County ISD | Odessa Permian | 6A | x | 11 Man |3919.5|2018
+Klein ISD | Klein Oak | 6A | x | 11 Man |3955|2018
+Odessa Ector County ISD | Odessa | 6A | x | 11 Man |3992|2018
+Alief ISD | Alief Hastings | 6A | x | 11 Man |3993|2018
+Conroe ISD | Conroe | 6A | x | 11 Man |3998|2018
+Houston Aldine ISD | Houston MacArthur | 6A | x | 11 Man |4009.5|2018
+Pearland ISD | Pearland | 6A | x | 11 Man |4026.5|2018
+Deer Park ISD | Deer Park | 6A | x | 11 Man |4083|2018
+Pasadena ISD | Pasadena Dobie | 6A | x | 11 Man |4277|2018
+Alief ISD | Alief Elsik | 6A | x | 11 Man |4283|2018
+Laredo United ISD | Laredo United | 6A | x | 11 Man |4422|2018
+Conroe ISD | Conroe The Woodlands | 6A | x | 11 Man |4435|2018
+Duncanville ISD | Duncanville | 6A | x | 11 Man |4451|2018
+Lewisville ISD | Lewisville | 6A | x | 11 Man |4564|2018
+Dallas ISD | Dallas Skyline | 6A | x | 11 Man |4568|2018
+Galena Park ISD | Galena Park North Shore | 6A | x | 11 Man |4754|2018
+Plano ISD | Plano | 6A | x | 11 Man |5197.5|2018
+Plano ISD | Plano East | 6A | x | 11 Man |5342.5|2018
+Plano ISD | Plano West | 6A | x | 11 Man |5654|2018
+Allen ISD | Allen | 6A | x | 11 Man |6664|2018
+Stafford MSD |Stafford| 4A |1| 11 Man |1053|2018
+BTX Schools Inc. SA BASIS Shavano |BTX Schools Inc. SA BASIS Shavano | 3A | x | None |302|2018
+Dallas A+ Academy Dallas A+ |Dallas A+ Academy Dallas A+ | 3A |1| 11 Man |340|2018
+Dallas Gateway Charter Academy Dallas Gateway |Dallas Gateway | 3A |2| 11 Man |151|2018
+Dallas Life School Dallas Life Oak Cliff |Dallas Life Oak Cliff | 3A |1| 11 Man |476|2018
+East Texas Charter School Longview Chadwick |Longview Chadwick | 1A | x | None |140|2018
+El Paso Burnham Wood Charter School El Paso Da Vinci |El Paso Da Vinci | 2A | x | None |108|2018
+Fort Worth Academy of Fine Arts FW Acad Fine Arts |FW Acad Fine Arts | 3A | x | None |240|2018
+Great Hearts Texas SA Great Hearts Monte Vista North |Monte Vista North | 2A | x | None |174|2018
+Harmony Science Academy Waco Euless Harmony Science Academy | Waco Euless  | 1A | x | None |250|2018
+Harmony Science Academy Waco FW Harmony School Innovation | Waco FW Harmony School Innovation | 1A | x | None |365|2018
+Harmony Science Academy Waco FW Harmony School Of Nature & Athletics | Waco FW Harmony School Of Nature & Athletics | 3A | x | None |325|2018
+Harmony Science Academy Waco Waco Harmony Science Academy | Waco Waco  | 3A | x | None |494|2018
+Houston Harmony School Of Excellence Houston Harmony School Of Discovery |Houston Harmony School Of Excellence Houston Harmony School Of Discovery | 3A | x | None |349|2018
+IDEA Public Schools Alamo IDEA College Prep | Alamo IDEA College Prep | 3A | x | None |389|2018
+IDEA Public Schools Brownsville Frontier College Prep | Brownsville Frontier College Prep | 3A | x | None |399|2018
+IDEA Public Schools Edinburg IDEA College Prep | Edinburg IDEA College Prep | 3A | x | None |378|2018
+IDEA Public Schools Edinburg IDEA Quest College Prep | Edinburg IDEA Quest College Prep | 3A | x | None |381|2018
+IDEA Public Schools Idea Brownsville College Preparatory | Idea Brownsville College Preparatory | 3A | x | None |426|2018
+IDEA Public Schools Idea Riverview College Preparatory | Idea Riverview College Preparatory | 3A | x | None |357|2018
+IDEA Public Schools Idea Weslaco Pike College Preparatory | Idea Weslaco Pike College Preparatory | 3A | x | None |369|2018
+IDEA Public Schools McAllen IDEA College Prep | McAllen IDEA College Prep | 3A | x | None |423|2018
+IDEA Public Schools North Mission IDEA College Prep | North Mission IDEA College Prep | 3A | x | None |372|2018
+IDEA Public Schools Pharr IDEA College Preparatory | Pharr IDEA College Preparatory | 3A | x | None |374|2018
+IDEA Public Schools San Antonio IDEA Carver | San Antonio IDEA Carver | 3A | x | None |249|2018
+IDEA Public Schools San Juan IDEA College Prep | San Juan IDEA College Prep | 3A | x | None |363|2018
+Irving Universal Academy Coppell Universal Academy | Coppell Universal Academy | 1A | x | None |35|2018
+Irving Universal Academy Irving Universal Academy | IrvingUniversal Academy | 2A | x | None |86|2018
+Lufkin Pineywoods Community Academy Lufkin Pineywoods Community Academy |Lufkin Pineywoods Community Academy Lufkin Pineywoods Community Academy | 3A | x | None |236|2018
+Odyssey Academy Galveston Odyssey Academy |Odyssey Academy Galveston Odyssey Academy | 1A | x | None |175|2018
+Orenda Charter Schools Georgetown Gateway College Prep |Orenda Charter Schools Georgetown Gateway College Prep | 3A | x | None |321|2018
+Ozona Crockett County CCSD Ozona |Ozona Crockett County CCSD Ozona | 2A |1| 11 Man |190|2018
+San Antonio Gervin Academy SA Gervin |San Antonio Gervin Academy SA Gervin | 3A | x | None |278|2018
+San Antonio Harmony Science Academy Laredo Harmony School of Excellence |San Antonio  Laredo Harmony School of Excellence | 3A | x | None |356|2018
+San Antonio Harmony Science Academy SA Harmony Science Academy |San Antonio  SA  | 3A | x | None |394|2018
+San Antonio School of Excellence in Edu. Lee Academy Of Science & Engineering |San Antonio School of Excellence in Edu. Lee Academy Of Science & Engineering | 2A | x | None |129|2018
+Terlingua CSD Terlingua Big Bend |Terlingua CSD Terlingua Big Bend | 1A | x | None |43|2018
+TLC Academy Midland TLC Academy |TLC Academy Midland TLC Academy | 1A | x | None |78|2018
+TLC Academy San Angelo TLC Academy |TLC Academy San Angelo TLC Academy | 3A |2| 11 Man |317|2018
+Uplift Education Uplift Hampton Prep |Uplift Education Uplift Hampton Prep | 4A | x | None |477|2018
+Uplift Education Uplift North Hills Prep |Uplift Education Uplift North Hills Prep | 4A | x | None |683|2018
+Uplift Education Uplift Summit Intl Prep |Uplift Education Uplift Summit Intl Prep | 4A | x | None |627|2018
+Uplift Education Uplift Williams Prep |Uplift Education Uplift Williams Prep | 4A | x | None |658|2018
+UTPB STEM Academy Odessa UTPB STEM Academy |UTPB STEM Academy Odessa UTPB STEM Academy | 2A | x | None |177|2018
+Vanguard Academy Vanguard Acad Mozart  Alamo |Vanguard Academy Vanguard Acad Mozart  Alamo | 3A | x | None |94|2018
+Vanguard Academy Vanguard Acad Rembrandt  Pharr |Vanguard Academy Vanguard Acad Rembrandt  Pharr | 3A | x | None |342|2018
+Waco Rapoport Academy Public School Waco Meyer |Waco Rapoport Academy Public School Waco Meyer | 2A | x | None |162|2018
