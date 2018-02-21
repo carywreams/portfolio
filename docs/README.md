@@ -6,7 +6,17 @@ been using linux all these years.
 
 # Overview
 
-Section | Description
----: | :---
-[Ratholes](ratholes) | Quick, brief explorations of "things."
+## [Ratholes](ratholes)
+Quick, brief explorations of "things."
+
+Item            | Description
+---:            | :---
+[UIL](ratholes/uil)    | Texas UIL 2018-2020 Realignment figures
+
+## [Concepts](concepts)
+Developing set of working beliefs around more professional pursuits.
+
+Item            | Description
+---:            | :---
+[Web](concepts/web)    | Current thinking and rationale for developing a web app/portal/dynamic site
 
