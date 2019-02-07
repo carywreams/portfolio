@@ -1,0 +1,48 @@
+# use ns_demo_db;
+
+# not friendly
+# truncate table nested_set;
+
+call ns_create_set(180);
+set @set_id=LAST_INSERT_ID();
+call ns_insert_set_within(@set_id,1,279);
+call ns_insert_set_within(@set_id,2,378);
+call ns_insert_set_within(@set_id,3,421);
+call ns_insert_set_within(@set_id,4,510);
+call ns_insert_set_within(@set_id,5,67);
+call ns_insert_set_after(@set_id,6,89);
+call ns_insert_set_after(@set_id,5,1112);
+call ns_insert_set_after(@set_id,11,1320);
+call ns_insert_set_within(@set_id,13,1415);
+call ns_insert_set_after(@set_id,14,1617);
+call ns_insert_set_after(@set_id,16,1819);
+call ns_insert_set_after(@set_id,4,2231);
+call ns_insert_set_within(@set_id,22,2324);
+call ns_insert_set_after(@set_id,23,2530);
+call ns_insert_set_within(@set_id,25,2627);
+call ns_insert_set_after(@set_id,26,2829);
+call ns_insert_set_after(@set_id,22,3259);
+call ns_insert_set_within(@set_id,32,3338);
+call ns_insert_set_after(@set_id,33,3944);
+call ns_insert_set_within(@set_id,33,3435);
+call ns_insert_set_after(@set_id,34,3637);
+call ns_insert_set_after(@set_id,39,4552);
+call ns_insert_set_within(@set_id,39,4041);
+call ns_insert_set_after(@set_id,40,4243);
+call ns_insert_set_after(@set_id,45,5358);
+call ns_insert_set_within(@set_id,45,4647);
+call ns_insert_set_after(@set_id,46,4849);
+call ns_insert_set_after(@set_id,48,5051);
+call ns_insert_set_within(@set_id,53,5455);
+call ns_insert_set_after(@set_id,54,5657);
+call ns_insert_set_after(@set_id,32,6077);
+call ns_insert_set_within(@set_id,60,6166);
+call ns_insert_set_within(@set_id,61,6263);
+call ns_insert_set_after(@set_id,62,6465);
+call ns_insert_set_after(@set_id,61,6776);
+call ns_insert_set_within(@set_id,67,6869);
+call ns_insert_set_after(@set_id,68,7071);
+call ns_insert_set_after(@set_id,70,7273);
+call ns_insert_set_after(@set_id,72,7475);
+call ns_score_tests();
+call ns_list_failed_tests();

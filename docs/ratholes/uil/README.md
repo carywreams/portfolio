@@ -41,7 +41,10 @@ Yep, lets find it. ```grep -n 6A football.csv | grep -e '|[0-9]\{3\}|' ``` yield
 | 2:Fort Worth ISD | FW Young Mens Leadership Acad | 6A | x | 11 Man |354|2018
 |
 
-And so I tried to find out if that was legitimate or some kind of typo. Still searching.
+And so I tried to find out if that was legitimate or some kind of typo. It's not.
+Apparently this is a school that falls under a Texas UIL requirement that forces it 
+to play in the same classification as the largest school in its governing school district.
+Since that's the Ft Worth ISD, ... 6A it is.
 
 ## Distribution of Football-Playing Schools
 

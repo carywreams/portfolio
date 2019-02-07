@@ -1,0 +1,29 @@
+---
+title: "Texas HS Enrollment"
+subtitle: "2018-2020 Distribution"
+output:
+    pdf_document:
+        latex_engine: xelatex
+---
+```{r echo = FALSE, warning = FALSE }
+all = read.table("allschools.csv",header = TRUE, sep = "|")
+fb = read.table("fbschools.csv",header = TRUE, sep = "|")
+```
+
+# All High Schools
+
+```{r echo = FALSE, warning = FALSE }
+# summary(all)
+boxplot(enrollment ~ classification, data = all)
+hist(all$enrollment, seq(0,7000,by=100))
+```
+
+# Football-Playing High Schools
+
+
+```{r echo = FALSE, warning = FALSE }
+# summary(fb)
+boxplot(enrollment ~ classification, data = fb)
+hist(fb$enrollment, seq(0,7000,by=100))
+```
+
