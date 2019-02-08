@@ -57,4 +57,4 @@ Take a look at the enrollment distributions - bars represent increments of 100 s
 ![histogram](histogram-football.png)
 
 ---------------------
-raw data for this site may be found in the ratholes/uil directory of the repo for this github pages site
+raw data for this site may be found in the texas-hs-enrollment-analysis directory of the repo for this github pages site

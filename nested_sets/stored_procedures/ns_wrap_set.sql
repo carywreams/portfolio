@@ -5,62 +5,40 @@ drop procedure if exists ns_wrap_set;;
 -- 
 -- create encompassing set
 --
--- PRECONDITION: from_lsv,to_rsv represent an eligible configuration
+-- PRECONDITION: from_set_id,to_set_id represent an eligible configuration
 --
--- input from_lsv, to_rsv, inclusive [from_lsv, to_rsv]
--- 
 -- SEQUENCE MATTERS 
--- update downstream sets to create space for encompassing set
--- set lsv = lsv+2 where (  lsv >  to_rsv  )
--- set rsv = rsv+2 where (  rsv >  to_rsv  )
+-- bump everyone downstream to create space for the encompassing set
 -- renumber interior sets to place them within the encompassing set
--- set lsv = lsv+1 where ( (lsv <= to_rsv  ) and (lsv >= from_lsv) ) 
--- set rsv = rsv+1 where ( (rsv <= to_rsv  ) and (rsv >= from_lsv) )
---
+--      set lsv = lsv+1 where ( (lsv <= to_rsv  ) and (lsv >= from_lsv) ) 
+--      set rsv = rsv+1 where ( (rsv <= to_rsv  ) and (rsv >= from_lsv) )
 -- insert new set
--- insert ref_set_id,from_lsv,to_rsv,token_id into nested_set
 --
 
 create procedure ns_wrap_set(
-    in ref_set_id INT,
-    in from_lsv INT,
-    in to_rsv INT,
-    in in_token_id INT
+    in ref_nest_id INT,
+    in ref_from_set_id INT,
+    in ref_to_set_id INT,
+    in in_set_id INT
 )
 begin
--- /* make sure you'll clean up correctly if something goes wrong */
--- DECLARE EXIT HANDLER FOR SQLEXCEPTION ROLLBACK;
--- 
--- /* begin a transaction */
--- START TRANSACTION;
--- 
--- /* lock the row you want to update, or to use to control concurrency */
--- SELECT nested_set_id FROM nested_set WHERE nested_set_id=ref_set_id FOR UPDATE;
-
-    update nested_set
-        set rsv = rsv + 2
-        where nested_set_id = ref_set_id
-            and rsv > to_rsv;
-
-    update nested_set
-        set lsv = lsv + 2
-        where nested_set_id = ref_set_id
-            and lsv > to_rsv;
+    
+    set @from_lsv = ns_get_lsv(ref_nest_id,ref_from_set_id);
+    set @to_rsv   = ns_get_rsv(ref_nest_id,ref_to_set_id);
+    set @noop     = ns_bump_sets_downstream(ref_nest_id,@to_rsv);
 
     update nested_set
         set lsv = lsv + 1
-        where nested_set_id = ref_set_id
-            and ((lsv < to_rsv) and (lsv >= from_lsv));
+        where nest_id = ref_nest_id
+            and ((lsv < @to_rsv) and (lsv >= @from_lsv));
 
     update nested_set
         set rsv = rsv + 1
-        where nested_set_id = ref_set_id
-            and ((rsv <= to_rsv) and (rsv > from_lsv));
+        where nest_id = ref_nest_id
+            and ((rsv <= @to_rsv) and (rsv > @from_lsv));
     
-    insert into nested_set (nested_set_id,lsv,rsv,token_id)
-    values (ref_set_id,from_lsv,to_rsv+2,in_token_id);
-
--- COMMIT;
+    insert into nested_set (nest_id,lsv,rsv,set_id)
+    values (ref_nest_id,@from_lsv,@to_rsv+2,in_set_id);
 
 end ;;
 

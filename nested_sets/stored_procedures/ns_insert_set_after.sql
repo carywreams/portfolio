@@ -3,53 +3,30 @@ delimiter ;;
 drop procedure if exists ns_insert_set_after;;
 
 -- 
--- Insert AFTER case
+-- insert_set_after
+--      @@ref_nest_id   the nest in which the set is to be added
+--      @@ref_set_id    the set after which the new set is to be added
+--      @@in_set_id     the new set being added to the nest
 -- 
--- also supports Insert BEFORE first set, use lsv = 0;
---
--- ref.set_id
--- ref.lsv
--- in token_id
---
---
--- get ref.rsv from table
---
--- create room after ref set by bumping downstream lsvs and rsvs
--- update nested_set set lsv = lsv+2 
---      where nested_set_id = ref.set_id and lsv > ref.rsv;
--- update nested_set set rsv = rsv+2 
---      where nested_set_id = ref.set_id and rsv > ref.rsv;
--- 
--- insert new set
--- insert into nested_set (nested_set_id,lsv,rsv,token_id) 
---      values (ref.set_id,ref.rsv+1,ref.rsv+2,in_token_id);
+-- create room after ref set by bumping downstream sets
+-- insert new set into nest using vacated lsv,rsv values
 --
 
 
 create procedure ns_insert_set_after(
+    in ref_nest_id INT,
     in ref_set_id INT,
-    in ref_lsv INT,
-    in in_token_id INT
+    in in_set_id INT
 )
 begin
 
-    set @ref_rsv = (
-        select rsv from nested_set 
-        where nested_set_id = ref_set_id
-            and lsv = ref_lsv);
+    set @ref_lsv = ns_get_lsv(ref_nest_id,ref_set_id);
+    set @ref_rsv = ns_get_rsv(ref_nest_id,ref_set_id);
+    set @noop    = ns_bump_sets_downstream(ref_nest_id,@ref_rsv);
 
-    update nested_set
-        set lsv = lsv + 2
-        where nested_set_id = ref_set_id
-            and lsv > @ref_rsv;
-
-    update nested_set
-        set rsv = rsv + 2
-        where nested_set_id = ref_set_id
-            and rsv > @ref_rsv;
-
-    insert into nested_set (nested_set_id,lsv,rsv,token_id)
-    values (ref_set_id,@ref_rsv+1,@ref_rsv+2,in_token_id);
+    insert 
+        into nested_set (nest_id,lsv,rsv,set_id)
+        values (ref_nest_id,@ref_rsv+1,@ref_rsv+2,in_set_id);
 
 end ;;
 

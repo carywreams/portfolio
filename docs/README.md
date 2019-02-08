@@ -1,17 +1,16 @@
 # Getting Started
-Most of the code, programs, and command line discussions here are in the context of a linux
-environment. To that end, most of what's used in these projects or explorations is dependent 
-upon the open source community. I'd be between five and seven years behind schedule if I hadn't
-been using linux all these years.
+Most of the code, programs, and command line discussions here are in the context of a linux environment. 
+To that end, most of what's used in these projects or explorations is dependent upon the open source community. 
+I'd be between five and seven years behind schedule if I hadn't been using linux all these years.
 
 # Overview
 
-## [Ratholes](ratholes)
-Quick, brief explorations of "things."
+## Experiments
+Quick, brief explorations.
 
-Item            | Description
----:            | :---
-[UIL](ratholes/uil)    | Texas UIL 2018-2020 Realignment figures
++ [Nested Sets](experiments/ns) Implementation in MySQL 5.7
++ [Texas High School Enrollment Analysis](experiments/uil)
+
 
 ## [Concepts](concepts)
 Developing set of working beliefs around more professional pursuits.
