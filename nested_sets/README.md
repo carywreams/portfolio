@@ -2,8 +2,8 @@
 
 ## Acknowledgments
 
-+ [Celko Book]()
-+ [Hillyer Website]()
++ Celko, Joe _Thinking in Sets_, ISBN-13: 978-0123741370 
++ Hillyer, Michael, [Managing Hierarchical Data](http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/)
 
 ## Motivation
 
