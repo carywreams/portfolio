@@ -1,0 +1,55 @@
+---
+title: "Chapter 9 Exercises"
+output: pdf_document
+---
+
+# Exercises, Chapter 09
+
+
+## Exercise 9.1
+
+```{r}
+# setup
+targetListOfValues<-c(1:10)
+targetListOfValues
+# before
+cos(targetListOfValues)
+# set displayed digits to three
+options(digits=3)
+cos(targetListOfValues)
+# set display width to 40 characters
+options(width=40)
+cos(targetListOfValues)
+# force scientific notation
+options(scipen=-1000)
+cos(targetListOfValues)
+# resist scientific notation
+options(scipen=1000)
+cos(targetListOfValues)
+```
+
+## Exercise 9.2
+
+```{r}
+# setup
+targetListOfValues<-c(1:10)
+options(digits=10)
+options(scipen=1000)
+options(display=40)
+cosValues<-cos(1:10)
+cosValues
+# round takes two values
+#   the vector of values to be rounded
+#   signed integer number of decimal places
+round(cosValues,2)
+round(cosValues,6)
+round(cosValues,-2)
+round(314.00*cosValues,-2)
+
+```
+
+## Exercise 9.3
+
+```{r}
+
+```
