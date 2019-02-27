@@ -1,0 +1,39 @@
+---
+title: "Chapter 2 Exercises Template"
+output: pdf_document
+---
+
+# Exercises, Chapter 2
+
+## Exercise 2.1
+
+```{r}
+100 * ( 1 + (0.05 / 12) )^24
+```
+## Exercise 2.2
+
+```{r}
+5 %% 2
+```
+
+## Exercise 2.3
+
+```{r}
+3333 %% 222
+```
+
+## Exercise 2.4
+
+```{r}
+domainValues<-10^(c(1:10))
+# avoid scientific notation
+options(scipen=1000)
+# increase significant digits
+options(digits=22)
+# applying forumula
+rangeValues<- ( 1 + 1/domainValues)^domainValues
+# force output to a single column of values
+options(width=40)
+rangeValues
+```
+

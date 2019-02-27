@@ -5,6 +5,8 @@ output: pdf_document
 
 # Exercises, Chapter 09
 
++ TODO: Look for way to convert bases using base R
++ TODO: Complete the exercises
 
 ## Exercise 9.1
 
@@ -50,6 +52,56 @@ round(314.00*cosValues,-2)
 
 ## Exercise 9.3
 
+### Exercise 9.3.a
 ```{r}
 
 ```
+
+### Exercise 9.3.b
+```{r}
+
+```
+
+### Exercise 9.3.c
+```{r}
+
+```
+
+## Exercise 9.4
+```{r}
+# confirming from text
+system2("bc",stdout=TRUE,stderr="",input="obase=2;12.75")
+
+# as requested in problem
+system2("bc",stdout=TRUE,stderr="",input="obase=2;scale=4;19/8")
+
+# confirming as equivalent value
+x<-system2("bc",stdout=TRUE,stderr="",input="obase=2;scale=4;19/8")
+system2("bc",stdout=TRUE,stderr="",input=paste("obase=10;ibase=2;",x))
+
+#`higlighting the problem identified in the text
+system2("bc",stdout=TRUE,stderr="",input="obase=2;scale=4;2/5")
+
+# confirming as approximate value
+x<-system2("bc",stdout=TRUE,stderr="",input="obase=2;scale=4;2/5")
+system2("bc",stdout=TRUE,stderr="",input=paste("obase=10;ibase=2;",x))
+
+```
+
+## Exercise 9.5
+```{r}
+system2("bc",stdout=TRUE,stderr="",input="obase=8;ibase=2;101111100")
+system2("bc",stdout=TRUE,stderr="",input="obase=16;ibase=2;101111100")
+system2("bc",stdout=TRUE,stderr="",input="obase=10;ibase=2;101111100")
+```
+
+## Exercise 9.6
+```{r}
+
+```
+
+## Exercise 9.7
+```{r}
+
+```
+

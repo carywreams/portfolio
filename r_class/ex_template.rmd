@@ -1,0 +1,14 @@
+---
+title: "Chapter Exercises Template"
+output: pdf_document
+---
+
+# Exercises, Chapter
+
++ TODO: Finish Exercises
+
+## Exercise x.y
+
+```{r}
+```
+
