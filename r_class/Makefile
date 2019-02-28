@@ -1,7 +1,7 @@
 
 LOCAT=/bin/cat
 LODEL=/bin/rm -f
-LORX=/usr/bin/R
+LORX=/usr/bin/R --silent 
 LOPANDOC=/usr/bin/pandoc
 LOPS2PDF=/usr/bin/ps2pdf
 TMPPDF=./stdout.pdf
@@ -20,8 +20,8 @@ syllabus.pdf: $(SYLSRC)
 
 # convert to pdf
 # compress pdf with ps2pdf
-ex%.pdf:
-	$(LORX) -e "render('$(subst .pdf,,$@).rmd',output_file='_tmp.pdf')"
+ex%.pdf: ex%.rmd
+	$(LORX) -e "render('$(subst .pdf,,$@).rmd',output_file='_tmp.pdf',quiet=TRUE)"
 	$(LOPS2PDF) _tmp.pdf $@
 	$(LODEL) _tmp.pdf
 
