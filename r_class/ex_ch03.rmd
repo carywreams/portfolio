@@ -1,5 +1,5 @@
 ---
-title: "Chapter 3 Exercises Template"
+title: "Chapter 3 Exercises"
 output: pdf_document
 ---
 

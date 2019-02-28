@@ -1,0 +1,50 @@
+---
+title: "Chapter 5 Exercises"
+output: pdf_document
+---
+
+# Exercises, Chapter 5
+
++ TODO: Finish Exercises
+
+## Exercise 5.1
+
+```{r}
+rbind(5:9,rep(12,5),(9:5)^2,c(2,8,4,7,3))
+```
+
+## Exercise 5.2
+
+```{r}
+x<-matrix(11:18,2,4)
+x
+x[-1,c(1,4)]
+```
+
+## Exercise 5.3
+
+```{r}
+A<-matrix(1:6,3,2)
+B<-A+6
+A
+B
+rbind(A,B)
+cbind(A,B)
+```
+
+## Exercise 5.4
+
+```{r}
+# easier to read and infer
+A<-c(0.8,0.3)
+cbind(A,1-A)
+# or, single command; may expect values in objects
+cbind(c(0.8,0.3),1-c(0.8,0.3))
+```
+
+## Exercise 5.5
+
+```{r}
+matrix(rep(1:4,1:4),2,5,T)
+```
+

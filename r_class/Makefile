@@ -18,8 +18,12 @@ SYLSRC = README.md _pb.md syllabus.md
 syllabus.pdf: $(SYLSRC)
 	$(LOCAT) $(SYLSRC) | $(LOPANDOC) $(SYLOPT) -o $(TMPPDF) | $(LOPS2PDF) - $@
 
+# convert to pdf
+# compress pdf with ps2pdf
 ex%.pdf:
-	$(LORX) -e "render('$(subst .pdf,,$@).rmd')"
+	$(LORX) -e "render('$(subst .pdf,,$@).rmd',output_file='_tmp.pdf')"
+	$(LOPS2PDF) _tmp.pdf $@
+	$(LODEL) _tmp.pdf
 
 ALLDEST = syllabus.pdf ex*ch*.pdf
 
