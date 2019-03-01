@@ -1,0 +1,174 @@
+---
+title: "Chapter 7 Exercises"
+output: pdf_document
+---
+
+```
+
+# Exercises, Chapter 7
+
++ TODO: Finish Exercises
+
+## Exercise 7.1
+
+Write a single R command that calculates: $sin(e^4 + \sqrt{arccos(1/3)})$
+
+```{r}
+sin(exp(4) + sqrt(acos(1/3)))
+```
+
+## Exercise 7.2
+
+```{r}
+x <- c(pi, 4/3, 7)
+x
+round(x,2)
+```
+
+## Exercise 7.3
+
+```{r}
+x <- (1:10)^2
+x
+diff(range(x))
+```
+
+## Exercise 7.4
+
+```{r}
+x <- 1:4
+y <- 4:1
+pmax(x,y)
+```
+
+## Exercise 7.5
+
+```{r}
+x <- 1:4
+cumsum(x)
+```
+
+## Exercise 7.6
+
+```{r}
+x <- c(1,1,1,-1,-1,-1,NA)
+y <- c(0,1,4, 0,-1,NA, 1)
+x / sqrt(y)
+```
+
+## Exercise 7.7
+
+```{r}
+x <- seq(1,7,by=3)
+sum(x^2) / length(x)
+x^2
+sum(x^2)
+length(x)
+```
+
+## Exercise 7.8
+
+```{r}
+sqrt(max(9:-3))
+```
+
+## Exercise 7.9
+
+```{r}
+options(width=25)
+x<-seq(1,700,by=28)
+x
+min(x)
+max(x)
+x<max(x)
+x[x<max(x)]
+x[x<max(x)]>min(x)
+x[x[x<max(x)]>min(x)]
+mean(x[x[x<max(x)]>min(x)])
+```
+
+## Exercise 7.10
+
+```{r}
+x <- matrix(1:6,2,3,T)
+x
+dim(x) <- c(3,2)
+x
+```
+
+## Exercise 7.11
+
+Write two R commands that calculate $\displaystyle \sum_{n=1}^{15}\Big(\frac{2^i}{i!} - \frac{cos(3i)}{i^4}\Big)$
+
+```{r}
+x<-1:15
+sum( ( (2^x)/factorial(x) ) - ( cos(3*x) / (x^4) ) )
+```
+
+## Exercise 7.12
+
+Write two R commands that calculate 
+$\displaystyle \prod_{x=4}^{12}\Big\lvert \frac{x(x-1)(x-2)}{(x-3)!} + \frac{arctan  x}{x^2} \Big\rvert$
+
+```{r}
+x <- 4:12
+prod ( abs ( ( x*(x-1)*(x-2) / factorial(x-3)  ) + ( atan(x) / x^2 ) ) )
+```
+
+## Exercise 7.13
+
+Write a single R command that calculates: $\frac{3}{4} + 
+\Big( \frac{3}{4} \cdot \frac{5}{6}  \Big)
+\Big( \frac{3}{4} \cdot \frac{5}{6}  \cdot \frac{7}{8} \Big)
++ \cdot \cdot \cdot +
+\Big( \frac{3}{4} \cdot \frac{5}{6}  \cdot \frac{7}{8} \cdot \cdot \cdot \frac{49}{50} \Big)$
+
+```{r}
+sum(cumprod(seq(4,50,by=2)^-1*-1+1))
+```
+
+## Exercise 7.
+
+```{r}
+```
+
+## Exercise 7.
+
+```{r}
+```
+
+## Exercise 7.
+
+```{r}
+```
+
+## Exercise 7.
+
+```{r}
+```
+
+## Exercise 7.
+
+```{r}
+```
+
+## Exercise 7.
+
+```{r}
+```
+
+## Exercise 7.
+
+```{r}
+```
+
+## Exercise 7.
+
+```{r}
+```
+
+## Exercise 7.
+
+```{r}
+```
+
