@@ -1,14 +1,5 @@
----
-title: "Chapter 7 Exercises"
-output: 
-    pdf_document:
-        pandoc_args: [
-          "-V", "classoption=twocolumn"
-        ]
----
-```{r, echo=FALSE}
-options(width=40)
-```
+# Exercises Chapter 7
+
 ## Exercise 7.1
 
 Write a single R command that calculates: 

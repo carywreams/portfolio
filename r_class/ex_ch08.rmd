@@ -1,0 +1,104 @@
+---
+title: "Chapter Exercises Template"
+output: pdf_document
+---
+
+# Exercises, Chapter 8
+
++ TODO: Finish Exercises
+
+## Exercise 8.1
+
+```{r}
+
+reverse = function (x) x[length(x):1]
+
+reverse(1:15)
+
+x<-sample(100,10,replace=FALSE)
+x
+reverse(x)
+```
+
+## Exercise 8.2
+
+```{r}
+my.cos = function(angle=NaN, degrees=FALSE) {
+    ifelse(is.na(angle),
+            NaN,
+            ifelse(degrees,
+                    cos(angle),
+                    cos(180/pi*angle)
+            )
+    )
+}
+
+my.cos(90,TRUE)
+my.cos(90,degrees<-TRUE)
+my.cos(pi/2)
+my.cos()
+
+```
+
+## Exercise 8.3
+
+```{r}
+-8^(1/3)
+# but
+cube.root <- function(x) { (x)^(1/3) }
+cube.root(c(-8,8,729,1000000))
+# and
+cube.root <- function(x) { as.numeric(x)^(1/3) }
+cube.root(c(-8,8,729,1000000))
+# so, ...
+cube.root <- function(x) { y<-abs(x)^(1/3) ; ifelse(x>=0,y,-y) ; }
+cube.root(c(-8,8,729,1000000))
+```
+
+## Exercise 8.4
+
+```{r}
+tmean = function (x,k) { 
+    sorted_x<-sort(x)
+    n_from<-k+1
+    n_to<-length(x)-k
+    mean(sorted_x[n_from:n_to])
+}
+
+# case 1
+tmean(c(9.4,9.6,9.1,9.5,9.3),1)
+# check against :
+mean(c(9.4,9.5,9.3))
+# case 2
+tmean(1:18,4)
+# check against :
+mean(5:14)
+# setup for alternative forms
+x<-sample(100,30,replace=FALSE)
+x
+tmean(x,3)
+tmean(x,7)
+# alternative form #1
+# GOTCHA: parenthesis are REQUIRED on the indexes
+tmean = function (x,k) { 
+    y<-sort(x)
+    mean(y[(k+1):(length(y)-k)])
+}
+
+tmean(c(9.4,9.6,9.1,9.5,9.3),1)
+tmean(x,3)
+tmean(x,7)
+
+# alternative form #2
+# sort, then subset, then take the mean
+tmean = function (x,k) { mean(sort(x)[(k+1):(length(x)-k)]); }
+tmean(c(9.4,9.6,9.1,9.5,9.3),1)
+tmean(x,3)
+tmean(x,7)
+```
+
+## Exercise 8.5
+
+```{r}
+
+```

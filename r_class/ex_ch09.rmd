@@ -1,9 +1,4 @@
----
-title: "Chapter 9 Exercises"
-output: pdf_document
----
-
-# Exercises, Chapter 09
+# Exercises, Chapter 9
 
 + TODO: Look for way to convert bases using base R
 + TODO: Complete the exercises

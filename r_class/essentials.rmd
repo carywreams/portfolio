@@ -1,0 +1,16 @@
+---
+title: "Essentials"
+subtitle: "Block 1, Exercises"
+output: 
+    pdf_document:
+        pandoc_args: [
+          "-V", "classoption=twocolumn"
+        ]
+---
+
+Exercises for the first block, Essentials.
+
+```{r, echo=FALSE}
+options(width=40)
+```
+

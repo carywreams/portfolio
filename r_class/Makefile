@@ -25,6 +25,14 @@ ex%.pdf: ex%.rmd
 	$(LOPS2PDF) _tmp.pdf $@
 	$(LODEL) _tmp.pdf
 
+include config.essentials.mk
+
+essentials.pdf: $(ESSENTIALS_SRC)
+	$(LOCAT) $(ESSENTIALS_SRC) > _tmp_essentials.rmd
+	$(LORX) -e "render('_tmp_essentials.rmd',output_file='_tmp_essentials.pdf',quiet=TRUE)"
+	$(LOPS2PDF) _tmp_essentials.pdf $@
+	$(LODEL) _tmp_essentials.rmd _tmp_essentials.pdf
+
 ALLDEST = syllabus.pdf ex*ch*.pdf
 
 all: $(ALLDEST)
