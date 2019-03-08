@@ -25,6 +25,9 @@ ex%.pdf: ex%.rmd
 	$(LOPS2PDF) _tmp.pdf $@
 	$(LODEL) _tmp.pdf
 
+ex%.html : ex%.rmd
+	$(LORX) -e "render('$(subst .html,,$@).rmd',output_file='$@',quiet=TRUE)"
+
 include config.essentials.mk
 
 essentials.pdf: $(ESSENTIALS_SRC)

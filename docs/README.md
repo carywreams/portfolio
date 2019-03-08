@@ -7,7 +7,7 @@ I'd be between five and seven years behind schedule if I hadn't been using linux
 
 ## Meetups
 
-+ R / Essentials / [Chapter 7](meetups/r/chapter_07)
++ R / Essentials / [Chapter 7](meetups/r/essentials/chapter_07.html)
 
 ## Experiments
 Quick, brief explorations.
