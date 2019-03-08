@@ -5,6 +5,10 @@ I'd be between five and seven years behind schedule if I hadn't been using linux
 
 # Overview
 
+## Meetups
+
++ R / Essentials / [Chapter 7](meetups/r/chapter_07)
+
 ## Experiments
 Quick, brief explorations.
 
