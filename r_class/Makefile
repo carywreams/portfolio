@@ -18,6 +18,8 @@ SYLSRC = README.md _pb.md syllabus.md
 syllabus.pdf: $(SYLSRC)
 	$(LOCAT) $(SYLSRC) | $(LOPANDOC) $(SYLOPT) -o $(TMPPDF) | $(LOPS2PDF) - $@
 
+include config.essentials.mk
+
 # convert to pdf
 # compress pdf with ps2pdf
 ex%.pdf: ex%.rmd
@@ -28,7 +30,9 @@ ex%.pdf: ex%.rmd
 ex%.html : ex%.rmd
 	$(LORX) -e "render('$(subst .html,,$@).rmd',output_file='$@',quiet=TRUE)"
 
-include config.essentials.mk
+essentials.html: $(ESSENTIALS_HTML)
+	mv $(ESSENTIALS_HTML) ../docs/meetups/r/essentials/	
+
 
 essentials.pdf: $(ESSENTIALS_SRC)
 	$(LOCAT) $(ESSENTIALS_SRC) > _tmp_essentials.rmd

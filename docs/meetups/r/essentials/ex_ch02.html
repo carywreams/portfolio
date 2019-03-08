@@ -124,304 +124,45 @@ $(document).ready(function () {
 </div>
 
 
-<div id="exercises-chapter-7" class="section level1">
-<h1>Exercises Chapter 7</h1>
-<div id="exercise-7.1" class="section level2">
-<h2>Exercise 7.1</h2>
-<p>Write a single R command that calculates:</p>
-<p><span class="math inline">\(sin(e^4 + \sqrt{arccos(1/3)})\)</span></p>
-<pre class="r"><code>sin(exp(4) + sqrt(acos(1/3)))</code></pre>
-<pre><code>## [1] -0.7453313</code></pre>
+<div id="exercises-chapter-2" class="section level1">
+<h1>Exercises, Chapter 2</h1>
+<div id="exercise-2.1" class="section level2">
+<h2>Exercise 2.1</h2>
+<pre class="r"><code>100 * ( 1 + (0.05 / 12) )^24</code></pre>
+<pre><code>## [1] 110.4941</code></pre>
 </div>
-<div id="exercise-7.2" class="section level2">
-<h2>Exercise 7.2</h2>
-<pre class="r"><code>x &lt;- c(pi, 4/3, 7)
-x</code></pre>
-<pre><code>## [1] 3.141593 1.333333 7.000000</code></pre>
-<pre class="r"><code>round(x,2)</code></pre>
-<pre><code>## [1] 3.14 1.33 7.00</code></pre>
-</div>
-<div id="exercise-7.3" class="section level2">
-<h2>Exercise 7.3</h2>
-<pre class="r"><code>x &lt;- (1:10)^2
-x</code></pre>
-<pre><code>##  [1]   1   4   9  16  25  36  49  64  81 100</code></pre>
-<pre class="r"><code>diff(range(x))</code></pre>
-<pre><code>## [1] 99</code></pre>
-</div>
-<div id="exercise-7.4" class="section level2">
-<h2>Exercise 7.4</h2>
-<pre class="r"><code>x &lt;- 1:4
-y &lt;- 4:1
-pmax(x,y)</code></pre>
-<pre><code>## [1] 4 3 3 4</code></pre>
-</div>
-<div id="exercise-7.5" class="section level2">
-<h2>Exercise 7.5</h2>
-<pre class="r"><code>x &lt;- 1:4
-cumsum(x)</code></pre>
-<pre><code>## [1]  1  3  6 10</code></pre>
-</div>
-<div id="exercise-7.6" class="section level2">
-<h2>Exercise 7.6</h2>
-<pre class="r"><code>x &lt;- c(1,1,1,-1,-1,-1,NA)
-y &lt;- c(0,1,4, 0,-1,NA, 1)
-x / sqrt(y)</code></pre>
-<pre><code>## Warning in sqrt(y): NaNs produced</code></pre>
-<pre><code>## [1]  Inf  1.0  0.5 -Inf  NaN   NA   NA</code></pre>
-</div>
-<div id="exercise-7.7" class="section level2">
-<h2>Exercise 7.7</h2>
-<pre class="r"><code>x &lt;- seq(1,7,by=3)
-sum(x^2) / length(x)</code></pre>
-<pre><code>## [1] 22</code></pre>
-<pre class="r"><code>x^2</code></pre>
-<pre><code>## [1]  1 16 49</code></pre>
-<pre class="r"><code>sum(x^2)</code></pre>
-<pre><code>## [1] 66</code></pre>
-<pre class="r"><code>length(x)</code></pre>
-<pre><code>## [1] 3</code></pre>
-</div>
-<div id="exercise-7.8" class="section level2">
-<h2>Exercise 7.8</h2>
-<pre class="r"><code>sqrt(max(9:-3))</code></pre>
-<pre><code>## [1] 3</code></pre>
-</div>
-<div id="exercise-7.9" class="section level2">
-<h2>Exercise 7.9</h2>
-<pre class="r"><code>options(width=25)
-x&lt;-seq(1,700,by=28)
-x</code></pre>
-<pre><code>##  [1]   1  29  57  85 113
-##  [6] 141 169 197 225 253
-## [11] 281 309 337 365 393
-## [16] 421 449 477 505 533
-## [21] 561 589 617 645 673</code></pre>
-<pre class="r"><code>min(x)</code></pre>
+<div id="exercise-2.2" class="section level2">
+<h2>Exercise 2.2</h2>
+<pre class="r"><code>5 %% 2</code></pre>
 <pre><code>## [1] 1</code></pre>
-<pre class="r"><code>max(x)</code></pre>
-<pre><code>## [1] 673</code></pre>
-<pre class="r"><code>x&lt;max(x)</code></pre>
-<pre><code>##  [1]  TRUE  TRUE  TRUE
-##  [4]  TRUE  TRUE  TRUE
-##  [7]  TRUE  TRUE  TRUE
-## [10]  TRUE  TRUE  TRUE
-## [13]  TRUE  TRUE  TRUE
-## [16]  TRUE  TRUE  TRUE
-## [19]  TRUE  TRUE  TRUE
-## [22]  TRUE  TRUE  TRUE
-## [25] FALSE</code></pre>
-<pre class="r"><code>x[x&lt;max(x)]</code></pre>
-<pre><code>##  [1]   1  29  57  85 113
-##  [6] 141 169 197 225 253
-## [11] 281 309 337 365 393
-## [16] 421 449 477 505 533
-## [21] 561 589 617 645</code></pre>
-<pre class="r"><code>x[x&lt;max(x)]&gt;min(x)</code></pre>
-<pre><code>##  [1] FALSE  TRUE  TRUE
-##  [4]  TRUE  TRUE  TRUE
-##  [7]  TRUE  TRUE  TRUE
-## [10]  TRUE  TRUE  TRUE
-## [13]  TRUE  TRUE  TRUE
-## [16]  TRUE  TRUE  TRUE
-## [19]  TRUE  TRUE  TRUE
-## [22]  TRUE  TRUE  TRUE</code></pre>
-<pre class="r"><code>x[x[x&lt;max(x)]&gt;min(x)]</code></pre>
-<pre><code>##  [1]  29  57  85 113 141
-##  [6] 169 197 225 253 281
-## [11] 309 337 365 393 421
-## [16] 449 477 505 533 561
-## [21] 589 617 645</code></pre>
-<pre class="r"><code>mean(x[x[x&lt;max(x)]&gt;min(x)])</code></pre>
-<pre><code>## [1] 337</code></pre>
-<pre class="r"><code>options(width=40)</code></pre>
 </div>
-<div id="exercise-7.10" class="section level2">
-<h2>Exercise 7.10</h2>
-<pre class="r"><code>x &lt;- matrix(1:6,2,3,T)
-x</code></pre>
-<pre><code>##      [,1] [,2] [,3]
-## [1,]    1    2    3
-## [2,]    4    5    6</code></pre>
-<pre class="r"><code>dim(x) &lt;- c(3,2)
-x</code></pre>
-<pre><code>##      [,1] [,2]
-## [1,]    1    5
-## [2,]    4    3
-## [3,]    2    6</code></pre>
+<div id="exercise-2.3" class="section level2">
+<h2>Exercise 2.3</h2>
+<pre class="r"><code>3333 %% 222</code></pre>
+<pre><code>## [1] 3</code></pre>
 </div>
-<div id="exercise-7.11" class="section level2">
-<h2>Exercise 7.11</h2>
-<p>Write two R commands that calculate</p>
-<p><span class="math inline">\(\displaystyle \sum_{n=1}^{15}\Big(\frac{2^i}{i!} - \frac{cos(3i)}{i^4}\Big)\)</span></p>
-<pre class="r"><code>x&lt;-1:15
-sum( ( (2^x)/factorial(x) ) - ( cos(3*x) / (x^4) ) )</code></pre>
-<pre><code>## [1] 7.327848</code></pre>
-</div>
-<div id="exercise-7.12" class="section level2">
-<h2>Exercise 7.12</h2>
-<p>Write two R commands that calculate</p>
-<p><span class="math inline">\(\displaystyle \prod_{x=4}^{12}\Big\lvert \frac{x(x-1)(x-2)}{(x-3)!} + \frac{arctan x}{x^2} \Big\rvert\)</span></p>
-<pre class="r"><code>x &lt;- 4:12
-prod ( 
-    abs ( ( x*(x-1)*(x-2) / factorial(x-3)  ) 
-        + ( atan(x) / x^2 ) ) 
-    )</code></pre>
-<pre><code>## [1] 20.89521</code></pre>
-</div>
-<div id="exercise-7.13" class="section level2">
-<h2>Exercise 7.13</h2>
-<p>Write a single R command that calculates:</p>
-<p><span class="math inline">\(\frac{3}{4} + \Big( \frac{3}{4} \cdot \frac{5}{6} \Big) \Big( \frac{3}{4} \cdot \frac{5}{6} \cdot \frac{7}{8} \Big) + \cdot \cdot \cdot + \Big( \frac{3}{4} \cdot \frac{5}{6} \cdot \frac{7}{8} \cdot \cdot \cdot \frac{49}{50} \Big)\)</span></p>
-<pre class="r"><code>sum(cumprod(seq(4,50,by=2)^-1*-1+1))</code></pre>
-<pre><code>## [1] 8.452068</code></pre>
-</div>
-<div id="exercise-7.14" class="section level2">
-<h2>Exercise 7.14</h2>
-<pre class="r"><code>exp(exp(1))</code></pre>
-<pre><code>## [1] 15.15426</code></pre>
-</div>
-<div id="exercise-7.15" class="section level2">
-<h2>Exercise 7.15</h2>
-<p>Write a single R command that calculates:</p>
-<p><span class="math inline">\(\displaystyle1^3 + 2^3 + \cdot \cdot \cdot + 100^3\)</span></p>
-<pre class="r"><code>sum((1:100)^3)</code></pre>
-<pre><code>## [1] 25502500</code></pre>
-</div>
-<div id="exercise-7.16" class="section level2">
-<h2>Exercise 7.16</h2>
-<p>Using a minimum number of keystrokes, write a single R command that creates a vector with elements:</p>
-<p><span class="math inline">\(\displaystyle \Big( 5, \frac{5^2}{2!}, \frac{5^3}{3!}, \cdot \cdot \cdot, \frac{5^{10}}{10!}\Big)\)</span></p>
-<pre class="r"><code>5^(1:10)/factorial(1:10)</code></pre>
-<pre><code>##  [1]  5.000000 12.500000 20.833333
-##  [4] 26.041667 26.041667 21.701389
-##  [7] 15.500992  9.688120  5.382289
-## [10]  2.691144</code></pre>
-</div>
-<div id="exercise-7.17" class="section level2">
-<h2>Exercise 7.17</h2>
-<p>Write a single R command that calculates:</p>
-<p><span class="math inline">\(\displaystyle \sum_{i=3}^{8}\sum_{j=2}^{9}\frac{i^2}{7+4j}\)</span></p>
-<p>Which simplifies to:</p>
-<p><span class="math inline">\(\displaystyle \Big(\sum_{i=3}^{8}i^2\Big)\Big(\sum_{j=2}^{9}\frac{1}{7+4j}\Big)\)</span></p>
-<pre class="r"><code>sum(seq(3:8)^2) * sum((seq(2,9)*4+7)^-1)</code></pre>
-<pre><code>## [1] 28.16813</code></pre>
-</div>
-<div id="exercise-7.18" class="section level2">
-<h2>Exercise 7.18</h2>
-<pre class="r"><code>point1&lt;-c(0,0)
-point2&lt;-c(3,4)
-# part a, L2 norm
-sqrt(sum((point2-point1)^2))</code></pre>
-<pre><code>## [1] 5</code></pre>
-<pre class="r"><code># part b, L1 norm
-sum(abs(point2-point1))</code></pre>
-<pre><code>## [1] 7</code></pre>
-</div>
-<div id="exercise-7.19" class="section level2">
-<h2>Exercise 7.19</h2>
-<p>Sys.sleep is a suspend function which takes an integer argument, interpreted to be the number of seconds activity should be suspended. For more, see <code>??Sys.sleep</code></p>
-</div>
-<div id="exercise-7.20" class="section level2">
-<h2>Exercise 7.20</h2>
-<pre class="r"><code>x&lt;-seq(3,317, by=17)
-x</code></pre>
-<pre><code>##  [1]   3  20  37  54  71  88 105 122 139
-## [10] 156 173 190 207 224 241 258 275 292
-## [19] 309</code></pre>
-<pre class="r"><code>length(unique(x))</code></pre>
-<pre><code>## [1] 19</code></pre>
-</div>
-<div id="exercise-7.21" class="section level2">
-<h2>Exercise 7.21</h2>
-<pre class="r"><code>N&lt;-100
-x&lt;-sample(N,N-1,replace=FALSE)
-# x&lt;-sample(100,99,replace=FALSE)
-1 + order(diff(sort(x)))[length(x)-1]</code></pre>
-<pre><code>## [1] 69</code></pre>
-<pre class="r"><code># Unpacked
-# starting with x:
-x</code></pre>
-<pre><code>##  [1]  46  24  74   1  68  89  98  93  10
-## [10]  94  77  25  12  32  63  86  62  53
-## [19]  52   4  26  80  95  20  19  99  70
-## [28] 100  22  31  81  15  23  91  64  90
-## [37]  28  37  78  51  85  14  84  45  60
-## [46]  36  17   3  18  92  82  29  88  87
-## [55]   5  66  40  57  21  50  76  71  67
-## [64]  49  27   6  75  48  58  41  65  38
-## [73]  54  47  97   2  16  59   8  42  33
-## [82]  55  72  34  56  39  35  83  30   7
-## [91]  73  79  96  44   9  43  61  11  13</code></pre>
-<pre class="r"><code># now, working from the inside out, sort it
-sorted_x &lt;- sort(x)
-sorted_x</code></pre>
-<pre><code>##  [1]   1   2   3   4   5   6   7   8   9
-## [10]  10  11  12  13  14  15  16  17  18
-## [19]  19  20  21  22  23  24  25  26  27
-## [28]  28  29  30  31  32  33  34  35  36
-## [37]  37  38  39  40  41  42  43  44  45
-## [46]  46  47  48  49  50  51  52  53  54
-## [55]  55  56  57  58  59  60  61  62  63
-## [64]  64  65  66  67  68  70  71  72  73
-## [73]  74  75  76  77  78  79  80  81  82
-## [82]  83  84  85  86  87  88  89  90  91
-## [91]  92  93  94  95  96  97  98  99 100</code></pre>
-<pre class="r"><code># the create a vector of differences
-differences_x_neighbors &lt;- diff(sorted_x)
-differences_x_neighbors</code></pre>
-<pre><code>##  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-## [19] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-## [37] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-## [55] 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1
-## [73] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-## [91] 1 1 1 1 1 1 1 1</code></pre>
-<pre class="r"><code># order() generates a sorted vector of the 
-#   INDEXES of the DIFF output
-#
-# ORDER output is :
-#   a VECTOR
-#   ... of INDEXES
-#   ... for the ORDERED values
-#   ... of the input vector
-#
-# in our case, the first (N-1) are &quot;tied&quot; 
-#   with a value of 1, the Nth however is 2
-sorted_indexes_of_differences_x_neighbors &lt;-
-    order(differences_x_neighbors)
-# 
-sorted_indexes_of_differences_x_neighbors</code></pre>
-<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10 11 12
-## [13] 13 14 15 16 17 18 19 20 21 22 23 24
-## [25] 25 26 27 28 29 30 31 32 33 34 35 36
-## [37] 37 38 39 40 41 42 43 44 45 46 47 48
-## [49] 49 50 51 52 53 54 55 56 57 58 59 60
-## [61] 61 62 63 64 65 66 67 69 70 71 72 73
-## [73] 74 75 76 77 78 79 80 81 82 83 84 85
-## [85] 86 87 88 89 90 91 92 93 94 95 96 97
-## [97] 98 68</code></pre>
-<pre class="r"><code># pull the last item, which is the 1-based 
-#   INDEX in X prior to the gap
-index_with_largest_difference &lt;-
-    sorted_indexes_of_differences_x_neighbors[length(x)-1]
-#
-index_with_largest_difference</code></pre>
-<pre><code>## [1] 68</code></pre>
-<pre class="r"><code># increment the last item to show the missing one
-1 + index_with_largest_difference</code></pre>
-<pre><code>## [1] 69</code></pre>
-<pre class="r"><code># or, to elucidate that we risk 
-#   conflating INDEXES with VALUES, ...
-sorted_x[index_with_largest_difference]</code></pre>
-<pre><code>## [1] 68</code></pre>
-<pre class="r"><code>sorted_x[index_with_largest_difference+1]</code></pre>
-<pre><code>## [1] 70</code></pre>
-<pre class="r"><code># missing number is:
-sorted_x[index_with_largest_difference]+1</code></pre>
-<pre><code>## [1] 69</code></pre>
-<pre class="r"><code># missing number is:
-sorted_x[index_with_largest_difference+1]-1</code></pre>
-<pre><code>## [1] 69</code></pre>
+<div id="exercise-2.4" class="section level2">
+<h2>Exercise 2.4</h2>
+<pre class="r"><code>domainValues&lt;-10^(c(1:10))
+# avoid scientific notation
+options(scipen=1000)
+# increase significant digits
+options(digits=22)
+# applying formula
+rangeValues&lt;- ( 1 + 1/domainValues)^domainValues
+# force output to a single column of values
+options(width=40)
+rangeValues</code></pre>
+<pre><code>##  [1] 2.593742460100002311663
+##  [2] 2.704813829421528481589
+##  [3] 2.716923932235593586171
+##  [4] 2.718145926824925506793
+##  [5] 2.718268237192297487326
+##  [6] 2.718280469095753382192
+##  [7] 2.718281694132081760529
+##  [8] 2.718281798347357725021
+##  [9] 2.718282052011560256943
+## [10] 2.718282053234787554175</code></pre>
 </div>
 </div>
 
