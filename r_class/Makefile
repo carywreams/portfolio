@@ -33,7 +33,6 @@ ex%.html : ex%.rmd
 essentials.html: $(ESSENTIALS_HTML)
 	mv $(ESSENTIALS_HTML) ../docs/meetups/r/essentials/	
 
-
 essentials.pdf: $(ESSENTIALS_SRC)
 	$(LOCAT) $(ESSENTIALS_SRC) > _tmp_essentials.rmd
 	$(LORX) -e "render('_tmp_essentials.rmd',output_file='_tmp_essentials.pdf',quiet=TRUE)"

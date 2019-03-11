@@ -8,15 +8,7 @@ I'd be between five and seven years behind schedule if I hadn't been using linux
 ## Meetups
 
 + R 
-    +   Essentials
-        +   [Chapter 2](meetups/r/essentials/ex_ch02.html)
-        +   [Chapter 3](meetups/r/essentials/ex_ch03.html)
-        +   [Chapter 4](meetups/r/essentials/ex_ch04.html)
-        +   [Chapter 5](meetups/r/essentials/ex_ch05.html)
-        +   [Chapter 6](meetups/r/essentials/ex_ch06.html)
-        +   [Chapter 7](meetups/r/essentials/ex_ch07.html)
-        +   [Chapter 8](meetups/r/essentials/ex_ch08.html)
-        +   [Chapter 9](meetups/r/essentials/ex_ch09.html)
+    +   [Essentials](meetuups/r/essentials/README)
 
 ## Experiments
 Quick, brief explorations.

@@ -1,7 +1,8 @@
 # R Class
 
-Developed as an offering for the Plano Maker Space, the-lab.ms.
+Developed as a series of offerings for the Plano Maker Space, [the-lab.ms](the-lab.ms).
 
+## Resources
 __Course Text:__ 
 ```
 Learning Base R,
@@ -30,12 +31,20 @@ The course is divided into five parts, each of which covers different chapters o
 The parts are identified below.
 Please see each part's description for details regarding which chapters are covered.
 
-1. [Essentials](essentials)
-1. [Advanced Data Types](advanced_data_types)
-1. [Data Visualization](data_visualization)
-1. [Programming](programming)
-1. [Packages](packages)
+1. [Essentials](#essentials)
+1. [Advanced Data Types](#advanced_data_types)
+1. [Data Visualization](#data_visualization)
+1. [Programming](#programming)
+1. [Packages](#packages)
 
+### Course Preparation, All Sections
+
+Participants should install R (and optionally R Studio) prior to the first meeting.
+While this is not a course on using R Studio, many may find it far friendlier than the command line interface (CLI).
+The free version of R Studio can improve the experience of using R.
+The book's author has used R Studio in his accompanying video series.
+The course leader prefers a keyboard to a mouse or track pad and so prefers the CLI.
+Exposure to both methods will be thankfully unavoidable.
 
 ### Session Format
 
@@ -49,4 +58,26 @@ Please see each part's description for details regarding which chapters are cove
 +   Post-Class
     +   30-min Q&A period beyond stated class time
     +   possible lab slack channel / other online activity for Q&A and follow up
+
+## Course Descriptions
+
+## Essentials
+
+Six-week boot camp covering chapters 1-9 and 18 of "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0. 
+
+These six weeks will cover the basic data types of R, a subset of built-in functions, and conclude with an introduction to writing your own functions. 
+
+### Advanced Data Types
+TBD
+
+### Data Visualization
+TBD
+
+### Programming
+TBD
+
+### Packages
+TBD
+
+```last updated: 20190311```
 

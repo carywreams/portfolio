@@ -1,7 +1,5 @@
 # Exercises, Chapter 6
 
-+ TODO: Finish Exercises
-
 ## Exercise 6.1
 
 + text, p.32, 'The ```array``` function is a generalization of the ```matrix``` function.'

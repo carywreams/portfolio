@@ -1,7 +1,5 @@
 # Exercises, Chapter 5
 
-+ TODO: Finish Exercises
-
 ## Exercise 5.1
 
 ```{r}
