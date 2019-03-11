@@ -3,9 +3,11 @@
 Developed as a series of offerings for the Plano Maker Space, [the-lab.ms](the-lab.ms).
 
 ## Resources
+
 __Course Text:__ 
+
+[Learning Base R](https://www.amazon.com/Learning-Base-Lawrence-Mark-Leemis/dp/0982917481/ref=sr_1_1?keywords=learning+base+R&qid=1552311280&s=gateway&sr=8-1),
 ```
-Learning Base R,
     Leemis, Lawrence M., 
     Department of Mathematics, 
     The College of William & Mary, 
