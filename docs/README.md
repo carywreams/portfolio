@@ -7,7 +7,7 @@ I'd be between five and seven years behind schedule if I hadn't been using linux
 
 ## Meetups
 
-+ R 
++ [R](meetups/r/) 
     +   [Essentials](meetups/r/essentials/)
 
 ## Experiments

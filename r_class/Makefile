@@ -1,10 +1,4 @@
-
-LOCAT=/bin/cat
-LODEL=/bin/rm -f
-LORX=/usr/bin/R --silent 
-LOPANDOC=/usr/bin/pandoc
-LOPS2PDF=/usr/bin/ps2pdf
-TMPPDF=./stdout.pdf
+include ../config.mk
 
 # PANDOC Options for complete Syllabus
 # SYLOPT = --toc --toc-depth=2 --number-sections 
@@ -23,21 +17,13 @@ include config.essentials.mk
 # convert to pdf
 # compress pdf with ps2pdf
 ex%.pdf: ex%.rmd
-	$(LORX) -e "render('$(subst .pdf,,$@).rmd',output_file='_tmp.pdf',quiet=TRUE)"
+	$(LORX) -e "render('$(subst .pdf,,$@).rmd',output_format='pdf_document',output_file='_tmp.pdf',quiet=TRUE)"
 	$(LOPS2PDF) _tmp.pdf $@
 	$(LODEL) _tmp.pdf
 
 ex%.html : ex%.rmd
-	$(LORX) -e "render('$(subst .html,,$@).rmd',output_file='$@',quiet=TRUE)"
+	$(LORX) -e "render('$(subst .html,,$@).rmd',output_format='html_document',output_file='$@',quiet=TRUE)"
 
-essentials.html: $(ESSENTIALS_HTML)
-	mv $(ESSENTIALS_HTML) ../docs/meetups/r/essentials/	
-
-essentials.pdf: $(ESSENTIALS_SRC)
-	$(LOCAT) $(ESSENTIALS_SRC) > _tmp_essentials.rmd
-	$(LORX) -e "render('_tmp_essentials.rmd',output_file='_tmp_essentials.pdf',quiet=TRUE)"
-	$(LOPS2PDF) _tmp_essentials.pdf $@
-	$(LODEL) _tmp_essentials.rmd _tmp_essentials.pdf
 
 ALLDEST = syllabus.pdf ex*ch*.pdf
 
