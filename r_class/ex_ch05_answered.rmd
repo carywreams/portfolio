@@ -18,10 +18,15 @@ Then use subscripts that extact the elements that exclude the first row and incl
 x<-matrix(11:18,2,4)
 x
 ```
+to get 
+```{r, echo=FALSE}
+x[-1,c(1,4)]
+```
 
 ## Exercise 5.3
 
 Let A and B be the following 3 x 2 matrices:
+
 
 ```{r, echo=FALSE}
 A<-matrix(1:6,3,2)
@@ -34,6 +39,11 @@ A
 B=
 ```{r, echo=FALSE}
 B 
+```
+
+```{r, echo=FALSE}
+# rbind(A,B)
+# cbind(A,B)
 ```
 
 Write R commands to create the matrices _A_ and _B_ using the ```matrix``` function, then combine _A_ and _B_ to create two new matrices with the ```rbind``` and ```cbind``` functions.
@@ -59,7 +69,4 @@ This command should use as few keystrokes as possible.
 ```{r, echo=FALSE}
 # matrix(rep(1:4,1:4),2,5,T)
 ```
-
-------------------------------
-__Exercises taken from Chapter 5, "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
 

@@ -4,10 +4,30 @@
 
 True or False: A matrix is a special case of an array.
 
++ text, p.32, 'The ```array``` function is a generalization of the ```matrix``` function.'
++ A _matrix_ is an _array_ whose third and final subscript has a value of one.
++ In my notes, I have the phrase "single layer" written next to this question.
+
 ## Exercise 6.2
 
 Write an R command that assigns the first 18 positive integers to the 3 x 3 x 2 array named _x_ using the default input convention.
 Next, write an R command that extracts the elements of _x_ in a fashion that includes the second and third rows, excludes the second column, and includes the second layer.
+
+```{r}
+# x<-array()        create array, x, 
+# seq(1:18)         populated with first 18 positive integers
+# dim<-c(3,3,2)     with dimensions 3x3x2
+#                   using default input convention
+x<-array(seq(1:18),dim<-c(3,3,2))
+x
+
+# x[]   extract elements of x
+# 2:3   include second and third rows
+# -2    exclude second column
+# 2     include second layer
+x[2:3,-2,2]
+
+```
 
 ## Exercise 6.3
 
@@ -16,6 +36,9 @@ The R command ```> b = a[c(1,3),-c(1,4),3:5]``` sets _b_ to a 2 x 3 x 3 array th
 Write an R command that accomplishes this same operation using the smalles number of keystrokes.
 
 
---------------------------
-__Exercises taken from Chapter 6, "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
+```{r}
+a<-array(seq(1:60),dim<-c(3,4,5))
+a[c(1,3),-c(1,4),3:5]
+a[-2,2:3,3:5]
+```
 
