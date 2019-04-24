@@ -24,6 +24,10 @@ ex%.pdf: ex%.rmd
 ex%.html : ex%.rmd
 	$(LORX) -e "render('$(subst .html,,$@).rmd',output_format='html_document',output_file='$@',quiet=TRUE)"
 
+class%.pdf: class%.rmd
+	$(LORX) -e "render('$(subst .pdf,,$@).rmd',output_format='pdf_document',output_file='_tmp.pdf',quiet=TRUE)"
+	$(LOPS2PDF) _tmp.pdf $@
+	$(LODEL) _tmp.pdf
 
 ALLDEST = syllabus.pdf ex*ch*.pdf
 
