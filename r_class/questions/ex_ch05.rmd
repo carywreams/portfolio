@@ -1,3 +1,4 @@
+
 # Exercises, Chapter 5
 
 ## Exercise 5.1
@@ -60,6 +61,6 @@ This command should use as few keystrokes as possible.
 # matrix(rep(1:4,1:4),2,5,T)
 ```
 
-------------------------------
 __Exercises taken from Chapter 5, "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
+
 

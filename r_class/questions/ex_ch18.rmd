@@ -1,0 +1,43 @@
+# Exercises, Chapter 18
+
+## Exercise 18.1
+
+Use the ```help``` function to learn about the ```write.table``` function.
+Use the ```write.table``` function to write the built-in data set ```Formaldehyde``` (which is a data frame) to an external file named "```file8``".
+
+## Exercise 18.2
+
+Create a file that contains the following two R commands:
+
+```
+SmallVector = c(1,2,6)
+print(mean(SmallVector))
+```
+
+Then enter R and use the ```source``` function to execute the two commands.
+
+## Exercise 18.3
+
+Create a file that contains the data values: 1, 2, and 18.
+The data values should be separated by _spaces_.
+Then enter R and read these data values into a vector named ```x``` with the ```scan``` function.
+Print the average of the three values.
+
+## Exercise 18.4
+
+Create a file that contains the data values: 1, 2, and 18.
+The data values should be separated by _commas_.
+Then enter R and read these data values into a vector named ```x``` with the ```read.csv``` (read comma seperated values) function.
+Print the average of the three values.
+
+## Exercise 18.5
+
+Enter R and set the object ```y``` to 4 with the R command ```y = 4```.
+Use the R ```dump``` function to save ```y``` to a file (you choose the filename).
+Use the R ```rm``` function to remove the object named ```y``` with the command ```rm(y)```.
+Type ```y``` to assure that the object no longer exists.
+Finally, use the ```source``` function to recover the object named ```y``` and print its value.
+
+
+__Exercises taken from Chapter 18, "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
+
