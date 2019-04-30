@@ -35,6 +35,11 @@ class_20190429.pdf: questions/ex_ch05.rmd questions/ex_ch06.rmd questions/ex_ch1
 	$(LOPS2PDF) _tmp.pdf $@
 	$(LODEL) _tmp.pdf
 
+class_20190429_answers.pdf: answers/class_20190429_answers.rmd
+	/bin/cat $^ > _tmp.rmd
+	$(LORX) -e "render('_tmp.rmd',output_format='pdf_document',output_file='_tmp.pdf',quiet=TRUE)"
+	$(LOPS2PDF) _tmp.pdf $@
+	$(LODEL) _tmp.pdf
 
 ALLDEST = syllabus.pdf ex*ch*.pdf
 

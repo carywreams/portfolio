@@ -1,32 +1,34 @@
+---
+title: "Chapter 7 Answers"
+geometry: margin=1.0in
+output: pdf_document
+---
+\pagenumbering{gobble}
+
 # Exercises Chapter 7
 
-## Exercise 7.1
-
-Write a single R command that calculates: 
-
-$sin(e^4 + \sqrt{arccos(1/3)})$
+__7.1__ Write a single R command that calculates: $sin(e^4 + \sqrt{arccos(1/3)})$
 
 ```{r}
-sin(exp(4) + sqrt(acos(1/3)))
+sin(exp(4) + sqrt(arccos(1/3)))
 ```
 
-## Exercise 7.2
+
+__7.2__ What is returned by the following R command ? (Guess before computing this in R.)
 
 ```{r}
 x <- c(pi, 4/3, 7)
-x
 round(x,2)
 ```
 
-## Exercise 7.3
+__7.3__ What is returned by the following R commands ?
 
 ```{r}
 x <- (1:10)^2
-x
 diff(range(x))
 ```
 
-## Exercise 7.4
+__7.4__ What is returned by the following R commands ?
 
 ```{r}
 x <- 1:4
@@ -34,14 +36,14 @@ y <- 4:1
 pmax(x,y)
 ```
 
-## Exercise 7.5
+__7.5__ What is returned by the following R commands ?
 
 ```{r}
 x <- 1:4
 cumsum(x)
 ```
 
-## Exercise 7.6
+__7.6__ What is returned by the following R commands ?
 
 ```{r}
 x <- c(1,1,1,-1,-1,-1,NA)
@@ -49,23 +51,21 @@ y <- c(0,1,4, 0,-1,NA, 1)
 x / sqrt(y)
 ```
 
-## Exercise 7.7
+__7.7__ What is returned by the following R commands ?
 
 ```{r}
 x <- seq(1,7,by=3)
 sum(x^2) / length(x)
-x^2
-sum(x^2)
-length(x)
 ```
 
-## Exercise 7.8
+__7.8__ What is returned by the following R commands ?
 
 ```{r}
 sqrt(max(9:-3))
 ```
 
-## Exercise 7.9
+__7.9__ Let ```x``` be a vector of length three or greater that contains numeric elements.
+Write a single R command that calculates the sample mean of all of the elements of ```x``` except the smallest and largest.
 
 ```{r}
 options(width=25)
@@ -81,7 +81,10 @@ mean(x[x[x<max(x)]>min(x)])
 options(width=40)
 ```
 
-## Exercise 7.10
+__7.10__ Write an R command that creates a 2 x 3 matrix named ```x``` that contains the first six positive integers entered row-wise into the matrix.
+Display ```x```.
+Then write another R command that uses the ```dim``` function to change the dimensions of ```x``` to a 3 x 2 matrix.
+Display the updated matrix ```x```.
 
 ```{r}
 x <- matrix(1:6,2,3,T)
@@ -90,22 +93,14 @@ dim(x) <- c(3,2)
 x
 ```
 
-## Exercise 7.11
-
-Write two R commands that calculate 
-
-$\displaystyle \sum_{n=1}^{15}\Big(\frac{2^i}{i!} - \frac{cos(3i)}{i^4}\Big)$
+__7.11__ Write two R commands that calculate  $\displaystyle \sum_{i=1}^{15}\Big(\frac{2^i}{i!} - \frac{cos(3i)}{i^4}\Big)$
 
 ```{r}
 x<-1:15
 sum( ( (2^x)/factorial(x) ) - ( cos(3*x) / (x^4) ) )
 ```
 
-## Exercise 7.12
-
-Write two R commands that calculate 
-
-$\displaystyle \prod_{x=4}^{12}\Big\lvert \frac{x(x-1)(x-2)}{(x-3)!} + \frac{arctan  x}{x^2} \Big\rvert$
+__7.12__ Write two R commands that calculate $\displaystyle \prod_{x=4}^{12}\Big\lvert \frac{x(x-1)(x-2)}{(x-3)!} + \frac{arctan(x)}{x^2} \Big\rvert$
 
 ```{r}
 x <- 4:12
@@ -115,9 +110,7 @@ prod (
     )
 ```
 
-## Exercise 7.13
-
-Write a single R command that calculates: 
+__7.13__ Write a single R command that calculates: 
 
 $\frac{3}{4} + 
 \Big( \frac{3}{4} \cdot \frac{5}{6}  \Big)
@@ -129,15 +122,13 @@ $\frac{3}{4} +
 sum(cumprod(seq(4,50,by=2)^-1*-1+1))
 ```
 
-## Exercise 7.14
+__7.14__ Write a single R command that calculates $e^e$.
 
 ```{r}
 exp(exp(1))
 ```
 
-## Exercise 7.15
-
-Write a single R command that calculates: 
+__7.15__ Write a single R command that calculates: 
 
 $\displaystyle1^3 + 2^3 + \cdot \cdot \cdot + 100^3$
 
@@ -145,9 +136,7 @@ $\displaystyle1^3 + 2^3 + \cdot \cdot \cdot + 100^3$
 sum((1:100)^3)
 ```
 
-## Exercise 7.16
-
-Using a minimum number of keystrokes, write a single R command that creates a vector with elements: 
+__7.16__ Using a minimum number of keystrokes, write a single R command that creates a vector with elements: 
 
 $\displaystyle \Big( 5, \frac{5^2}{2!}, \frac{5^3}{3!}, \cdot \cdot \cdot, \frac{5^{10}}{10!}\Big)$
 
@@ -155,9 +144,7 @@ $\displaystyle \Big( 5, \frac{5^2}{2!}, \frac{5^3}{3!}, \cdot \cdot \cdot, \frac
 5^(1:10)/factorial(1:10)
 ```
 
-## Exercise 7.17
-
-Write a single R command that calculates: 
+__7.17__ Write a single R command that calculates: 
 
 $\displaystyle
 \sum_{i=3}^{8}\sum_{j=2}^{9}\frac{i^2}{7+4j}$
@@ -171,7 +158,12 @@ $\displaystyle
 sum(seq(3:8)^2) * sum((seq(2,9)*4+7)^-1)
 ```
 
-## Exercise 7.18
+__7.18__ The two-element vector named ```point1``` contains the _x_-coordinate and the _y_-coordinate of a point on the Cartesian coordinate system.
+Likewise for ```point2```.
+Write a single R command that calculates the quantity of interest requested below.
+
+1. Calculate the distance between the two points, where "distance" is interpreted as the Euclidean distance, the distance "as the crow flies," or the $L_2$ norm.
+1. Calculate the rectilinear distance between the two points, where "rectilinear distance" is interpreted as the "Manhattan distance", "taxicab norm," or the $L_1$ norm.
 
 ```{r}
 point1<-c(0,0)
@@ -182,11 +174,10 @@ sqrt(sum((point2-point1)^2))
 sum(abs(point2-point1))
 ```
 
-## Exercise 7.19
-
+__7.19__ Experiment with the ```Sys.sleep``` function using a single argument, a small integer, to determine its purpose.
 Sys.sleep is a suspend function which takes an integer argument, interpreted to be the number of seconds activity should be suspended. For more, see ``` ??Sys.sleep ```
 
-## Exercise 7.20
+__7.20__ Compose two R functions so as to count the number of distinct elements in a vector named ```x```.
 
 ```{r}
 x<-seq(3,317, by=17)
@@ -194,7 +185,9 @@ x
 length(unique(x))
 ```
 
-## Exercise 7.21
+__7.21__ An unsorted 99-element vector named ```x``` contains all but one of the first 100 positive integers.
+Write a single R command that determines the missing integer.
+
 
 ```{r}
 N<-100

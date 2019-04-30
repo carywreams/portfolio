@@ -13,8 +13,8 @@ Next, write an R command that extracts the elements of _x_ in a fashion that inc
 ## Exercise 6.3
 
 The 3 x 4 x 5 array _a_ is filled with numeric values.
-The R command ```> b = a[c(1,3),-c(1,4),3:5]``` sets _b_ to a 2 x 3 x 3 array that includes the first and third rows, excludes the first and fourth columns, and includes the third, fourth, anbd fifth layers of _a_. 
-Write an R command that accomplishes this same operation using the smalles number of keystrokes.
+The R command ```> b = a[c(1,3),-c(1,4),3:5]``` sets _b_ to a 2 x 2 x 3 array that includes the first and third rows, excludes the first and fourth columns, and includes the third, fourth, and fifth layers of _a_. 
+Write an R command that accomplishes this same operation using the smallest number of keystrokes.
 
 
 __Exercises taken from Chapter 6, "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
