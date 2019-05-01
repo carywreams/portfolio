@@ -1,13 +1,10 @@
+---
+title: "Chapter 8 Questions"
+geometry: margin=1.0in
+---
+\pagenumbering{gobble}
 
 __8.1__ Write a one-line function named ```reverse``` with a single arument ```x``` that reverses the order of the elements in the vector ```x```.
-
-```{r}
-reverse = function (x) x[length(x):1]
-reverse(1:15)
-x<-sample(100,10,replace=FALSE)
-x
-reverse(x)
-```
 
 __8.2__ Write a functions namd ```my.cos``` (that calculates the cosine of the supplied angle) with two arguments.
 The first argument is named ```angle``` and the second argument is named ```degrees```, which has a default value of ```FALSE```.
@@ -18,41 +15,10 @@ Test your function with the R commands
 > my.cos(90, degrees = TRUE)
 ```
 
-```{r}
-my.cos = function(angle=NaN, degrees=FALSE) {
-    ifelse(is.na(angle),
-            NaN,
-            ifelse(degrees,
-                    cos(angle),
-                    cos(180/pi*angle)
-            )
-    )
-}
-
-my.cos(90,TRUE)
-my.cos(90,degrees<-TRUE)
-my.cos(pi/2)
-my.cos()
-
-```
-
 __8.3__  Write a function named ```cube.root``` that calculates the cube root(s) of its argument.
 Test your function with the R command
 ```
 > cube.root(c(-8,8,729,1000000))
-```
-
-```{r}
--8^(1/3)
-# but
-cube.root <- function(x) { (x)^(1/3) }
-cube.root(c(-8,8,729,1000000))
-# and
-cube.root <- function(x) { as.numeric(x)^(1/3) }
-cube.root(c(-8,8,729,1000000))
-# so, ...
-cube.root <- function(x) { y<-abs(x)^(1/3) ; ifelse(x>=0,y,-y) ; }
-cube.root(c(-8,8,729,1000000))
 ```
 
 __8.4__ Consider the sample data values $x_1, x_2, \cdot \cdot \cdot, x_n$ and the associated sample order statistics, $x_{(1)}, x_{(2)}, \cdot \cdot \cdot, x_{(n)}$.
@@ -74,59 +40,12 @@ Test your code with the R commands
 > tmean(1:18, 4)
 ```
 
-
-```{r}
-tmean = function (x,k) { 
-    sorted_x<-sort(x)
-    n_from<-k+1
-    n_to<-length(x)-k
-    mean(sorted_x[n_from:n_to])
-}
-
-# case 1
-tmean(c(9.4,9.6,9.1,9.5,9.3),1)
-# check against :
-mean(c(9.4,9.5,9.3))
-# case 2
-tmean(1:18,4)
-# check against :
-mean(5:14)
-# setup for alternative forms
-x<-sample(100,30,replace=FALSE)
-x
-tmean(x,3)
-tmean(x,7)
-# alternative form #1
-# GOTCHA: parenthesis are REQUIRED on the indexes
-tmean = function (x,k) { 
-    y<-sort(x)
-    mean(y[(k+1):(length(y)-k)])
-}
-
-tmean(c(9.4,9.6,9.1,9.5,9.3),1)
-tmean(x,3)
-tmean(x,7)
-
-# alternative form #2
-# sort, then subset, then take the mean
-tmean = function (x,k) { mean(sort(x)[(k+1):(length(x)-k)]); }
-tmean(c(9.4,9.6,9.1,9.5,9.3),1)
-tmean(x,3)
-tmean(x,7)
-```
-
 __8.5__ Let $x_1, x_2, \cdot \cdot \cdot, x_n$ be the $n > 2$ elements in a vector ```x```.
 Write an R function named ```moveave``` with a single argument ```x``` that returns a vector of length $n-1$ whose elements are the moving averages
 
 \begin{center}
 $\displaystyle \frac{x_1 + x_2}{2} ,\frac{x_2 + x_3}{2} ,\frac{x_3 + x_4}{2} ,\cdot \cdot \cdot, \frac{x_{n-1} + x_n}{2}$
 \end{center}
-
-```{r}
-moveave = function (x) { (x[1:length(x)-1] + x[2:length(x)])/2 }
-moveave(c(1,2,3))
-moveave(c(10,20,30,40,50))
-```
 
 __8.6__ Let $x_1, x_2, \cdot \cdot \cdot, x_n$ denote the elements of the vector ```x```.
 Write an R function named ```L2``` with a single vector argument ```x``` that calculates the $L_2$ norm
@@ -141,13 +60,6 @@ Test your function with the R commands
 > L2(c(1,1,1))
 ```
 
-```{r}
-L2 = function (x) { sqrt(sum(x^2)) }
-L2(c(3,4))
-L2(c(1,1,1))
-sqrt(3)
-```
-
 __8.7__ Let $x_1, x_2, \cdot \cdot \cdot, x_n$ denote the elements of the vector ```x```.
 Write an R function named ```Lp``` with a vector argument ```x``` and an integer argument ```p``` that calculates the $p-$norm
 
@@ -160,15 +72,6 @@ Test your R function with the R commands
 ```
 Lp(c(3,4),2)
 Lp(c(1,1,1),3)
-```
-
-
-```{r}
-Lp = function (x, p) { (sum(abs(x)^p))^(1/p)}
-Lp(c(3,4),2)
-Lp(c(1,1,1),3)
-3^(1/3)
-Lp(c(1,1,1),2)
 ```
 
 __8.8__  The built-in R function ```mean``` calculates the sample mean $\bar{x}$. 
@@ -191,60 +94,6 @@ min \{ x_1,x_2,\cdot \cdot \cdot,x_n \} \leq h \leq g \leq \bar{x} \leq q \leq m
 $
 \end{center}
 
-
-```{r}
-hmean_orig = function (x) { 1/((1/length(x))*(sum(1/x))) }
-hmean_simp = function (x) { length(x) / (sum(1/x)) }
-gmean      = function (x) { prod(x)^(1/(length(x))) }
-qmean_orig = function (x) { sqrt( (1/length(x)) * (sum(x^2)) ) }
-qmean_simp = function (x) { sqrt( (sum(x^2))/length(x) ) }
-
-rv <- sample(100,30,replace = FALSE)
-rvmin <-min(rv)
-h<-hmean_orig(rv)
-g<-gmean(rv)
-m<-mean(rv)
-q<-qmean_orig(rv)
-rvmax<-max(rv)
-
-(rvmin <= h) && (h <= g) && (g<=m) && (m<=q) && (q <= rvmax)
-```
-
-
-
-
-### Alternate Ending
-```{r}
-hmean_alt = function (x,n=length(x)) { n / (sum(1/x)) }
-gmean_alt = function (x,n=length(x)) { prod(x)^(1/(n)) }
-qmean_alt = function (x,n=length(x)) { sqrt( (sum(x^2))/n ) }
-
-h_alt<-hmean_alt(rv)
-g_alt<-gmean_alt(rv)
-q_alt<-qmean_alt(rv)
-
-(rvmin <= h_alt) && (h_alt <= g_alt) && (g_alt<=m) && (m<=q_alt) && (q_alt <= rvmax)
-```
-
-### Summary
-```{r}
-# using signif() because digits=4 parameter was ignored
-library(knitr)
-kable(matrix(
-    c(
-        c('rvmin',rvmin,rvmin),
-        c('h',signif(h),signif(h_alt)),
-        c('g',signif(g),signif(g_alt)),
-        c('m',signif(m),signif(m)),
-        c('q',signif(q),signif(q_alt)),
-        c('rvmax',rvmax,rvmax)
-    ),
-    c(6,3),byrow=TRUE),
-    col.names=c('variable','Original','Alternate'),
-    align=c('r','l','l'),
-    caption="A Comparison of Results")
-```
-
 __8.9__ Let $x_1, x_2, \cdot \cdot \cdot, x_n$ be the $n$ elements in the R vector ```x```.
 Write an R function named ```mad``` (for _mean absolute deviation_) with a single argument ```x``` that calculates
 
@@ -258,15 +107,6 @@ where $\bar{x}$ is the sample mean.
 
 _note: this problem includes the $\frac{1}{n}$ correction from author's errata_
 
-```{r}
-mad = function (x,x_bar = mean(x),n = length(x) ) { 
-    (sum(abs(x-x_bar)))/n 
-    }
-mad(c(1,2,3))
-mad(c(10,20,30,40,50))
-
-```
-
 __8.10__ Write an R function named ```fifth``` with a single vector argument ```x``` that calculates and returns the sample mean of the 5th, 10th, 15th, ... elements of ```x```.
 You may assume that ```x``` has at least five elements.
 
@@ -279,4 +119,7 @@ Assume that $\theta$ is measured in radians.
 
 __8.12__ Write a one-line function named ```fourth``` that raises its argument to the fourth power.
 Then apply the ```formals, body,``` and ```environment``` functions to ```fourth``` in order to isolate the arguments to the function, the R code that comprises the function, and the location of the objects used in the function.
+
+------------------------------
+__Exercises taken from Chapter 8, "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
 
