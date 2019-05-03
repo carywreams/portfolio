@@ -18,16 +18,6 @@ Write R commands that set the objects ```D, K,``` and ```h``` to
 
 and compute the associated bvalue of ```Q```.
 
-```{r}
-D<-1000
-K<-5
-h<-0.25
-# implementing square root as an exponent: raised to 1/2
-Q<-((2*D*K)/h)^(0.5)
-Q
-ls()
-```
-
 __3.2__ For an initial principle amount $P$ and a nominal annual interest rate $r$ that is compounded $n$ times per year over a span of $t$ years, the final value of a certificate of deposit is
 
 $F = P(1+\frac{r}{n})^{nt}$
@@ -37,13 +27,6 @@ Write R commands that set the objects ```P, r, n,``` and ```t``` to
 ```P = 100, r = 0.08, n = 12, and t = 3```
 
 and compute the associated value of ```F```
-
-```{r}
-
-P<-100; r<-0.08; n<-12; t<-3
-F<-P*(1+r/n)^(n*t)
-F
-```
 
 
 __Exercises taken from indicated chapter of "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__

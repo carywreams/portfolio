@@ -280,3 +280,6 @@ Assume that $\theta$ is measured in radians.
 __8.12__ Write a one-line function named ```fourth``` that raises its argument to the fourth power.
 Then apply the ```formals, body,``` and ```environment``` functions to ```fourth``` in order to isolate the arguments to the function, the R code that comprises the function, and the location of the objects used in the function.
 
+
+__Exercises taken from indicated chapter of "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
+

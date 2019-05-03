@@ -21,23 +21,11 @@ ex%.pdf: ex%.rmd
 	$(LOPS2PDF) _tmp.pdf $@
 	$(LODEL) _tmp.pdf
 
-ex%.html : ex%.rmd
-	$(LORX) -e "render('$(subst .html,,$@).rmd',output_format='html_document',output_file='$@',quiet=TRUE)"
+chapter%.html : answers/chapter%.rmd
+	$(LORX) -e "render('answers/$(subst .html,,$@).rmd',output_format='html_document',output_file='$@',quiet=FALSE)"
 
 class%.pdf: class%.rmd
 	$(LORX) -e "render('$(subst .pdf,,$@).rmd',output_format='pdf_document',output_file='_tmp.pdf',quiet=TRUE)"
-	$(LOPS2PDF) _tmp.pdf $@
-	$(LODEL) _tmp.pdf
-
-class_20190429.pdf: questions/ex_ch05.rmd questions/ex_ch06.rmd questions/ex_ch18.rmd
-	/bin/cat $^ > _tmp.rmd
-	$(LORX) -e "render('_tmp.rmd',output_format='pdf_document',output_file='_tmp.pdf',quiet=TRUE)"
-	$(LOPS2PDF) _tmp.pdf $@
-	$(LODEL) _tmp.pdf
-
-class_20190429_answers.pdf: answers/class_20190429_answers.rmd
-	/bin/cat $^ > _tmp.rmd
-	$(LORX) -e "render('_tmp.rmd',output_format='pdf_document',output_file='_tmp.pdf',quiet=TRUE)"
 	$(LOPS2PDF) _tmp.pdf $@
 	$(LODEL) _tmp.pdf
 

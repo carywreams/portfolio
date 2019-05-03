@@ -1,5 +1,5 @@
 ---
-title: "Chapter 2 Answers"
+title: "Chapter 2 Questions"
 geometry: margin=1.0in
 ---
 \pagenumbering{gobble}
@@ -10,40 +10,16 @@ __2.1__ Write an R command to compute: $100(1+\frac{.05}{12})^{24}$
 
 which is the value of \$100 invested at an annual rate of 5% after two years with monthly compounding.
 
-```{r, echo=TRUE}
-100 * ( 1 + (0.05 / 12) )^24
-```
-
-
 __2.2__ What is returned by the following R command? (Guess before computing this in R.)
 
 ```
 > 5 %% 2
 ```
 
-```{r, echo=TRUE}
-5 %% 2
-```
-
 __2.3__ What is the remainder when 3333 is divided by 222 ?
-
-```{r, echo=TRUE}
-3333 %% 222
-```
 
 __2.4__ Use R to investogate the behavior of $(1+\frac{1}{n})^n$ for large, integer values of $n$.
 
-```{r, echo=TRUE}
-domainValues<-10^(c(1:10))
-# avoid scientific notation
-options(scipen=1000)
-# increase significant digits
-options(digits=22)
-# applying formula
-rangeValues<- ( 1 + 1/domainValues)^domainValues
-# force output to a single column of values
-rangeValues
-```
 
 
 __Exercises taken from indicated chapter of "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__

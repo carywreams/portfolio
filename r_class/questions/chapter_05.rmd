@@ -1,8 +1,9 @@
 ---
-title: "Chapter 5 Answers"
+title: "Chapter 5 Questions"
 geometry: margin=1.0in
 ---
 \pagenumbering{gobble}
+# Exercises, Chapter 5
 
 __5.1__ Using the _minimum number of keystrokes,_ write a single R command that constructs the matrix _A_ given below.
 
@@ -16,17 +17,8 @@ __5.1__ Using the _minimum number of keystrokes,_ write a single R command that 
     \end{array} } \right]
 \]
 
-```{r, echo=TRUE}
-rbind(5:9,rep(12,5),(9:5)^2,c(2,8,4,7,3))
-```
-
 __5.2__ Write R commands that create a 2 x 4 matrix named _x_ that contains the inteegers 11, 12, ..., 18 arranged in a column-wise fashion.
 Then use subscripts that extact the elements that exclude the first row and include the first and fourth columns.
-
-```{r}
-x<-matrix(11:18,2,4)
-x[-1,c(1,4)]
-```
 
 __5.3__ Let A and B be the following 3 x 2 matrices:
 
@@ -50,15 +42,6 @@ __5.3__ Let A and B be the following 3 x 2 matrices:
 
 Write R commands to create the matrices _A_ and _B_ using the ```matrix``` function, then combine _A_ and _B_ to create two new matrices with the ```rbind``` and ```cbind``` functions.
 
-```{r}
-A<-matrix(1:6,3,2)
-B<-A+6
-rbind(A,B)
-cbind(A,B)
-rbind(B,A)
-cbind(B,A)
-```
-
 __5.4__ A _one-step transition matrix_ has elements that are between 0 and 1, row sums that equal 1, and the same number of rows and columns.
 Write an R command to create the 2 x 2 one-step transition matrix _A_ with elements given by
 
@@ -70,20 +53,8 @@ Write an R command to create the 2 x 2 one-step transition matrix _A_ with eleme
     \end{array} } \right]
 \]
 
-```{r}
-# easier to read and infer
-# A<-c(0.8,0.3)
-# cbind(A,1-A)
-# or, single command; may expect values in objects
-cbind(c(0.8,0.3),1-c(0.8,0.3))
-```
-
 __5.5__ Write a single R command that creates a sequence of one 1, two 2s, three 3s, and four 4s, and places them in a 2 x 5 matrix named ```b``` in a row-wise fashion.
 This command should use as few keystrokes as possible.
-
-```{r}
-matrix(rep(1:4,1:4),2,5,T)
-```
 
 __Exercises taken from indicated chapter of "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
 

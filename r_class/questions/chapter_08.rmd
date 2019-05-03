@@ -24,9 +24,7 @@ Test your function with the R command
 __8.4__ Consider the sample data values $x_1, x_2, \cdot \cdot \cdot, x_n$ and the associated sample order statistics, $x_{(1)}, x_{(2)}, \cdot \cdot \cdot, x_{(n)}$.
 The _sample truncated mean_ (also known as the _sample trimmed mean_) is a measure of central tendency defined as 
 
-\begin{center}
 $\displaystyle \bar{x} = \frac{x_{(k+1)} + x_{(k+2)} + \cdot \cdot \cdot + x_{(n-k)} }{ n - 2k }$
-\end{center}
 
 This is the arithmetic average of the data values with the _k_ lowest and _k_ highest observations removed.
 The truncated mean is less sensitive to outliers than the arithmetic mean and is hence known as a _robust estimator_.
@@ -43,16 +41,12 @@ Test your code with the R commands
 __8.5__ Let $x_1, x_2, \cdot \cdot \cdot, x_n$ be the $n > 2$ elements in a vector ```x```.
 Write an R function named ```moveave``` with a single argument ```x``` that returns a vector of length $n-1$ whose elements are the moving averages
 
-\begin{center}
 $\displaystyle \frac{x_1 + x_2}{2} ,\frac{x_2 + x_3}{2} ,\frac{x_3 + x_4}{2} ,\cdot \cdot \cdot, \frac{x_{n-1} + x_n}{2}$
-\end{center}
 
 __8.6__ Let $x_1, x_2, \cdot \cdot \cdot, x_n$ denote the elements of the vector ```x```.
 Write an R function named ```L2``` with a single vector argument ```x``` that calculates the $L_2$ norm
 
-\begin{center}
 $\displaystyle \sqrt{x_1^2 + x_2^2 + \cdot \cdot \cdot + x_n^2}$
-\end{center}
 
 Test your function with the R commands
 ```
@@ -63,9 +57,7 @@ Test your function with the R commands
 __8.7__ Let $x_1, x_2, \cdot \cdot \cdot, x_n$ denote the elements of the vector ```x```.
 Write an R function named ```Lp``` with a vector argument ```x``` and an integer argument ```p``` that calculates the $p-$norm
 
-\begin{center}
 $\displaystyle \Big( \sum_{i=1}^{n} \lvert x_i \rvert ^p \Big)^{(1/p)}$
-\end{center}
 
 Test your R function with the R commands
 
@@ -77,31 +69,19 @@ Lp(c(1,1,1),3)
 __8.8__  The built-in R function ```mean``` calculates the sample mean $\bar{x}$. 
 Write R functions named ```hmean, gmean,``` and ```qmean``` that calculate the sample harmonic mean, geometric mean, and quadratic mean defined by
 
-\begin{center}
-$\displaystyle 
-h = \bigg( \frac{1}{n} \sum_{i=1}^{n}\frac{1}{x_i}\bigg)^{-1}, \hspace{0.2in}
+$\displaystyle h = \bigg( \frac{1}{n} \sum_{i=1}^{n}\frac{1}{x_i}\bigg)^{-1}, \hspace{0.2in}
 g = \bigg( \prod_{i=1}^{n}x_i \bigg)^{1/n}, \hspace{0.2in}
-q = \sqrt{\frac{1}{n} \sum_{i=1}^{n} x_i^2 }
-$
-\end{center}
+q = \sqrt{\frac{1}{n} \sum_{i=1}^{n} x_i^2 }$
 
 where $x_1, x_2, \cdot \cdot \cdot, x_n$ are the data values.
 Test your functions with a vector of data values of your choice and verify the inequality
 
-\begin{center}
-$\displaystyle
-min \{ x_1,x_2,\cdot \cdot \cdot,x_n \} \leq h \leq g \leq \bar{x} \leq q \leq max \{ x_1,x_2,\cdot \cdot \cdot,x_n \}
-$
-\end{center}
+$min \{ x_1,x_2,\cdot \cdot \cdot,x_n \} \leq h \leq g \leq \bar{x} \leq q \leq max \{ x_1,x_2,\cdot \cdot \cdot,x_n \}$
 
 __8.9__ Let $x_1, x_2, \cdot \cdot \cdot, x_n$ be the $n$ elements in the R vector ```x```.
 Write an R function named ```mad``` (for _mean absolute deviation_) with a single argument ```x``` that calculates
 
-\begin{center}
-$\displaystyle
-\frac{1}{n} \sum_{i=1}^{n} \lvert x_i - \bar{x} \rvert
-$
-\end{center}
+$\displaystyle\frac{1}{n} \sum_{i=1}^{n} \lvert x_i - \bar{x} \rvert$
 
 where $\bar{x}$ is the sample mean.
 
@@ -120,6 +100,5 @@ Assume that $\theta$ is measured in radians.
 __8.12__ Write a one-line function named ```fourth``` that raises its argument to the fourth power.
 Then apply the ```formals, body,``` and ```environment``` functions to ```fourth``` in order to isolate the arguments to the function, the R code that comprises the function, and the location of the objects used in the function.
 
-------------------------------
-__Exercises taken from Chapter 8, "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
+__Exercises taken from indicated chapter of "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
 
