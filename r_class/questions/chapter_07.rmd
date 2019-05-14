@@ -74,7 +74,7 @@ $\displaystyle \prod_{x=4}^{12}\Big\lvert \frac{x(x-1)(x-2)}{(x-3)!} + \frac{arc
 __7.13__ Write a single R command that calculates: 
 
 $\frac{3}{4} + 
-\Big( \frac{3}{4} \cdot \frac{5}{6}  \Big)
+\Big( \frac{3}{4} \cdot \frac{5}{6}  \Big) +
 \Big( \frac{3}{4} \cdot \frac{5}{6}  \cdot \frac{7}{8} \Big)
 + \cdot \cdot \cdot +
 \Big( \frac{3}{4} \cdot \frac{5}{6}  \cdot \frac{7}{8} \cdot \cdot \cdot \frac{49}{50} \Big)$

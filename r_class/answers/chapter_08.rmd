@@ -1,3 +1,9 @@
+---
+title: "Chapter 8 Answers"
+geometry: margin=1.0in
+output: pdf_document
+---
+\pagenumbering{gobble}
 
 __8.1__ Write a one-line function named ```reverse``` with a single arument ```x``` that reverses the order of the elements in the vector ```x```.
 
