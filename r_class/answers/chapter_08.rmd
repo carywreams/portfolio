@@ -5,6 +5,17 @@ output: pdf_document
 ---
 \pagenumbering{gobble}
 
+__Highlights__
+
++ take a look at question 8.12 first
+    +   ```body()``` output appears _without_ comments
+    +   ```formals()```
++ if using CLI (nor R Studio), also look at ```fix()```
+    +   includes comments
+
+
+
+
 __8.1__ Write a one-line function named ```reverse``` with a single arument ```x``` that reverses the order of the elements in the vector ```x```.
 
 ```{r}
@@ -15,7 +26,7 @@ x
 reverse(x)
 ```
 
-__8.2__ Write a functions namd ```my.cos``` (that calculates the cosine of the supplied angle) with two arguments.
+__8.2__ Write a function named ```my.cos``` (that calculates the cosine of the supplied angle) with two arguments.
 The first argument is named ```angle``` and the second argument is named ```degrees```, which has a default value of ```FALSE```.
 Test your function with the R commands 
 
@@ -30,7 +41,7 @@ my.cos = function(angle=NaN, degrees=FALSE) {
             NaN,
             ifelse(degrees,
                     cos(angle),
-                    cos(180/pi*angle)
+                    cos(angle*pi/180)
             )
     )
 }
@@ -110,6 +121,7 @@ tmean = function (x,k) {
 }
 
 tmean(c(9.4,9.6,9.1,9.5,9.3),1)
+# check with values above for the 30-element vector, x
 tmean(x,3)
 tmean(x,7)
 
@@ -117,6 +129,7 @@ tmean(x,7)
 # sort, then subset, then take the mean
 tmean = function (x,k) { mean(sort(x)[(k+1):(length(x)-k)]); }
 tmean(c(9.4,9.6,9.1,9.5,9.3),1)
+# check with values above for the 30-element vector, x
 tmean(x,3)
 tmean(x,7)
 ```
@@ -216,9 +229,6 @@ rvmax<-max(rv)
 (rvmin <= h) && (h <= g) && (g<=m) && (m<=q) && (q <= rvmax)
 ```
 
-
-
-
 ### Alternate Ending
 ```{r}
 hmean_alt = function (x,n=length(x)) { n / (sum(1/x)) }
@@ -266,7 +276,8 @@ _note: this problem includes the $\frac{1}{n}$ correction from author's errata_
 
 ```{r}
 mad = function (x,x_bar = mean(x),n = length(x) ) { 
-    (sum(abs(x-x_bar)))/n 
+    mean_absolute_deviation <- (sum(abs(x-x_bar)))/n
+    return(mean_absolute_deviation) 
     }
 mad(c(1,2,3))
 mad(c(10,20,30,40,50))
@@ -276,6 +287,39 @@ mad(c(10,20,30,40,50))
 __8.10__ Write an R function named ```fifth``` with a single vector argument ```x``` that calculates and returns the sample mean of the 5th, 10th, 15th, ... elements of ```x```.
 You may assume that ```x``` has at least five elements.
 
+```{r}
+fifth = function (x, interval = 5) {
+    len_x <- length(x)
+    computed_mean = 
+        ifelse(
+            (( interval > 0 ) 
+               && ( len_x >= interval ) ),
+            mean(x[seq(interval, len_x, by = interval)]),
+            NaN)
+    return(computed_mean)
+}
+# expect NaN, fewer than (default of) five elements
+fifth(sample(1:1000,3))
+# expect evaluation
+fifth(sample(1:1000,3),3)
+# expect evaluation
+fifth(sample(1:1000,5))
+# expect NaN, invalid interval value
+fifth(sample(1:1000,5),0)
+# expect NaN, invalid interval value
+fifth(sample(1:1000,5),-1)
+# expect evaluation
+fifth(sample(1:1000,35))
+# expect evaluation
+fifth(sample(1:1000,36))
+# expect evaluation
+fifth(sample(1:1000,37))
+# expect evaluation
+fifth(sample(1:1000,38))
+# expect evaluation
+fifth(sample(1:1000,39))
+```
+
 __8.11__ The rectangular coordinate system uses $x$, the signed horizontal distance from the origin, and $y$, the signed vertical distance from the origin, to describe the point $(x, y)$.
 The polar coordinate system, on the other hand, uses $r$, the signed distance from the origin, and $\theta$, the signed angle measured counterclockwise from the polar axis, to describe the point $(r, \theta)$.
 Assume that $\theta$ is measured in radians.
@@ -283,9 +327,35 @@ Assume that $\theta$ is measured in radians.
 +   Write an R function named ```polar2rect``` with arguments ```r``` and ```theta``` that returns a two-element vector that contains the rectangular coordinates associated with the point $(r,\theta)$ in the polar coordinate system.
 +   Write an R function named ```rect2polar``` with arguments ```x``` and ```y``` that returns a two-element vector that contains the polar coordinates associated with the point $(x,y)$ in the rectangular coordinate system.
 
+```{r}
+polar2rect = function(r,theta_rads) { 
+    return(c(r*cos(theta_rads),r*sin(theta_rads))) 
+}
+rect2polar = function(x,y) {
+    return(c(sqrt(x*x+y*y),atan(y/x)))
+}
+
+myrads = 37 * pi / 180
+myrads
+rect_coord = polar2rect(10,myrads)
+rect_coord
+polar_coord = rect2polar(rect_coord[1],rect_coord[2])
+# should expect result to be at or near 10 , myrads
+polar_coord
+# any adjustments to use atan2() instead ?
+# how does it behave as we move around the unit circle ?
+```
+
 __8.12__ Write a one-line function named ```fourth``` that raises its argument to the fourth power.
 Then apply the ```formals, body,``` and ```environment``` functions to ```fourth``` in order to isolate the arguments to the function, the R code that comprises the function, and the location of the objects used in the function.
 
+```{r}
+fourth = function (x) { return(x^4) }
+fourth(3)
+formals(fourth)
+body(fourth)
+environment(fourth)
+```
 
 __Exercises taken from indicated chapter of "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
 
