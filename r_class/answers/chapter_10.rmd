@@ -1,0 +1,98 @@
+---
+title: "Chapter 10 Answers"
+geometry: margin=1.0in
+output: pdf_document
+---
+\pagenumbering{gobble}
+
+__Highlights__
+
++   Review these functions
+    +   complex
+    +   Re
+    +   Im
+    +   Conj
+    +   Mod
+    +   Arg
++   Don't forget these functions
+    +   matrix
+    +   rbind
+    +   seq
+    +   ifelse
+    +   ```%%```
+    +   ```%/%```
+
+__10.1__ Write a single R command that calculates the product of the complex numbers $2 - 3i$ and $3 + 4i$. 
+Check th correctness of the result by hand.
+
+```{r}
+(2-3i)*(3+4i)
+
+# or, lets get crazy
+
+my.complex.multiplier = function (c1,c2) {
+    # Manual FOIL method
+    # Re(c1)*Re(c2) + Re(c1)*Im(c2) + Im(c1)*Re(c2) + Im(c1)*Im(c2)
+    # But, Re and Im only return non-imaginary components, so
+    # REAL = Re(c1)*Re(c2) * (-1)*(Im(c1)*Im(c2))
+    # IMAGINARY = Re(c1)*Im(c2) + Im(c1)*Re(c2)
+    return(complex(real = Re(c1)*Re(c2) - Im(c1)*Im(c2),
+                    imaginary = Re(c1)*Im(c2) + Im(c1)*Re(c2)))
+
+}
+
+xc1 = complex(real = 2, imaginary = -3)
+xc2 = complex(real = 3, imaginary = 4)
+my.complex.multiplier(xc1,xc2)
+# and confirm:
+xc1*xc2
+
+```
+
+__10.2__ What is returned by the following R command? 
+Check the correctness of the result by hand.
+```
+(2 - 3i) ^ 2
+```
+
+```{r}
+(2-3i)^2
+(2-3i)*(2-3i)
+my.complex.multiplier(2-3i,complex(real=2,imaginary=-3))
+```
+
+__10.3__ Write R commands that calculate $(1-i)^n$, where $i=\sqrt{-1}$, for $n = 4, 8, 16, 20, 24$.
+Use the results to write a general mathematical expression for $(1-i)^n$, where $n$ is a multiple of 4.
+
+```{r}
+(1-1i)^(seq(4,24,by=4))
+
+n<-seq(4,24,by=4)
+ifelse((n%/%4)%%2,-1,1)*4^(n%/%4) + 0i
+```
+
+or, 
+
+$\text{Let } m = n \text{ div } 4, then  \\
+    \begin{cases} 
+      -4^m + 0i & \text{where }m \text{ is odd} \\
+       4^m + 0i & \text{where }m \text{ is even} \\
+    \end{cases}$
+
+
+__10.4__ Write R commands to create a 5 x 5 matrix named $w$ whose elements are complex numbers.
+The real part of each element is the row number; the imaginary part of each element is the column number.
+Compute the matrix that results from multiplying each element of $w$ by its conjugate.
+
+```{r}
+seed <- complex(real=1,imaginary=1:5)
+w=matrix(rbind(seed,seed+1,seed+2,seed+3,seed+4),5,5)
+w
+Conj(w)
+w*Conj(w)
+
+w[3,3]*Conj(w[3,3])
+w[1,2]*Conj(w[1,2])
+
+```
+

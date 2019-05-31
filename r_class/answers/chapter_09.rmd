@@ -1,0 +1,133 @@
+---
+title: "Chapter 9 Answers"
+geometry: margin=1.0in
+output: pdf_document
+---
+\pagenumbering{gobble}
+
+__Highlights__
+
++ ```history()```
++ ```history(pattern="some text")```
++ ```options()```
+    + digits
+    + scipen
+    + width
++ ```demo()```
++ ```demo(graphics)```
++ ```??
++ ```appropos()```
++ Notes on Environments
+    +   ```search()``` - lists current environments
+    +   ```ls(search()[3])``` - lists objects in environment listed by search() at index [3]
+    +   ```ls(search()[3],pattern="some text")``` - lists objects in environment listed by search() at index [3] matching "some text"
+
+
+__9.1__ Use the ```options``` function to set the number of digits displayed to three, the width of the display to 40, and avoid scientific notation.
+The use the ```cos``` function to display the cosine of the first ten positive integers to three digits.
+
+```{r}
+# setup
+targetListOfValues<-c(1:10)
+targetListOfValues
+# before
+cos(targetListOfValues)
+# set displayed digits to three
+options(digits=3)
+cos(targetListOfValues)
+# set display width to 40 characters
+options(width=40)
+cos(targetListOfValues)
+# force scientific notation
+options(scipen=-1000)
+cos(targetListOfValues)
+# resist scientific notation
+options(scipen=1000)
+cos(targetListOfValues)
+```
+
+__9.2__ Run the ```help``` function on the ```round``` function.
+How many arguments does the ```round``` function accept ?
+
+```{r}
+# setup
+targetListOfValues<-c(1:10)
+options(digits=10)
+options(scipen=1000)
+options(display=40)
+cosValues<-cos(1:10)
+cosValues
+# round takes two values
+#   the vector of values to be rounded
+#   signed integer number of decimal places
+round(cosValues,2)
+round(cosValues,6)
+round(cosValues,-2)
+round(314.00*cosValues,-2)
+```
+
+__9.3__ The three functions (actually _functionals_ because one of their arguments is itself a function) that are useful in numerical problems are 
+
++   ```uniroot```, which finds the numerical solution to an equation, 
++   ```optimise```, which finds the value associated with the minimum or maximum of a function, and 
++   ```integrate```, which finds the area under a function.
+
+__9.3.a__ Use the ```help``` function to learn about ```uniroot``` and use it to solve $x = e^{-x}$.
+
+
+```{r}
+
+```
+
+__9.3.b__ Use the ```help``` function to learn about ```optimise``` and use it to gfind the value of the $x$ that minimizes $g(x) = x + e^{-x}$
+
+```{r}
+
+```
+
+__9.3.c__ Use the ```help``` function to learn about ```integrate``` and use it to find the area under the function $h(x) = \frac{sin(x)}{x}$ between $x = 0$ and $x = \pi$, that is
+
+$\int_{0}^{pi} \frac{sin x}{x}dx$
+
+```{r}
+
+```
+
+## Exercise 9.4
+```{r}
+# confirming from text
+system2("bc",stdout=TRUE,stderr="",input="obase=2;12.75")
+
+# as requested in problem
+system2("bc",stdout=TRUE,stderr="",input="obase=2;scale=4;19/8")
+
+# confirming as equivalent value
+x<-system2("bc",stdout=TRUE,stderr="",input="obase=2;scale=4;19/8")
+system2("bc",stdout=TRUE,stderr="",input=paste("obase=10;ibase=2;",x))
+
+#`higlighting the problem identified in the text
+system2("bc",stdout=TRUE,stderr="",input="obase=2;scale=4;2/5")
+
+# confirming as approximate value
+x<-system2("bc",stdout=TRUE,stderr="",input="obase=2;scale=4;2/5")
+system2("bc",stdout=TRUE,stderr="",input=paste("obase=10;ibase=2;",x))
+
+```
+
+## Exercise 9.5
+```{r}
+system2("bc",stdout=TRUE,stderr="",input="obase=8;ibase=2;101111100")
+system2("bc",stdout=TRUE,stderr="",input="obase=16;ibase=2;101111100")
+system2("bc",stdout=TRUE,stderr="",input="obase=10;ibase=2;101111100")
+```
+
+## Exercise 9.6
+```{r}
+
+```
+
+## Exercise 9.7
+```{r}
+
+```
+
