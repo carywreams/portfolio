@@ -1,0 +1,49 @@
+---
+title: "Chapter 12 Answers"
+geometry: margin=1.0in
+output: pdf_document
+---
+\pagenumbering{gobble}
+
+__Highlights__
+
++   Data Types
+    +   NULL
+    +   logical
+    +   integer
+    +   numeric
+    +   complex
+    +   character
++   Review these functions
+    +   any
+    +   all
+    +   ! (not, vectorized)
+    +   & (and, vectorized)
+    +   | (or, vectorized)
+    +   && (and, not vectorized)
+    +   || (or, not vectorized)
++   Don't forget these functions
+    +   class
++   Also introduced this chapter
+
+__12.1__ Write a one-line function named ```oddjob``` with a single argument ```x``` that returns the elements in odd-numbered positions in the vector ```x```.
+
+```{r}
+# this is okay, but it doesn't use any of the cool new toys
+oddjob = function(x) { return(x[seq(1,length(x),by=2)]) }
+# this, however, uses a logical (true/false) element to indicate whether or not
+# the element resting in that position should be returned
+# see page 84, Section 12.2 in the text for a fuller explanation
+oddjob_    = function(x) { return(x[  (1:length(x) %% 2 ) == TRUE ] ) }
+# variations on the theme:
+oddjob__   = function(x) { return(x[  (1:length(x) %% 2 ) != FALSE] ) }
+oddjob___  = function(x) { return(x[!((1:length(x) %% 2 ) != TRUE )]) }
+oddjob____ = function(x) { return(x[!((1:length(x) %% 2 ) == FALSE)]) }
+
+x = 101:115
+oddjob(x)
+oddjob_(x)
+oddjob__(x)
+oddjob___(x)
+oddjob____(x)
+``` 

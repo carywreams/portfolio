@@ -1,0 +1,54 @@
+---
+title: "Chapter 15 Answers"
+geometry: margin=1.0in
+output: pdf_document
+---
+\pagenumbering{gobble}
+
+__Highlights__
+
++   Review these functions
+    +   list
+    +   attributes
+    +   unlist
+
+__15.1__ What is returned by the following R commands ?
+
+```{r}
+my.list = list(x = 7:2, y = letters )
+my.list$y[4]
+```
+
+__15.2__ Write a single R command that creates a list named ```x``` with the following three components:
+
++   the character string "```gnu```",
++   a five-element vector containing the integers 3, 4, 5, 6, 7, and
++   a 12-element vector containing the abbreviations of the names of the months
+
+Write a second R command that extracts the fourth element of the third component.
+
+```{r}
+x = list ("gnu" , 3:7 , month.abb)
+x[[3]][4]
+```
+
+__15.3__ All of the varieties of objects encountered thus far may have names attached to their elements.
+Type the following R commands into an R session.
+
+```{r}
+x = 1:3
+names(x) = c( "first", "second", "third" )
+x
+y = c(first = 1, second = 2, third = 3)
+y
+x == y
+z = c(first = 1, second = 2, 3)
+z
+z == x
+x == z
+z == y
+y == z
+```
+
+What do you conclude about attaching names to some elements but not to others ?
+

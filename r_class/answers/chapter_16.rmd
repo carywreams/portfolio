@@ -1,0 +1,149 @@
+---
+title: "Chapter 16 Answers"
+geometry: margin=1.0in
+output: pdf_document
+---
+\pagenumbering{gobble}
+
+__Highlights__
+
++   Review these functions
+    +   data.frame
+    +   head
+    +   tail
+    +   summary
+    +   transform
+    +   subset
+
+
+__16.1__ What is returned by the follwing R commands? 
+(Waking hours from wikipedia.)
+
+```{r}
+creatures = c("dog","cat","armadillo","human")
+friendly = c(TRUE,TRUE,FALSE,TRUE)
+diet = c("cats","mice","termites","Twinkies(tm)")
+waking.hours = c(13.9, 11.5, 5.9, 16.0)
+creature.data = data.frame (friendly, diet, waking.hours, row.names=creatures)
+creature.data
+
+
+creatures[creature.data$waking.hours < 12 & !creature.data$friendly]
+```
+__16.2__ Write a single R command that alphabetizes the rows of the data frame ```creature.data``` from Exercise 16.1 by creature name.
+
+```{r}
+creature.data[sort(creatures),]
+# also (perhaps the separate object creatures was not created)
+ creature.data[sort(row.names(creature.data)),]
+# for fun:
+summary(creature.data)
+```
+
+__16.3__ Use the R ```subset``` function to create a data frame consisting of just the creature name and diet associated with friendly creatures who are awake more than 12 hours a day from the data drame ```creature.data``` from Exercise 16.1.
+
+```{r}
+subset(creature.data,friendly & (waking.hours > 12),c(diet))
+```
+
+__16.4__ Consider the data frame ```creature.data`` from Exercise 16.1.
+
++   Extract the waking hours for a dog using two different R commands
+```{r}
+creature.data["dog","waking.hours"]
+# subset extracts a new data frame,
+# adding the [1,1] indexes extracts the cell value
+subset(creature.data,"dog" == row.names(creature.data),c(waking.hours))[1,1]
+```
+
++   Extract the waking hours for all creatures using two different R commands
+```{r}
+creature.data$waking.hours
+creature.data[["waking.hours"]]
+subset(creature.data,TRUE,c(waking.hours))[,1]
+```
+
++   Create a data frame that consists only of the rows for dogs and armadillos using two different R commands
+```{r}
+subset(creature.data,"dog" == row.names(creature.data) | "armadillo" == row.names(creature.data),colnames(creature.data))
+subset(creature.data,"dog" == row.names(creature.data) | "armadillo" == row.names(creature.data),)
+subset(creature.data,(waking.hours < 16 & waking.hours>12) | waking.hours<6,)
+```
+
++   Create a data frame that consists only of friendly creatures
+```{r}
+subset(creature.data,friendly,)
+```
+
+__16.5__ Consider a data frame named ```a``` with 4 rows and 3 columns populated with positive integers and -1 where -1 denotes a missing value.
+Write an R command that replaces each -1 with NA.
+
+```{r}
+a = data.frame(col1=1:4,col2=seq(10,40,by=10),col3=seq(100,400,by=100))
+a
+a[1,1] = a[2,2] = a[3,3] = a$col2[4] = -1
+a
+a[a==-1] <- NA
+a
+```
+
+__16.6__ Create the objects ```v```, ```m```, ```a```, ```l```, and ```d``` as a vector, matrix, array, list, and data.frame.
+Apply the functions ```class```, ```typeof```, and ```mode ```to each of the objects and summarize the results in a table.
+
+```{r}
+
+v = 1:12
+m = matrix(v,3,4)
+a = array(v,c(2,2,3))
+l = list(v,m,a)
+d = subset(creature.data,friendly,)
+
+st = data.frame(
+    class  =    c(  class(v),   class(m),   class(a),   class(l),   class(d)), 
+    typeof =    c(  typeof(v),  typeof(m),  typeof(a),  typeof(l),  typeof(d)),
+    mode   =    c(  mode(v),    mode(m),    mode(a),    mode(l),    mode(d)),
+    row.names = c(  "v",        "m",        "a",        "l",        "d")
+)
+st
+
+```
+
+__16.7__ Create a data frame named ```w``` that consists of the following three named columns:
+
++   ```x```, the first four positve integers,
++   ```y```, the abbreviations of the first four months,
++   ```z```, the first names of the Beatles.
+
+```{r}
+w = data.frame( x = 1:4,
+                y = month.abb[1:4],
+                z = sort(c("John","Paul","Ringo","George"))
+)
+w
+```
+
+Remove the second column of ```w``` in the following two fashions:
+
++   set ```w$y``` to ```NULL```, that is, ```w$y = NULL```,
++   subset the columns to keep, that is, ```w[c("x","z")]```.
+
+```{r}
+w_ = w
+w_$y = NULL
+
+w__ = w
+w__[c("x","z")]
+
+```
+
+
+Show that the first technique alters the data frame ```w ```but the second technique does not alter the data frame ```w```.
+
+```{r}
+# the first method was an assignment operation, resulting in a change
+w_
+# the second method was an extraction operation, with no permanent damage done to the data frame
+w__
+```
+
+

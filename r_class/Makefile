@@ -24,10 +24,10 @@ ex%.pdf: ex%.rmd
 chapter%.html : answers/chapter%.rmd
 	$(LORX) -e "render('answers/$(subst .html,,$@).rmd',output_format='html_document',output_file='$@',quiet=FALSE)"
 
-class%.pdf: class%.rmd
-	$(LORX) -e "render('$(subst .pdf,,$@).rmd',output_format='pdf_document',output_file='_tmp.pdf',quiet=TRUE)"
-	$(LOPS2PDF) _tmp.pdf $@
-	$(LODEL) _tmp.pdf
+chapter%.pdf: answers/chapter%.rmd
+	$(LORX) -e "render('answers/$(subst .pdf,,$@).rmd',output_format='pdf_document',output_file='_tmp.pdf',quiet=TRUE)"
+	$(LOPS2PDF) answers/_tmp.pdf $@
+	$(LODEL) answers/_tmp.pdf
 
 ALLDEST = syllabus.pdf ex*ch*.pdf
 

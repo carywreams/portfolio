@@ -18,7 +18,7 @@ I belong to [The Lab](the-lab.ms) maker space in Plano, Texas, USA that offers i
 
 + [R](meetups/r/) 
     +   [Essentials](meetups/r/essentials/)
-    +   In Progress: Advanced Data Types
+    +   [Advanced Data Types](meetups/r/adt)
     +   In Progress: Data Visualization
     +   In Progress: Programming
     +   In Progress: Packages
