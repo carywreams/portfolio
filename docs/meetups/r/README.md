@@ -33,11 +33,11 @@ The course is divided into five parts, each of which covers different chapters o
 The parts are identified below.
 Please see each part's description for details regarding which chapters are covered.
 
-1. [Essentials](#essentials)
-1. [Advanced Data Types](#advanced_data_types)
-1. [Data Visualization](#data_visualization)
-1. [Programming](#programming)
-1. [Packages](#packages)
+1. [Essentials](meetups/r/essentials)
+1. [Advanced Data Types](meetups/r/adt)
+1. Data Visualization
+1. Programming
+1. Packages
 
 ### Course Preparation, All Sections
 
@@ -61,25 +61,5 @@ Exposure to both methods will be thankfully unavoidable.
     +   30-min Q&A period beyond stated class time
     +   possible lab slack channel / other online activity for Q&A and follow up
 
-## Course Descriptions
-
-## Essentials
-
-Six-week boot camp covering chapters 1-9 and 18 of "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0. 
-
-These six weeks will cover the basic data types of R, a subset of built-in functions, and conclude with an introduction to writing your own functions. 
-
-### Advanced Data Types
-TBD
-
-### Data Visualization
-TBD
-
-### Programming
-TBD
-
-### Packages
-TBD
-
-```last updated: 20190311```
+```last updated: 20190715```
 
