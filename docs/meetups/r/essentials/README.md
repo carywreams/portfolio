@@ -17,3 +17,4 @@ As we make it through the class, these pages will be updated with answers.
 +   [Chapter 6](chapter_06.html)
 +   [Chapter 7](chapter_07.html)
 +   [Chapter 8](chapter_08.html)
++   [Chapter 9](chapter_09.html)
