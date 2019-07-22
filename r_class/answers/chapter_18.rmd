@@ -39,8 +39,5 @@ Type ```y``` to assure that the object no longer exists.
 Finally, use the ```source``` function to recover the object named ```y``` and print its value.
 
 
-__Exercises taken from Chapter 18, "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
-
-
 __Exercises taken from indicated chapter of "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
 

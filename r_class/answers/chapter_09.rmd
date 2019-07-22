@@ -131,3 +131,7 @@ system2("bc",stdout=TRUE,stderr="",input="obase=10;ibase=2;101111100")
 
 ```
 
+
+
+__Exercises taken from indicated chapter of "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
+

@@ -149,3 +149,7 @@ class(c(2.3, NA))
 class(c(3, "R"))
 class(c(FALSE, 9L, 4.4, "S"))
 ```
+
+
+__Exercises taken from indicated chapter of "Learning Base R", by Lawrence M Leemis, ISBN 978-0-9829174-8-0__
+
