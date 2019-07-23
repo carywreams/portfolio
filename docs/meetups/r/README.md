@@ -33,8 +33,8 @@ The course is divided into five parts, each of which covers different chapters o
 The parts are identified below.
 Please see each part's description for details regarding which chapters are covered.
 
-1. [Essentials](meetups/r/essentials/README.md)
-1. [Advanced Data Types](meetups/r/adt/README.md)
+1. [Essentials](essentials)
+1. [Advanced Data Types](adt)
 1. Data Visualization
 1. Programming
 1. Packages
