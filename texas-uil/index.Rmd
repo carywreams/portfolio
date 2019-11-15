@@ -1,0 +1,19 @@
+--- 
+title: "UIL Enrollment Analysis"
+author: "Cary W. Reams"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Experiments in bookdown and R"
+geometry: margin=0.5in
+---
+
+# Purpose
+
+This has been created to explore R, bookdown, pandoc, tidyverse, etc.
+
+

@@ -4,19 +4,21 @@ all = read.table("allschools.csv",header = TRUE, sep = "|")
 fb = read.table("fbschools.csv",header = TRUE, sep = "|")
 ```
 
-# UIL
+# Realignment Data for 2018-2020
+
 Every two years, the governing body for public secondary school sports uses attendance figures to 
 create the classifications and districts of competition for the schools in the state of Texas. This
 year's announcement may be found on their site, [here](http://www.uiltexas.org/athletics/conference-cutoffs). 
 The PDF file that was used to source the data is linked to from the same page. Looks like a footnote
 at the bottom of the page.
 
-Wanting to experiment more with R, the publication of enrollment figures offers a nice large dataset
+Wanting to experiment more with R, the publication of enrollment figures offers a nice dataset
 (> 1400 entries) to use as a training ground. R offers some of its own canned sets, but I work
 better when I have some personal context for the data. In this case, Texas High School Football
  (```#txhsfb```).
 
 ## Data Source and Prep
+
 + Obtained original report from Texas UIL, as a PDF
 + Used ```pstotext``` to convert the PDF to PS then to an ASCII TXT
 + basic editor allowed for formatting the resulting file as a CSV using the pipe symbol rather than spaces or commas as field separators 
@@ -69,7 +71,7 @@ and San Antonio.
 Take a look at the enrollment distributions - bars represent increments of 100 students.
 
 ```{r echo = FALSE, warning = FALSE }
-hist(fb$enrollment, seq(0,7000,by=100))
+hist(fb$enrollment,main="Football-Playing Schools Only", seq(0,7000,by=100))
 # ![histogram](histogram-football.png)
 ```
 

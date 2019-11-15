@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 UIL | UIL Enrollment Analysis</title>
+  <meta name="description" content="Experiments in bookdown and R" />
+  <meta name="generator" content="bookdown 0.15 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 UIL | UIL Enrollment Analysis" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Experiments in bookdown and R" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 UIL | UIL Enrollment Analysis" />
+  
+  <meta name="twitter:description" content="Experiments in bookdown and R" />
+  
+
+<meta name="author" content="Cary W. Reams" />
+
+
+<meta name="date" content="2019-11-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Purpose</a></li>
+<li class="chapter" data-level="2" data-path="uil.html"><a href="uil.html"><i class="fa fa-check"></i><b>2</b> UIL</a><ul>
+<li class="chapter" data-level="2.1" data-path="uil.html"><a href="uil.html#data-source-and-prep"><i class="fa fa-check"></i><b>2.1</b> Data Source and Prep</a></li>
+<li class="chapter" data-level="2.2" data-path="uil.html"><a href="uil.html#pass-one-all-schools"><i class="fa fa-check"></i><b>2.2</b> Pass One, All Schools</a></li>
+<li class="chapter" data-level="2.3" data-path="uil.html"><a href="uil.html#pass-two-football-playing-schools"><i class="fa fa-check"></i><b>2.3</b> Pass Two, Football-Playing Schools</a></li>
+<li class="chapter" data-level="2.4" data-path="uil.html"><a href="uil.html#distribution-of-football-playing-schools"><i class="fa fa-check"></i><b>2.4</b> Distribution of Football-Playing Schools</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">UIL Enrollment Analysis</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="uil" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> UIL</h1>
+<p>Every two years, the governing body for public secondary school sports uses attendance figures to create the classifications and districts of competition for the schools in the state of Texas. This year’s announcement may be found on their site, <a href="http://www.uiltexas.org/athletics/conference-cutoffs">here</a>. The PDF file that was used to source the data is linked to from the same page. Looks like a footnote at the bottom of the page.</p>
+<p>Wanting to experiment more with R, the publication of enrollment figures offers a nice large dataset (&gt; 1400 entries) to use as a training ground. R offers some of its own canned sets, but I work better when I have some personal context for the data. In this case, Texas High School Football (<code>#txhsfb</code>).</p>
+<div id="data-source-and-prep" class="section level2">
+<h2><span class="header-section-number">2.1</span> Data Source and Prep</h2>
+<ul>
+<li>Obtained original report from Texas UIL, as a PDF</li>
+<li>Used <code>pstotext</code> to convert the PDF to PS then to an ASCII TXT</li>
+<li>basic editor allowed for formatting the resulting file as a CSV using the pipe symbol rather than spaces or commas as field separators</li>
+<li>slurped the CSV with a spreadsheet, manually corrected any remaining column disparities, then saved as CSV for R</li>
+</ul>
+</div>
+<div id="pass-one-all-schools" class="section level2">
+<h2><span class="header-section-number">2.2</span> Pass One, All Schools</h2>
+<p>I dumped everything from the CSV file into an R boxplot request and got this for my effort:</p>
+<p><img src="texas-uil_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>You’ll notice there are some significant outliers visible in the 6A classification. That told me there were schools with really small enrollments that were in the 6A classification. It didn’t make any sense. There must be a mistake.</p>
+<p>There was. None of those schools play football.</p>
+<p>So my second pass considered only schools that played football - that is after all, my real interest here.</p>
+</div>
+<div id="pass-two-football-playing-schools" class="section level2">
+<h2><span class="header-section-number">2.3</span> Pass Two, Football-Playing Schools</h2>
+<p>Okay, so now things look different:</p>
+<p><img src="texas-uil_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>But we still have an outlier. There’s a school in 6A with an enrollment of less than 500 ? Yep, lets find it. <code>grep -n 6A football.csv | grep -e '|[0-9]\{3\}|'</code> yielded:</p>
+<div style="white-space: pre-line;">
+2:Fort Worth ISD | FW Young Mens Leadership Acad | 6A | x | 11 Man |354|2018
+</div>
+<p>And so I tried to find out if that was legitimate or some kind of typo. It’s not. Apparently this is a school that falls under a Texas UIL requirement that forces it to play in the same classification as the largest school in its governing school district. Since that’s the Ft Worth ISD, … 6A it is.</p>
+</div>
+<div id="distribution-of-football-playing-schools" class="section level2">
+<h2><span class="header-section-number">2.4</span> Distribution of Football-Playing Schools</h2>
+<p>Finally, I wanted to look at the distribution of school sizes. It was enlightening. Texas is a big, wide-spread state. There are only four major population centers - Houston, Dallas / Ft. Worth, Austin, and San Antonio.</p>
+<p>Take a look at the enrollment distributions - bars represent increments of 100 students.</p>
+<p><img src="texas-uil_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<hr />
+<p>raw data for this site may be found in the texas-hs-enrollment-analysis directory of the repo for this github pages site</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["texas-uil.pdf", "texas-uil.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

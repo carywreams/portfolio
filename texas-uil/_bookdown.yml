@@ -1,0 +1,6 @@
+book_filename: "texas-uil"
+language:
+  ui:
+    chapter_name: "Chapter "
+delete_merged_file: true
+output_dir: "../docs/texas-uil"
