@@ -16,7 +16,7 @@ __Highlights__
     +   subset
 
 
-__16.1__ What is returned by the follwing R commands? 
+__16.1__ What is returned by the following R commands? 
 (Waking hours from wikipedia.)
 
 ```{r}
@@ -27,6 +27,11 @@ waking.hours = c(13.9, 11.5, 5.9, 16.0)
 creature.data = data.frame (friendly, diet, waking.hours, row.names=creatures)
 creature.data
 
+# other examples from class
+creature.data[[2]]
+creature.data[2]
+creature.data[2,2]
+creature.data$waking.hours>12 & !creature.data$friendly
 
 creatures[creature.data$waking.hours < 12 & !creature.data$friendly]
 ```

@@ -1,0 +1,606 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Chapter 16 Answers},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Chapter 16 Answers}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+
+\pagenumbering{gobble}
+
+\textbf{Highlights}
+
+\begin{itemize}
+\tightlist
+\item
+  Review these functions
+
+  \begin{itemize}
+  \tightlist
+  \item
+    data.frame
+  \item
+    head
+  \item
+    tail
+  \item
+    summary
+  \item
+    transform
+  \item
+    subset
+  \end{itemize}
+\end{itemize}
+
+\textbf{16.1} What is returned by the following R commands? (Waking
+hours from wikipedia.)
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{creatures =}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"dog"}\NormalTok{,}\StringTok{"cat"}\NormalTok{,}\StringTok{"armadillo"}\NormalTok{,}\StringTok{"human"}\NormalTok{)}
+\NormalTok{friendly =}\StringTok{ }\KeywordTok{c}\NormalTok{(}\OtherTok{TRUE}\NormalTok{,}\OtherTok{TRUE}\NormalTok{,}\OtherTok{FALSE}\NormalTok{,}\OtherTok{TRUE}\NormalTok{)}
+\NormalTok{diet =}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"cats"}\NormalTok{,}\StringTok{"mice"}\NormalTok{,}\StringTok{"termites"}\NormalTok{,}\StringTok{"Twinkies(tm)"}\NormalTok{)}
+\NormalTok{waking.hours =}\StringTok{ }\KeywordTok{c}\NormalTok{(}\FloatTok{13.9}\NormalTok{, }\FloatTok{11.5}\NormalTok{, }\FloatTok{5.9}\NormalTok{, }\FloatTok{16.0}\NormalTok{)}
+\NormalTok{creature.data =}\StringTok{ }\KeywordTok{data.frame}\NormalTok{ (friendly, diet, waking.hours, }\DataTypeTok{row.names=}\NormalTok{creatures)}
+\NormalTok{creature.data}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##           friendly         diet waking.hours
+## dog           TRUE         cats         13.9
+## cat           TRUE         mice         11.5
+## armadillo    FALSE     termites          5.9
+## human         TRUE Twinkies(tm)         16.0
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{creature.data[[}\DecValTok{2}\NormalTok{]]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] cats         mice         termites     Twinkies(tm)
+## Levels: cats mice termites Twinkies(tm)
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{creature.data[}\DecValTok{2}\NormalTok{]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##                   diet
+## dog               cats
+## cat               mice
+## armadillo     termites
+## human     Twinkies(tm)
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{creature.data[}\DecValTok{2}\NormalTok{,}\DecValTok{2}\NormalTok{]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] mice
+## Levels: cats mice termites Twinkies(tm)
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{creature.data}\OperatorTok{$}\NormalTok{waking.hours}\OperatorTok{>}\DecValTok{12} \OperatorTok{&}\StringTok{ }\OperatorTok{!}\NormalTok{creature.data}\OperatorTok{$}\NormalTok{friendly}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] FALSE FALSE FALSE FALSE
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{creatures[creature.data}\OperatorTok{$}\NormalTok{waking.hours }\OperatorTok{<}\StringTok{ }\DecValTok{12} \OperatorTok{&}\StringTok{ }\OperatorTok{!}\NormalTok{creature.data}\OperatorTok{$}\NormalTok{friendly]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "armadillo"
+\end{verbatim}
+
+\textbf{16.2} Write a single R command that alphabetizes the rows of the
+data frame \texttt{creature.data} from Exercise 16.1 by creature name.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{creature.data[}\KeywordTok{sort}\NormalTok{(creatures),]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##           friendly         diet waking.hours
+## armadillo    FALSE     termites          5.9
+## cat           TRUE         mice         11.5
+## dog           TRUE         cats         13.9
+## human         TRUE Twinkies(tm)         16.0
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# also (perhaps the separate object creatures was not created)}
+\NormalTok{ creature.data[}\KeywordTok{sort}\NormalTok{(}\KeywordTok{row.names}\NormalTok{(creature.data)),]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##           friendly         diet waking.hours
+## armadillo    FALSE     termites          5.9
+## cat           TRUE         mice         11.5
+## dog           TRUE         cats         13.9
+## human         TRUE Twinkies(tm)         16.0
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# for fun:}
+\KeywordTok{summary}\NormalTok{(creature.data)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   friendly                 diet    waking.hours  
+##  Mode :logical   cats        :1   Min.   : 5.90  
+##  FALSE:1         mice        :1   1st Qu.:10.10  
+##  TRUE :3         termites    :1   Median :12.70  
+##                  Twinkies(tm):1   Mean   :11.82  
+##                                   3rd Qu.:14.43  
+##                                   Max.   :16.00
+\end{verbatim}
+
+\textbf{16.3} Use the R \texttt{subset} function to create a data frame
+consisting of just the creature name and diet associated with friendly
+creatures who are awake more than 12 hours a day from the data drame
+\texttt{creature.data} from Exercise 16.1.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{subset}\NormalTok{(creature.data,friendly }\OperatorTok{&}\StringTok{ }\NormalTok{(waking.hours }\OperatorTok{>}\StringTok{ }\DecValTok{12}\NormalTok{),}\KeywordTok{c}\NormalTok{(diet))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##               diet
+## dog           cats
+## human Twinkies(tm)
+\end{verbatim}
+
+\textbf{16.4} Consider the data frame `\texttt{creature.data} from
+Exercise 16.1.
+
+\begin{itemize}
+\tightlist
+\item
+  Extract the waking hours for a dog using two different R commands
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{creature.data[}\StringTok{"dog"}\NormalTok{,}\StringTok{"waking.hours"}\NormalTok{]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 13.9
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# subset extracts a new data frame,}
+\CommentTok{# adding the [1,1] indexes extracts the cell value}
+\KeywordTok{subset}\NormalTok{(creature.data,}\StringTok{"dog"} \OperatorTok{==}\StringTok{ }\KeywordTok{row.names}\NormalTok{(creature.data),}\KeywordTok{c}\NormalTok{(waking.hours))[}\DecValTok{1}\NormalTok{,}\DecValTok{1}\NormalTok{]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 13.9
+\end{verbatim}
+
+\begin{itemize}
+\tightlist
+\item
+  Extract the waking hours for all creatures using two different R
+  commands
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{creature.data}\OperatorTok{$}\NormalTok{waking.hours}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 13.9 11.5  5.9 16.0
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{creature.data[[}\StringTok{"waking.hours"}\NormalTok{]]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 13.9 11.5  5.9 16.0
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{subset}\NormalTok{(creature.data,}\OtherTok{TRUE}\NormalTok{,}\KeywordTok{c}\NormalTok{(waking.hours))[,}\DecValTok{1}\NormalTok{]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 13.9 11.5  5.9 16.0
+\end{verbatim}
+
+\begin{itemize}
+\tightlist
+\item
+  Create a data frame that consists only of the rows for dogs and
+  armadillos using two different R commands
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{subset}\NormalTok{(creature.data,}\StringTok{"dog"} \OperatorTok{==}\StringTok{ }\KeywordTok{row.names}\NormalTok{(creature.data) }\OperatorTok{|}\StringTok{ "armadillo"} \OperatorTok{==}\StringTok{ }\KeywordTok{row.names}\NormalTok{(creature.data),}\KeywordTok{colnames}\NormalTok{(creature.data))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##           friendly     diet waking.hours
+## dog           TRUE     cats         13.9
+## armadillo    FALSE termites          5.9
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{subset}\NormalTok{(creature.data,}\StringTok{"dog"} \OperatorTok{==}\StringTok{ }\KeywordTok{row.names}\NormalTok{(creature.data) }\OperatorTok{|}\StringTok{ "armadillo"} \OperatorTok{==}\StringTok{ }\KeywordTok{row.names}\NormalTok{(creature.data),)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##           friendly     diet waking.hours
+## dog           TRUE     cats         13.9
+## armadillo    FALSE termites          5.9
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{subset}\NormalTok{(creature.data,(waking.hours }\OperatorTok{<}\StringTok{ }\DecValTok{16} \OperatorTok{&}\StringTok{ }\NormalTok{waking.hours}\OperatorTok{>}\DecValTok{12}\NormalTok{) }\OperatorTok{|}\StringTok{ }\NormalTok{waking.hours}\OperatorTok{<}\DecValTok{6}\NormalTok{,)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##           friendly     diet waking.hours
+## dog           TRUE     cats         13.9
+## armadillo    FALSE termites          5.9
+\end{verbatim}
+
+\begin{itemize}
+\tightlist
+\item
+  Create a data frame that consists only of friendly creatures
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{subset}\NormalTok{(creature.data,friendly,)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##       friendly         diet waking.hours
+## dog       TRUE         cats         13.9
+## cat       TRUE         mice         11.5
+## human     TRUE Twinkies(tm)         16.0
+\end{verbatim}
+
+\textbf{16.5} Consider a data frame named \texttt{a} with 4 rows and 3
+columns populated with positive integers and -1 where -1 denotes a
+missing value. Write an R command that replaces each -1 with NA.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{a =}\StringTok{ }\KeywordTok{data.frame}\NormalTok{(}\DataTypeTok{col1=}\DecValTok{1}\OperatorTok{:}\DecValTok{4}\NormalTok{,}\DataTypeTok{col2=}\KeywordTok{seq}\NormalTok{(}\DecValTok{10}\NormalTok{,}\DecValTok{40}\NormalTok{,}\DataTypeTok{by=}\DecValTok{10}\NormalTok{),}\DataTypeTok{col3=}\KeywordTok{seq}\NormalTok{(}\DecValTok{100}\NormalTok{,}\DecValTok{400}\NormalTok{,}\DataTypeTok{by=}\DecValTok{100}\NormalTok{))}
+\NormalTok{a}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   col1 col2 col3
+## 1    1   10  100
+## 2    2   20  200
+## 3    3   30  300
+## 4    4   40  400
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{a[}\DecValTok{1}\NormalTok{,}\DecValTok{1}\NormalTok{] =}\StringTok{ }\NormalTok{a[}\DecValTok{2}\NormalTok{,}\DecValTok{2}\NormalTok{] =}\StringTok{ }\NormalTok{a[}\DecValTok{3}\NormalTok{,}\DecValTok{3}\NormalTok{] =}\StringTok{ }\NormalTok{a}\OperatorTok{$}\NormalTok{col2[}\DecValTok{4}\NormalTok{] =}\StringTok{ }\DecValTok{-1}
+\NormalTok{a}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   col1 col2 col3
+## 1   -1   10  100
+## 2    2   -1  200
+## 3    3   30   -1
+## 4    4   -1  400
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{a[a}\OperatorTok{==-}\DecValTok{1}\NormalTok{] <-}\StringTok{ }\OtherTok{NA}
+\NormalTok{a}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   col1 col2 col3
+## 1   NA   10  100
+## 2    2   NA  200
+## 3    3   30   NA
+## 4    4   NA  400
+\end{verbatim}
+
+\textbf{16.6} Create the objects \texttt{v}, \texttt{m}, \texttt{a},
+\texttt{l}, and \texttt{d} as a vector, matrix, array, list, and
+data.frame. Apply the functions \texttt{class}, \texttt{typeof}, and
+\texttt{mode}to each of the objects and summarize the results in a
+table.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v =}\StringTok{ }\DecValTok{1}\OperatorTok{:}\DecValTok{12}
+\NormalTok{m =}\StringTok{ }\KeywordTok{matrix}\NormalTok{(v,}\DecValTok{3}\NormalTok{,}\DecValTok{4}\NormalTok{)}
+\NormalTok{a =}\StringTok{ }\KeywordTok{array}\NormalTok{(v,}\KeywordTok{c}\NormalTok{(}\DecValTok{2}\NormalTok{,}\DecValTok{2}\NormalTok{,}\DecValTok{3}\NormalTok{))}
+\NormalTok{l =}\StringTok{ }\KeywordTok{list}\NormalTok{(v,m,a)}
+\NormalTok{d =}\StringTok{ }\KeywordTok{subset}\NormalTok{(creature.data,friendly,)}
+
+\NormalTok{st =}\StringTok{ }\KeywordTok{data.frame}\NormalTok{(}
+    \DataTypeTok{class  =}    \KeywordTok{c}\NormalTok{(  }\KeywordTok{class}\NormalTok{(v),   }\KeywordTok{class}\NormalTok{(m),   }\KeywordTok{class}\NormalTok{(a),   }\KeywordTok{class}\NormalTok{(l),   }\KeywordTok{class}\NormalTok{(d)), }
+    \DataTypeTok{typeof =}    \KeywordTok{c}\NormalTok{(  }\KeywordTok{typeof}\NormalTok{(v),  }\KeywordTok{typeof}\NormalTok{(m),  }\KeywordTok{typeof}\NormalTok{(a),  }\KeywordTok{typeof}\NormalTok{(l),  }\KeywordTok{typeof}\NormalTok{(d)),}
+    \DataTypeTok{mode   =}    \KeywordTok{c}\NormalTok{(  }\KeywordTok{mode}\NormalTok{(v),    }\KeywordTok{mode}\NormalTok{(m),    }\KeywordTok{mode}\NormalTok{(a),    }\KeywordTok{mode}\NormalTok{(l),    }\KeywordTok{mode}\NormalTok{(d)),}
+    \DataTypeTok{row.names =} \KeywordTok{c}\NormalTok{(  }\StringTok{"v"}\NormalTok{,        }\StringTok{"m"}\NormalTok{,        }\StringTok{"a"}\NormalTok{,        }\StringTok{"l"}\NormalTok{,        }\StringTok{"d"}\NormalTok{)}
+\NormalTok{)}
+\NormalTok{st}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##        class  typeof    mode
+## v    integer integer numeric
+## m     matrix integer numeric
+## a      array integer numeric
+## l       list    list    list
+## d data.frame    list    list
+\end{verbatim}
+
+\textbf{16.7} Create a data frame named \texttt{w} that consists of the
+following three named columns:
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{x}, the first four positve integers,
+\item
+  \texttt{y}, the abbreviations of the first four months,
+\item
+  \texttt{z}, the first names of the Beatles.
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{w =}\StringTok{ }\KeywordTok{data.frame}\NormalTok{( }\DataTypeTok{x =} \DecValTok{1}\OperatorTok{:}\DecValTok{4}\NormalTok{,}
+                \DataTypeTok{y =}\NormalTok{ month.abb[}\DecValTok{1}\OperatorTok{:}\DecValTok{4}\NormalTok{],}
+                \DataTypeTok{z =} \KeywordTok{sort}\NormalTok{(}\KeywordTok{c}\NormalTok{(}\StringTok{"John"}\NormalTok{,}\StringTok{"Paul"}\NormalTok{,}\StringTok{"Ringo"}\NormalTok{,}\StringTok{"George"}\NormalTok{))}
+\NormalTok{)}
+\NormalTok{w}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   x   y      z
+## 1 1 Jan George
+## 2 2 Feb   John
+## 3 3 Mar   Paul
+## 4 4 Apr  Ringo
+\end{verbatim}
+
+Remove the second column of \texttt{w} in the following two fashions:
+
+\begin{itemize}
+\tightlist
+\item
+  set \texttt{w\$y} to \texttt{NULL}, that is, \texttt{w\$y\ =\ NULL},
+\item
+  subset the columns to keep, that is, \texttt{w{[}c("x","z"){]}}.
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{w_ =}\StringTok{ }\NormalTok{w}
+\NormalTok{w_}\OperatorTok{$}\NormalTok{y =}\StringTok{ }\OtherTok{NULL}
+
+\NormalTok{w__ =}\StringTok{ }\NormalTok{w}
+\NormalTok{w__[}\KeywordTok{c}\NormalTok{(}\StringTok{"x"}\NormalTok{,}\StringTok{"z"}\NormalTok{)]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   x      z
+## 1 1 George
+## 2 2   John
+## 3 3   Paul
+## 4 4  Ringo
+\end{verbatim}
+
+Show that the first technique alters the data frame \texttt{w}but the
+second technique does not alter the data frame \texttt{w}.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# the first method was an assignment operation, resulting in a change}
+\NormalTok{w_}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   x      z
+## 1 1 George
+## 2 2   John
+## 3 3   Paul
+## 4 4  Ringo
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# the second method was an extraction operation, with no permanent damage done to the data frame}
+\NormalTok{w__}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   x   y      z
+## 1 1 Jan George
+## 2 2 Feb   John
+## 3 3 Mar   Paul
+## 4 4 Apr  Ringo
+\end{verbatim}
+
+\textbf{Exercises taken from indicated chapter of ``Learning Base R'',
+by Lawrence M Leemis, ISBN 978-0-9829174-8-0}
+
+
+\end{document}
